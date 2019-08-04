@@ -228,6 +228,10 @@ h1{
     color: white;
 }
 
+.custom-progress-bar{
+    background: #ff6a00;
+}
+
 .custom-nav-item{
     padding-left: 0.5em;
     padding-right: 0.5em;
