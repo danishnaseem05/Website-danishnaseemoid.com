@@ -101,6 +101,18 @@ h1{
     z-index: -5;
 }
 
+#skills-paralax{
+    background: url("../pics/pg_backgrounds/artificial-intelligence-3382507_1920.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -10;
+}
+#skills-paralax-overlay{
+    background-color: rgba(29, 102, 160, 0.8);
+}
+
 #projects-paralax{
     background: url("../pics/pg_backgrounds/artificial-intelligence-3382507_1920.jpg");
     background-attachment: fixed;
