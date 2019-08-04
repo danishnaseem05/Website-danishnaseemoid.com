@@ -102,7 +102,7 @@ h1{
 }
 
 #skills-paralax{
-    background: url("../pics/pg_backgrounds/artificial-intelligence-3382507_1920.jpg");
+    background: url("../pics/pg_backgrounds/mark-516278.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -241,7 +241,11 @@ h1{
 }
 
 .custom-progress-bar{
-    background: #ff6a00;
+    background: #ff7300;
+}
+
+.custom-progress-bar:hover{
+    background: #ff5100;
 }
 
 .custom-nav-item{
