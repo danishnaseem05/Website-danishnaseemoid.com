@@ -1,0 +1,38 @@
+
+@media only screen and (max-width: 1400px) {
+     
+    *{
+        font-size:  97%;
+    }
+
+    textarea::placeholder, input,
+    input::-webkit-input-placeholder {
+        font-size: 85%;
+    }
+
+}
+
+@media only screen and (max-width: 1000px){
+    
+    .custom-small-final-container{
+        width: 90%;
+    }
+
+    .custom-small-container{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+     
+    *{
+        font-size:  95.5%;
+    }
+
+    textarea::placeholder, input,
+    input::-webkit-input-placeholder {
+        font-size: 80%;
+    }
+
+
+}
