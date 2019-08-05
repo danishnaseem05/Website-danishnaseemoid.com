@@ -365,8 +365,8 @@ footer .container ul a{
     background-color: rgba(0, 0, 0, 0.8);
   }
   
-  /* Modal Content (Image) */
-  .modal-content {
+/* Modal Content (Image) */
+.modal-content {
     position:relative; 
     background: transparent;
     margin: auto;
@@ -375,42 +375,41 @@ footer .container ul a{
     max-width: 1200px;
   }
   
-  
-  /* Add Animation - Zoom in the Modal */
-   .modal-content { 
+/* Add Animation - Zoom in the Modal */
+.modal-content { 
     animation-name: zoom;
     animation-duration: 0.6s;
   }
   
-  @keyframes zoom {
+@keyframes zoom {
     from {transform:scale(0)} 
     to {transform:scale(1)}
   }
   
-  /* The Close Button */
+/* The Close Button */
 .close {
-    color: rgb(255, 255, 255);
+    color: darkorange;
     position: absolute;
     top: 80px;
     right: 25px;
     font-size: 35px;
     font-weight: bold;
-    z-index: 2;
+    z-index: 20;
   }
   
-  .close:hover,
-  .close:focus {
-    color: #999;
+.close:hover,
+.close:focus {
+    color: #ff6a00;
     text-decoration: none;
     cursor: pointer;
   }
 
-  /* Hide the slides by default */
+/* Hide the slides by default */
 .mySlides {
     display: none;
   }
 
-  /* Next & previous buttons */
+/* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
@@ -450,22 +449,13 @@ footer .container ul a{
   bottom: 0;
   right: 0;
 }
-
-/* Caption text */
-.caption-container {
-  text-align: center;
-  background-color: black;
-  padding: 2px 16px;
-  color: white;
-}
   
-  /* 100% Image Width on Smaller Screens */
-  @media only screen and (max-width: 700px){
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
     .modal-content {
       width: 100%;
     }
   }
-
 
 /********* PROJECT PAGE LINKS DESIGN *********/
 
