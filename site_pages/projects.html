@@ -83,7 +83,7 @@
                                             <h6 style="font-size: 1.85vh;"><i class="fas fa-gem"></i><strong> Ruby</strong></h6>
                                             <h3 class="card-title py-3 font-weight-bold" style="font-size: 2.5vh;">Today's Songs</h3>
                                             <p class="pb-3" style="font-size: 90%;">This CLI executable program provides the user with top songs of the day. It collects the song data from two different sites, lists them to the user, and enables them to listen to these songs by opening the user's preferred song in the chrome browser.</p>
-                                            <a href="https://github.com/danishnaseem05/danishnaseem05/tree/master/Todays%20Songs%20(Ruby)" target="_blank" class="btn btn-success btn-rounded custom-button-color fa-1x"><i class="far fa-clone left"></i> View project</a>
+                                            <button id="project1-btn" class="btn btn-success btn-rounded custom-button-color fa-1x"><i class="far fa-clone left"></i> View Project</button>
                                         </div>
                                     </div>
                                 </div>
@@ -136,7 +136,61 @@
                     </div> <!-- .container-fluid -->
                     <br><br><br><br><br>
 
+                   
 
+                    <!-- The Project1 Modal -->
+                    <div id="project1-modal" class="modal">
+                        <!-- Modal content-->
+                        <span class="close cursor" onclick="closeModal()">&times;</span>
+                        <div class="container">
+                            <div class="modal-content">
+                                <div class="container">
+                                    <div class="row">    
+                                        <div class="mySlides">
+                                            <div class="numbertext">1 / 4</div>
+                                            <img src="../pics/project_cards/Todays_songs/Capture.PNG" style="width:100%">
+                                            <p style="color: white">Lists the songs to the user from two different sites, and prompts them user for selection</p>
+                                        </div>
+                                    </div> <!-- .row -->
+                                </div> <!-- .container -->
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="mySlides">
+                                            <div class="numbertext">2 / 4</div>
+                                            <img src="../pics/project_cards/Todays_songs/Capture2.PNG" style="width:100%">
+                                            <p style="color: white">Opens the selected song number in the Chrome browser.</p>
+                                        </div>
+                                    </div> <!-- .row -->
+                                </div><!-- .container -->
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="mySlides">
+                                            <div class="numbertext">3 / 4</div>
+                                            <img src="../pics/project_cards/Todays_songs/Capture3.PNG" style="width:100%">
+                                            <p style="color: white">Opens another song selection (after prompting the user whether they want to listen to any other song, and their response being yes) in YouTube.</p>
+                                        </div>
+                                    </div> <!-- .row -->
+                                </div><!-- .container -->
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="mySlides">
+                                            <div class="numbertext">4 / 4</div>
+                                            <img src="../pics/project_cards/Todays_songs/Capture4.PNG" style="width:100%">
+                                            <p style="color: white">The program exits with a goodbye response, after the user is done listening to songs.</p>
+                                        </div>
+                                    </div><!-- .row -->
+                                </div> <!-- .column -->
+                                <!-- Next/previous controls -->
+                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                <!-- Caption text -->
+                                <div class="caption-container">
+                                    <p id="caption"></p>
+                                </div>
+                            </div>
+                        </div><!-- .container -->
+                    </div>
+            
 
 
 
@@ -186,7 +240,7 @@
 
 
     <!-- My JS -->
-    <script src="./site_pages/main.js"></script> 
+    <script src="./main.js"></script> 
 
 
   </body>
