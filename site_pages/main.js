@@ -4,33 +4,33 @@
 // Project 1
 var project1_modal = document.getElementById("project1-modal");
 //Project 2
-var project2_modal = document.getElementById("project2-modal");
-//Project 3
-var project3_modal = document.getElementById("project3-modal");
-//Project 3
-var project3_modal = document.getElementById("project3-modal");
-//Project 4
-var project4_modal = document.getElementById("project4-modal");
+// var project2_modal = document.getElementById("project2-modal");
+// //Project 3
+// var project3_modal = document.getElementById("project3-modal");
+// //Project 3
+// var project3_modal = document.getElementById("project3-modal");
+// //Project 4
+// var project4_modal = document.getElementById("project4-modal");
 
 // Get the button that opens the modal
 // Project 1
 var project1_btn = document.getElementById("project1-btn");
-// Project 2
-var project2_btn = document.getElementById("project2-btn");
-// Project 3
-var project3_btn = document.getElementById("project3-btn");
-// Project 4
-var project4_btn = document.getElementById("project4-btn");
+// // Project 2
+// var project2_btn = document.getElementById("project2-btn");
+// // Project 3
+// var project3_btn = document.getElementById("project3-btn");
+// // Project 4
+// var project4_btn = document.getElementById("project4-btn");
 
 // When the user clicks on the button, open the modal 
 // Project 1
 project1_btn.onclick = function() {project1_modal.style.display = "block";}
-// Project 2
-project2_btn.onclick = function() {project2_modal.style.display = "block";}
-// Project 3
-project3_btn.onclick = function() {project3_modal.style.display = "block";}
-// Project 4
-project4_btn.onclick = function() {project4_modal.style.display = "block";}
+// // Project 2
+// project2_btn.onclick = function() {project2_modal.style.display = "block";}
+// // Project 3
+// project3_btn.onclick = function() {project3_modal.style.display = "block";}
+// // Project 4
+// project4_btn.onclick = function() {project4_modal.style.display = "block";}
 
 // Close the Modal
 function closeModal() {
