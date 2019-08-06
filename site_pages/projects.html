@@ -83,7 +83,7 @@
                                             <h6 style="font-size: 1.85vh;"><i class="fas fa-gem"></i><strong> Ruby</strong></h6>
                                             <h3 class="card-title py-3 font-weight-bold" style="font-size: 2.5vh;">Today's Songs</h3>
                                             <p class="pb-3" style="font-size: 90%;">This CLI executable program provides the user with top songs of the day. It collects the song data from two different sites, lists them to the user, and enables them to listen to these songs by opening the user's preferred song in the chrome browser.</p>
-                                            <button id="project1-btn" class="btn btn-success btn-rounded custom-button-color fa-1x"><i class="far fa-clone left"></i> View Project</button>
+                                            <button id="project1-btn" class="btn btn-success btn-rounded custom-button-color fa-1x" onclick="on(1)"><i class="far fa-clone left"></i> View Project</button>
                                         </div>
                                     </div>
                                 </div>
@@ -136,63 +136,69 @@
                     </div> <!-- .container-fluid -->
                     <br><br><br><br><br>
 
+                   <!-- Project 1 Modal Carousel -->
+                    <div id="project1-modal" class="custom-modal">
+                        <div class="custom-modal-content">
+                            <button class=" btn Close" onclick="off()">&times;</button>
+                            <div class="container-fluid justify-content-center">
+                                <div class="row"> 
+                                    <div class="col-sm-12">
+                                        <div id="project1-carousel" class="carousel slide" data-interval="5000" data-keyboard="true" data-pause="hover" data-ride="carousel">
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#project1-carousel" data-slide-to="0" class="active"></li>
+                                                <li data-target="#project1-carousel" data-slide-to="1"></li>
+                                                <li data-target="#project1-carousel"  data-slide-to="2"></li>
+                                                <li data-target="#project1-carousel" data-slide-to="3"></li>
+                                            </ol>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img class="d-block w-100" src="../pics/project_cards/Todays_songs/Capture.PNG" alt="First slide" style="width:100%">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <p class="custom-carousel-p">Lists the songs to the user from two different sites, and prompts them for selection</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="../pics/project_cards/Todays_songs/Capture2.PNG" alt="Second slide" style="width:100%">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <p class="custom-carousel-p">Opens the selected song number in Chrome browser.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="../pics/project_cards/Todays_songs/Capture3.PNG" alt="Third slide" style="width:100%">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <p class="custom-carousel-p">Opens another song selection (after prompting the user whether they want to listen to any other song, and their response being yes) in YouTube.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="../pics/project_cards/Todays_songs/Capture4.PNG" alt="Fourth slide" style="width:100%">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                        <p class="custom-carousel-p">The program exits with a goodbye response, after the user is done listening to songs.</p>
+                                                    </div>
+                                                </div>
+                                            </div><!-- .caousel-inner -->
+                                            <a class="carousel-control-prev custom-carousel-prev" href="#project1-carousel" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next custom-carousel-next" href="#project1-carousel" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div><!-- #project1-carousel -->
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="custom-modal-button">
+                                                    <a href="https://github.com/danishnaseem05/todays_songs" target="_blank" type="button" class="btn custom-modal-button">Github repo</a>
+                                                </div><!-- .custom-modal-button -->
+                                            </div><!-- .col-md-12 -->
+                                        </div><!-- .row -->
+                                    </div><!-- .col-sm-9 -->
+                                </div><!-- .row -->
+                            </div><!-- .container-fluid -->
+                        </div><!-- .custom-modal-content -->
+                    </div><!-- #project1-modal .modal -->
+
                    
-
-                    <!-- The Project1 Modal -->
-                    <div id="project1-modal" class="modal">
-                        <!-- Modal content-->
-                        <span class="close cursor" onclick="closeModal()">&times;</span>
-                        <div class="container">
-                            <div class="modal-content">
-                                <div class="container">
-                                    <div class="row">    
-                                        <div class="mySlides">
-                                            <div class="numbertext">1 / 4</div>
-                                            <img src="../pics/project_cards/Todays_songs/Capture.PNG" style="width:100%">
-                                            <p style="color: white">Lists the songs to the user from two different sites, and prompts them for selection</p>
-                                        </div>
-                                    </div> <!-- .row -->
-                                </div> <!-- .container -->
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="mySlides">
-                                            <div class="numbertext">2 / 4</div>
-                                            <img src="../pics/project_cards/Todays_songs/Capture2.PNG" style="width:100%">
-                                            <p style="color: white">Opens the selected song number in the Chrome browser.</p>
-                                        </div>
-                                    </div> <!-- .row -->
-                                </div><!-- .container -->
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="mySlides">
-                                            <div class="numbertext">3 / 4</div>
-                                            <img src="../pics/project_cards/Todays_songs/Capture3.PNG" style="width:100%">
-                                            <p style="color: white">Opens another song selection (after prompting the user whether they want to listen to any other song, and their response being yes) in YouTube.</p>
-                                        </div>
-                                    </div> <!-- .row -->
-                                </div><!-- .container -->
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="mySlides">
-                                            <div class="numbertext">4 / 4</div>
-                                            <img src="../pics/project_cards/Todays_songs/Capture4.PNG" style="width:100%">
-                                            <p style="color: white">The program exits with a goodbye response, after the user is done listening to songs.</p>
-                                        </div>
-                                    </div><!-- .row -->
-                                </div> <!-- .column -->
-                                <!-- Next/previous controls -->
-                                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                                <!-- Caption text -->
-                                <div class="caption-container">
-                                    <p id="caption"></p>
-                                </div>
-                            </div>
-                        </div><!-- .container -->
-                    </div>
-            
-
-
 
 
                     <!-- Footer -->
