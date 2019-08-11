@@ -177,6 +177,19 @@ h1{
     z-index: -5;
 }
 
+#games-page-paralax{
+    background: url("../pics/pg_backgrounds/thumbs-up-2056022.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -10;
+}
+#games-page-paralax-overlay{
+    background-color: rgba(29, 102, 160, 0.68);
+    z-index: -5;
+}
+
 #project-card-1{
     background-image: url("../pics/project_cards/Todays_songs/Capture2.PNG");
     background-size: cover;
