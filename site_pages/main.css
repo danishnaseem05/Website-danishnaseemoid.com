@@ -10,6 +10,15 @@ body{
     text-align: center;
 }
 
+hr{ 
+    border-radius: 0.5rem;
+    background: white;
+    margin: auto;
+    margin-top: 4vh;
+    width: 25%;
+    padding: 0.02rem;
+}
+
 #page-container{
     position: relative;
     min-height: 100vh;
@@ -50,7 +59,7 @@ body{
 }
 
 .name-title{
-    padding-top: 14em;
+    padding-top: 13.5em;
     padding-bottom: 14em;
 }
 
@@ -83,6 +92,10 @@ h1{
     border-width: 0.075em;
     border-radius: 1em;
     border-color: darkorange;
+}
+
+.info-page-heading{
+    font-family: "Courier New", Courier, monospace;
 }
 
 /********* MEDIA *********/
@@ -178,7 +191,7 @@ h1{
 }
 
 #games-page-paralax{
-    background: url("../pics/pg_backgrounds/thumbs-up-2056022.jpg");
+    background: url("../pics/pg_backgrounds/battle-black-board-game-277092.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -186,9 +199,10 @@ h1{
     z-index: -10;
 }
 #games-page-paralax-overlay{
-    background-color: rgba(29, 102, 160, 0.68);
+    background-color: rgba(0, 0, 0, 0.6);
     z-index: -5;
 }
+
 
 #project-card-1{
     background-image: url("../pics/project_cards/Todays_songs/Capture2.PNG");
