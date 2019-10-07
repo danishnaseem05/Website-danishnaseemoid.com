@@ -38,7 +38,16 @@
         width: 80%;
     }
 
+    .footer-copyright{
+        font-size: 85%;
+    }
+
+    .footer-copyright a img{
+        width: 3rem;
+    }
+
 }
+
 
 @media only screen and (max-width: 670px) {
 
