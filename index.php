@@ -57,7 +57,7 @@
         <header>
             <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
                 <div class="container">
-                    <a class="navbar-brand" href="./index.html"><span class="hover-color">D<span class="theme-orange">/</span>N</span></a>
+                    <a class="navbar-brand" href="./index.php"><span class="hover-color">D<span class="theme-orange">/</span>N</span></a>
                     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
