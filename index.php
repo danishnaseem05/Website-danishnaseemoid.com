@@ -133,12 +133,20 @@
                                                     <?php
                                                         // The following gets a random quote from the quote array
                                                         $quotes = array(array("Dwayne Johnson", "Success isn't always about greatness. It's about consistency. Consistent hard work leads to success. Greatness will come."),
-                                                        array("Oscar Wilde", "Be yourself; everyone else is already taken."), 
+                                                        array("Oscar Wilde", "Be yourself; everyone else is already taken."),
                                                         array("William W. Purkey", "You've gotta dance like there's nobody watching,
                                                         Love like you'll never be hurt,
                                                         Sing like there's nobody listening,
                                                         And live like it's heaven on earth."),
-                                                        array("Ralph Waldo Emerson", "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment."));
+                                                        array("Ralph Waldo Emerson", "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment."),
+                                                        array("Albert Einstein", "The measure of intelligence is the ability to change."), 
+                                                        array("Harriet Tubman", "Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars to change the world."),
+                                                        array("Jim Rohn", "If you are not willing to risk the usual you will have to settle for the ordinary."),
+                                                        array("Walt Disney", "All our dreams can come true if we have the courage to pursue them."),
+                                                        array("Eleanor Roosevelt", "No one can make you feel inferior without your consent."),
+                                                        array("Thomas Jefferson", "I find that the harder I work, the more luck I seem to have."),
+                                                        array("Napoleon Hill", "The starting point of all achievement is desire.")
+                                                        );
                                                         $random_index = rand(0, sizeof($quotes)-1);
                                                         echo "<em>" . $quotes[$random_index][1] . "</em>";
                                                     ?>
