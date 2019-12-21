@@ -193,7 +193,7 @@
                                 <!--Grid column-->
                                 <div class="col-md-8 mb-5">
                                     <div class="progress">
-                                        <div class="progress-bar custom-progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">8/10
+                                        <div class="progress-bar custom-progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:90%">9/10
                                         </div>
                                     </div>
                                 </div>
@@ -210,7 +210,7 @@
                                 <!--Grid column-->
                                 <div class="col-md-8 mb-5">
                                     <div class="progress">
-                                        <div class="progress-bar custom-progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">8/10
+                                        <div class="progress-bar custom-progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:90%">9/10
                                         </div>
                                     </div>
                                 </div>
@@ -226,7 +226,7 @@
                                 <!--Grid column-->
                                 <div class="col-md-8 mb-5">
                                     <div class="progress">
-                                        <div class="progress-bar custom-progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:80%">8/10
+                                        <div class="progress-bar custom-progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">7/10
                                         </div>
                                     </div>
                                 </div>
@@ -254,13 +254,30 @@
                             <div class="row mx-4 justify-content-center">
                                 <!--Grid column-->
                                 <div class="col-md-2 mb-0">
+                                    <h2 class="custom-h2">PHP</h2>
+                                </div>
+                                <!--Grid column-->
+                                <!--Grid column-->
+                                <div class="col-md-8 mb-5">
+                                    <div class="progress">
+                                        <div class="progress-bar custom-progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:60%">6/10
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Grid column--> 
+                            </div>
+                             <!--Grid row-->
+                             <!--Grid row-->
+                            <div class="row mx-4 justify-content-center">
+                                <!--Grid column-->
+                                <div class="col-md-2 mb-0">
                                     <h2 class="custom-h2">JavaScript</h2>
                                 </div>
                                 <!--Grid column-->
                                 <!--Grid column-->
                                 <div class="col-md-8 mb-5">
                                     <div class="progress">
-                                        <div class="progress-bar custom-progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:70%">7/10
+                                        <div class="progress-bar custom-progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:60%">6/10
                                         </div>
                                     </div>
                                 </div>
@@ -277,7 +294,7 @@
                                 <!--Grid column-->
                                 <div class="col-md-8 mb-5">
                                     <div class="progress">
-                                        <div class="progress-bar custom-progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:70%">7/10
+                                        <div class="progress-bar custom-progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:40%">4/10
                                         </div>
                                     </div>
                                 </div>
@@ -294,7 +311,7 @@
                                 <!--Grid column-->
                                 <div class="col-md-8 mb-5">
                                     <div class="progress">
-                                        <div class="progress-bar custom-progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:60%">6/10
+                                        <div class="progress-bar custom-progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:50%">5/10
                                         </div>
                                     </div>
                                 </div>
@@ -345,7 +362,7 @@
                                 <!--Grid column-->
                                 <div class="col-md-8 mb-5">
                                     <div class="progress">
-                                        <div class="progress-bar custom-progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">5/10
+                                        <div class="progress-bar custom-progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:60%">6/10
                                         </div>
                                     </div>
                                 </div>
