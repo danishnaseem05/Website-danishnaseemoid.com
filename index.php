@@ -328,7 +328,7 @@
                                 <!--Grid column-->
                                 <div class="col-md-8 mb-5">
                                     <div class="progress">
-                                        <div class="progress-bar custom-progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:40%">4/10
+                                        <div class="progress-bar custom-progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:30%">3/10
                                         </div>
                                     </div>
                                 </div>
