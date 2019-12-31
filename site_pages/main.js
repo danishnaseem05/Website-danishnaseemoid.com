@@ -18,5 +18,7 @@ function off() {
   document.getElementById(`project4-modal`).style.display = "none";
   // Project card 5
   document.getElementById(`project5-modal`).style.display = "none";
+  // Project card 6
+  document.getElementById(`project6-modal`).style.display = "none";
 
 }

@@ -229,6 +229,11 @@ h1{
     background-size: cover;
     background-repeat: no-repeat;
 }
+#project-card-6{
+    background-image: url("../pics/project_cards/Web_Server/Capture5.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .general-overlay{
     z-index: 1;
