@@ -388,37 +388,36 @@
                             <!--Section heading-->
                             <h2 class="custom-h1 h1-responsive text-white font-weight-bold text-center my-5">Projects</h2>
                             <!-- Section description -->
-                            <p class="custom-text-size text-light text-center w-responsive mx-auto mb-5">MY LATEST WORK. <a class="custom-a" href="./site_pages/projects.html">SEE MORE.</a></p>
+                            <p class="custom-text-size text-light text-center w-responsive mx-auto mb-5">MY LATEST WORK. <a class="custom-a" href="./site_pages/projects.php">SEE MORE.</a></p>
                             <!--Grid row-->
                             <div class="row mx-4">
+                            <div class="col-md-12 mb-4">
+                                <div id="project-card-6" class="h-100 card card-image custom-half-border-cards">
+                                    <div class="h-100 text-white justify-content-center text-center d-flex align-items-center general-overlay py-5 px-4 custom-half-border-cards">
+                                        <div>
+                                            <h6 style="font-size: 1.85vh;"><i class="fab fa-python"></i><strong> Python</strong></h6>
+                                            <h3 class="card-title py-3 font-weight-bold" style="font-size: 2.5vh;">Web Server</h3>
+                                            <p class="pb-3" style="font-size: 90%;">Web Server created using sockets in python, runs on localhost:8000 by default, and accepts multiple clients. Saves the html file by keeping the directory structure inside a custom created folder called 'static', only if the response was a HTTP 200 OK response; otherwise checks for 404 Not Found, and 400 Bad Request errors.</p>
+                                            <a href="./site_pages/projects.php" class="btn btn-success btn-rounded custom-button-color fa-1x"><i class="far fa-clone left"></i> View project</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Grid column-->
                                 <!--Grid column-->
-                                <div class="col-md-12 mb-4">
+                                <div class="col-md-6 mb-4">
                                     <div id="project-card-1" class="h-100 card card-image custom-half-border-cards">
                                         <div class="h-100 text-white justify-content-center text-center d-flex align-items-center general-overlay py-5 px-4 custom-half-border-cards">
                                             <div>    
                                                 <h6 style="font-size: 100%;"><i class="fas fa-gem"></i><strong> Ruby</strong></h6>
                                                 <h3 class="py-3 font-weight-bold" style="font-size: 145%;">Today's Songs</h3>
                                                 <p class="pb-3" style="font-size: 90%;">This CLI executable program provides the user with top songs of the day. It collects the song data from two different sites, lists them to the user, and enables them to listen to these songs by opening the user's preferred song in the chrome browser.</p>
-                                                <a href="./site_pages/projects.html" class="btn btn-success btn-rounded custom-button-color fa-1x"><i class="far fa-clone left"></i> View project</a>
+                                                <a href="./site_pages/projects.php" class="btn btn-success btn-rounded custom-button-color fa-1x"><i class="far fa-clone left"></i> View project</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <!--Grid column--> 
-                                <!--Grid column-->
-                                <div class="col-md-6 mb-4">
-                                    <div id="project-card-2" class="h-100 card card-image custom-half-border-cards">
-                                        <div class="h-100 text-white justify-content-center text-center d-flex align-items-center general-overlay py-5 px-4 custom-half-border-cards">
-                                            <div>
-                                                <h6 style="font-size: 100%;"><i class="fab fa-java"></i><strong> Java</strong></h6>
-                                                <h3 class="card-title py-3 font-weight-bold" style="font-size: 145%;">Wave Worm</h3>
-                                                <p class="pb-3" style="font-size: 90%;">Wave Worm is a single player 2D Java game. The user tackles the various worms using keyboard keys, and makes his/her way across levels, while maintaining a top score.</p>
-                                                <a href="./site_pages/projects.html" class="btn btn-success btn-rounded custom-button-color fa-1x"><i class="far fa-clone left"></i> View project</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Grid column-->
                                 <!--Grid column-->
                                 <div class="col-md-6 mb-4">
                                     <div id="project-card-3" class="card card-image custom-half-border-cards">
@@ -427,7 +426,7 @@
                                                 <h6 style="font-size: 100%;"><i class="fab fa-python"></i><strong> Python</strong></h6>
                                                 <h3 class="card-title py-3 font-weight-bold" style="font-size: 145%;">Video and Sound Encoder</h3>
                                                 <p class="pb-3" style="font-size: 90%;">This gui program makes bash calls to ffmpeg in order to encode either mov (includes audio encoding from surround to stereo) or dnxhd format video(s), hence condencing their size all the while preserving quality, as well as the directory structure. And this software was made during my time interning for FCB Chicago.</p>
-                                                <a href="./site_pages/projects.html" class="btn btn-success btn-rounded fa-1x custom-button-color"><i class="far fa-clone left"></i> View project</a>
+                                                <a href="./site_pages/projects.php" class="btn btn-success btn-rounded fa-1x custom-button-color"><i class="far fa-clone left"></i> View project</a>
                                             </div>
                                         </div>
                                     </div>
