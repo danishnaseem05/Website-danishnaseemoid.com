@@ -9,20 +9,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Portfolio">
-    <meta name="keywords" content="Danish,Naseem,Ruby,Python,HTML,CSS,Bash,Developer,Programmer,Portfolio,Coder,Today's,Songs,todays,today,projects,2d,naseemoid,student,college,java,Science,games">
-    <meta name="author" content="Danish Naseem">
-
-    <!-- Google -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145388957-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-145388957-1');
-    </script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -36,7 +22,7 @@
     <link href = "./main.css" rel = "stylesheet" type = "text/css">
     <link href = "./media_queries.css" rel = "stylesheet" type = "text/css">
 
-    <title>Games | Danish Naseem</title>
+    <title>Success | Danish Naseem</title>
 
     <!-- Website Logo -->
     <link rel = "icon" href = "../pics/Danish Naseem-logo/profile.png" type = "image/x-icon">
@@ -69,7 +55,7 @@
                                 <a class="nav-link" href="../index.php#Skills">Skills</a>
                             </li>
                             <li class="custom-nav-item nav-item">
-                                <a class="nav-link" href="./projects.html">Projects</a>
+                                <a class="nav-link" href="./projects.php">Projects</a>
                             </li>
                             <li class="custom-nav-item nav-item">
                                 <a class="nav-link" href="../index.php#Resume">Resume</a>
@@ -78,7 +64,7 @@
                                 <a class="nav-link" href="../index.php#Contact">Contact</a>
                             </li>
                             <li class="custom-nav-item nav-item">
-                                <a class="nav-link active" href="./games.html">Games</a>
+                                <a class="nav-link" href="./games.php">Games</a>
                             </li>
                             <li class="custom-nav-item nav-item">
                                 <a class="nav-link" href="https://blog.danishnaseemoid.com/">&nbsp;Blog&nbsp;</a>
@@ -92,28 +78,28 @@
         <!-- Main Content -->
         <main>
 
-            <div id= "games-page-paralax">
-                <div id= "games-page-paralax-overlay">
-
+            <div id= "success-page-paralax">
+                <div id= "success-page-paralax-overlay">
                     <div class="container">
                         <div class="name-title">
-                            <br><br>
                             <div class="row justify-content-center">
                                 <div class="col-md-12 mt-5 mb-4">
-                                    <h1 class="title info-page-heading" style="font-size: 3.8em;"><strong>Coming Soon!</strong></h1>
-                                    <hr>
+                                    <h1 class="title" style="font-size: 3.8em;"><strong>Thanks For Reaching Out!</strong></h1>
                                 </div><!-- .column -->
                             </div><!-- .row -->
                             <div class="row justify-content-center">
                                 <div class="col-md-12 mb-2">
-                                    <h2 class="custom-h2">Stay tuned for more info.</h2>
+                                    <h2 class="custom-h2">I'll reach back to you shortly.</h2>
                                 </div><!-- .column -->
                             </div><!-- .row -->
+                            <div class="row justify-content-center">
+                                <div class="col-md-12">
+                                    <a class="btn btn-info custom-p custom-button-color" href="../index.php" style="color: white;" role="button">Hit me to go back!</a>
+                                </div><!-- .column -->
+                            </div><!-- .row -->
+
                         </div><!-- .name-title -->
                     </div><!-- .container -->
-
-
-
 
                     <!-- Footer -->
                     <footer class="page-footer center-on-sm-only font-small special-color-dark pt-4">
@@ -130,13 +116,13 @@
                         </div>
                         <!-- Footer Elements -->
                         <!-- Copyright -->
-                        <div class="footer-copyright center-on-sm-only font-small text-center py-3 dark-color">Copyright &copy; 2019 Danish Naseem. All rights reserved.
+                        <div class="footer-copyright center-on-sm-only font-small text-center py-3 dark-color">Copyright &copy; <?php echo date("Y");?> Danish Naseem. All rights reserved.
                         <a rel="license" class="theme-orange" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"/></a>
                         </div>
                         <!-- Copyright -->
                     </footer>
-                </div> <!-- #games-page-paralax-overlay -->
-            </div> <!-- #games-page-paralax -->
+                </div> <!-- #success-page-paralax-overlay -->
+            </div> <!-- #success-page-paralax -->
 
         </main>
 

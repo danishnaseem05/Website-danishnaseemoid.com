@@ -70,7 +70,7 @@
                                 <a class="nav-link" href="#Skills">Skills</a>
                             </li>
                             <li class="custom-nav-item nav-item">
-                                <a class="nav-link" href="site_pages/projects.html">Projects</a>
+                                <a class="nav-link" href="site_pages/projects.php">Projects</a>
                             </li>
                             <li class="custom-nav-item nav-item">
                                 <a class="nav-link" href="#Resume">Resume</a>
@@ -79,7 +79,7 @@
                                 <a class="nav-link" href="#Contact">Contact</a>
                             </li>
                             <li class="custom-nav-item nav-item">
-                                <a class="nav-link" href="./site_pages/games.html">Games</a>
+                                <a class="nav-link" href="./site_pages/games.php">Games</a>
                             </li>
                             <li class="custom-nav-item nav-item">
                                 <a class="nav-link" href="https://blog.danishnaseemoid.com/">&nbsp;Blog&nbsp;</a>
@@ -567,7 +567,7 @@
                         </div>
                         <!-- Footer Elements -->
                         <!-- Copyright -->
-                        <div class="footer-copyright center-on-sm-only font-small text-center py-3 dark-color">Copyright &copy; 2019 Danish Naseem. All rights reserved.
+                        <div class="footer-copyright center-on-sm-only font-small text-center py-3 dark-color">Copyright &copy; <?php echo date("Y");?> Danish Naseem. All rights reserved.
                         <a rel="license" class="theme-orange" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png"/></a>
                         </div>
                         <!-- Copyright -->

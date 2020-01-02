@@ -48,6 +48,6 @@
 
     mail($to,$email_subject,$email_body,$headers);
 
-    header("location: ../../site_pages/success.html");
+    header("location: ../../site_pages/success.php");
 
 ?>
