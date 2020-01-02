@@ -186,7 +186,7 @@ h1{
     z-index: -10;
 }
 #success-page-paralax-overlay{
-    background-color: rgba(29, 102, 160, 0.68);
+    background-color: rgba(0, 0, 0, 0.6);
     z-index: -5;
 }
 
