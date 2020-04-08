@@ -13,6 +13,9 @@
     <meta name="keywords" content="Danish,Naseem,Ruby,Python,HTML,CSS,Bash,Developer,Programmer,Portfolio,Coder,Today's,Songs,todays,today,projects,blog,naseemoid,student,college,Computer,Science,university">
     <meta name="author" content="Danish Naseem">
     <meta name="norton-safeweb-site-verification" content="bdyy78ovrh7nu6zxzbuxf27ugwz0oth5pdpo02u-sdfj4-39soh6j6ob0pmbcpwtx64tzv9g8m73j3g6my-ojbsc2xnjuv0eupmc59gcuet0bb37fjmxtfb7alb08moq" />
+    
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <!-- Google -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -24,6 +27,9 @@
 
     gtag('config', 'UA-145388957-1');
     </script>
+
+    <!-- Google reCAPTCHA v3 -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6LdC_ecUAAAAACsK3H9mIbuiuBZavL-pbTwpT6Sn"></script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -513,16 +519,17 @@
                                                     </div>
                                                     <!-- Grid column -->
                                                 </div>
-                                                <!-- Grid row -->     
+                                                <!-- Grid row -->   
                                                 <div class="row">
                                                     <div class="col-md-12">
-                                                        <div class="form-group mb-4">                 
+                                                        <div class="form-group mb-4">
+                                                            <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
                                                             <button name="submit" class="btn btn-success fa-1x custom-send-button-color" type="submit" style="width: 100%;">Send</button>      
                                                         </div>
                                                     </div>
                                                     <!-- Grid column -->
                                                 </div>
-                                                <!-- Grid row -->
+                                                <!-- Grid row --> 
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <div class="form-group mb-0">   

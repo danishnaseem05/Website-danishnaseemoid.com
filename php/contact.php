@@ -1,31 +1,13 @@
 <?php
 
-    // if(isset($_POST['submit'])){
-    //     require 'phpmailer/PHPMailerAutoload.php';
-    //     $mail = new PHPMailer;
+  if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha_response'])) {
 
-    //     $mail->Host='lion.truehostdns.com';
-    //     $mail->Port=465;
-    //     $mail->SMTPAuth=true;
-    //     $mail->SMTPSecure='tls';
-    //     $mail->Username='danishnaseem05@danishnaseemoid.com';
-    //     $mail->Password='063096DanNass';
+    $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
+    $recaptcha_secret = '6LdC_ecUAAAAAKypRop9v8pUtRqvLu3yCu7JrM8K';
+    $recaptcha_response = $_POST['recaptcha_response'];
 
-    //     $mail->setFrom($_POST['email'],$_POST['first_name'],$_POST['last_name']);
-    //     $mail->addAddress('danishnaseem05@gmail.com');
-    //     $mail->addReplyTo($_POST['email'],$_POST['first_name'].$_POST['last_name']);
-
-    //     $mail->isHTML(true);
-    //     $mail->Subject='Contact Form Submission from danishnaseemoid.com';
-    //     $mail->Body='<h1 align=center>First Name: '.$_POST['first_name'].'<br>Last Name: '.$_POST['last_name'].'<br>Email: '.$_POST['email'].'<br>Phone: '.$_POST['phone'].'<br>Message: '.$_POST['message'].'</h1>';
-
-    //     if(!$mail->send()){
-    //         echo"Something went wrong.Please try again."
-    //     }
-    //     else{
-    //         header("location: ../../site_pages/success.html");
-    //     }
-    // }
+    $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
+    $recaptcha = json_decode($recaptcha);
 
     $first_name = $_POST["first_name"];
     $last_name = $_POST["last_name"];
@@ -46,8 +28,16 @@
     $headers = "From: $email_from \r\n";
     $headers .= "Reply-To: $email \r\n";
 
-    mail($to,$email_subject,$email_body,$headers);
-
-    header("location: ../../site_pages/success.php");
-
+    // Take action based on the score returned:
+    if($recaptcha-> score >= 0.5){
+      // Verified - send email
+      mail($to,$email_subject,$email_body,$headers);
+      header("location: ../../site_pages/success.php");
+    }
+    else{
+      // Not verfied - show form error
+      echo '<script> alert ("Incorrect reCAPTCHA response")</script>';
+      header("location: ../../../index.php");
+    }
+  }
 ?>
