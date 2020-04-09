@@ -22,3 +22,22 @@ function off() {
   document.getElementById(`project6-modal`).style.display = "none";
 
 }
+
+// reCAPTCHA
+$(document).ready(function(){
+  $(".recaptchaForm").on('submit', function(event){
+    var recaptcha = $("#g-recaptcha-response").val();
+    if(recaptcha===""){
+      event.preventDefault();
+      alert("Please Check reCAPTCHA!");
+    }
+    event.preventDefault();
+    $.post("../php/contact.php", {
+      "secret": "6Lf0COgUAAAAAECTfB7n3DZ3yCGtYPX6f9MsHvy5",
+      "response":recaptcha
+    }, function(response){
+      console.log(response);
+      alert(response);
+    })
+  })
+});

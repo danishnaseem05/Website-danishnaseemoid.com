@@ -13,9 +13,6 @@
     <meta name="keywords" content="Danish,Naseem,Ruby,Python,HTML,CSS,Bash,Developer,Programmer,Portfolio,Coder,Today's,Songs,todays,today,projects,blog,naseemoid,student,college,Computer,Science,university">
     <meta name="author" content="Danish Naseem">
     <meta name="norton-safeweb-site-verification" content="bdyy78ovrh7nu6zxzbuxf27ugwz0oth5pdpo02u-sdfj4-39soh6j6ob0pmbcpwtx64tzv9g8m73j3g6my-ojbsc2xnjuv0eupmc59gcuet0bb37fjmxtfb7alb08moq" />
-    
-    <!-- Jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <!-- Google -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -467,7 +464,7 @@
                                 <!-- Grid row -->
                                 <!-- Grid row -->
                                 <div class="container">      
-                                    <form id="contact-form" method="post" action="php/contact.php/" class="form-horizontal" role="form">
+                                    <form id="contact-form" method="post" class="form-horizontal recaptchaForm" role="form">
                                         <div class="row justify-content-center mx-4"> 
                                             <!-- Grid column -->
                                             <div class="col-md-12 mx-1 justify-content-center">
@@ -605,6 +602,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+    <!-- Jquery -->
+    <script src="./js/jquery-3.4.1.min.js"></script>
 
     <!-- My JS -->
     <script src="./site_pages/main.js"></script>    
