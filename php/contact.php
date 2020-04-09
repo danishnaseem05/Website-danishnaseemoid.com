@@ -33,13 +33,10 @@
     // Take action based on the score returned:
     if($recaptcha->success){
       // Verified - send email
-      echo "Verification success. Your name is: $first_name";
       mail($to,$email_subject,$email_body,$headers);
       header("location: ../../site_pages/success.php");
     } else {
       // Not verfied - show form error
-      echo "Verification failed!";
-      echo '<script> alert ("Incorrect reCAPTCHA response")</script>';
       header("location: ../../site_pages/error.php");
     }
   }
