@@ -22,10 +22,3 @@ function off() {
   document.getElementById(`project6-modal`).style.display = "none";
 
 }
-
-grecaptcha.ready(function(){
-    grecaptcha.execute('6LdC_ecUAAAAACsK3H9mIbuiuBZavL-pbTwpT6Sn', {action: 'contact'}).then(function (token){
-        document.getElementById('recaptchaResponse').value = token;
-        console.log(token);
-    });
-});

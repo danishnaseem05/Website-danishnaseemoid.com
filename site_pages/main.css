@@ -190,6 +190,19 @@ h1{
     z-index: -5;
 }
 
+#error-page-paralax{
+    background: url("../pics/pg_backgrounds/digital-484402_1920.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -10;
+}
+#error-page-paralax-overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -5;
+}
+
 #games-page-paralax{
     background: url("../pics/pg_backgrounds/battle-black-board-game-277092.jpg");
     background-attachment: fixed;

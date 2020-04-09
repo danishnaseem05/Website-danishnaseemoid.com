@@ -1,12 +1,14 @@
 <?php
 
-  if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['recaptcha_response'])) {
+  if (isset($_POST['submit'])) {
 
     $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
-    $recaptcha_secret = '6LdC_ecUAAAAAKypRop9v8pUtRqvLu3yCu7JrM8K';
-    $recaptcha_response = $_POST['recaptcha_response'];
+    $recaptcha_secret = '6Lf0COgUAAAAAECTfB7n3DZ3yCGtYPX6f9MsHvy5';
+    $recaptcha_response = $_POST['g-recaptcha-response'];
+    $userIP = $_SERVER['REMOTE_ADDR'];
 
-    $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
+    $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response . '&remoteip=' . $userIP);
+    
     $recaptcha = json_decode($recaptcha);
 
     $first_name = $_POST["first_name"];
@@ -29,15 +31,16 @@
     $headers .= "Reply-To: $email \r\n";
 
     // Take action based on the score returned:
-    if($recaptcha-> score >= 0.5){
+    if($recaptcha->success){
       // Verified - send email
+      echo "Verification success. Your name is: $first_name";
       mail($to,$email_subject,$email_body,$headers);
       header("location: ../../site_pages/success.php");
-    }
-    else{
+    } else {
       // Not verfied - show form error
+      echo "Verification failed!";
       echo '<script> alert ("Incorrect reCAPTCHA response")</script>';
-      header("location: ../../../index.php");
+      header("location: ../../site_pages/error.php");
     }
   }
 ?>

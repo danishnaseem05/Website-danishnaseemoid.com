@@ -28,8 +28,8 @@
     gtag('config', 'UA-145388957-1');
     </script>
 
-    <!-- Google reCAPTCHA v3 -->
-    <script src="https://www.google.com/recaptcha/api.js?render=6LdC_ecUAAAAACsK3H9mIbuiuBZavL-pbTwpT6Sn"></script>
+    <!-- Google reCAPTCHA v2 -->
+    <script src="https://www.google.com/recaptcha/api.js?"></script>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -519,11 +519,17 @@
                                                     </div>
                                                     <!-- Grid column -->
                                                 </div>
+                                                <!-- Grid row -->
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                    <div class="g-recaptcha" data-sitekey="6Lf0COgUAAAAAJ9rZ2hnn-JinucKScWAxeMbEjh4"></div>
+                                                    </div>
+                                                    <!-- Grid Column -->
+                                                </div></br>
                                                 <!-- Grid row -->   
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <div class="form-group mb-4">
-                                                            <input type="hidden" name="recaptcha_response" id="recaptchaResponse">
                                                             <button name="submit" class="btn btn-success fa-1x custom-send-button-color" type="submit" style="width: 100%;">Send</button>      
                                                         </div>
                                                     </div>
