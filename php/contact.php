@@ -14,11 +14,8 @@
   $email = $_POST["email"];
   $message = $_POST["message"];
 
-  echo $first_name;
-  echo $last_name;
-  echo $phone;
-  echo $email;
-  echo $message;
+  // For DEBUGGING 
+  //echo "First Name: " . $first_name . "\n Last Name: " . $last_name . "\n Phone: " . $phone . "\n Email: " . $email . "\n Message: " . $message . "\n ReCaptcha Status: ";
 
   $email_from = "mail.danishnaseemoid.com";
   $email_subject = 'New Contact Form Submission';
@@ -36,11 +33,13 @@
   if($recaptcha->success){
     // Verified - send email
     mail($to,$email_subject,$email_body,$headers);
-    echo "SUCCESS!!"; 
-    //header("location: ../../site_pages/success.php");
+    // For DEBUGGING
+    //echo "SUCCESS!!"; 
+    echo "../../site_pages/success.php";
   } else {
     // Not verfied - show form error
-    echo "FAILED!!";
-    //header("location: ../../site_pages/error.php");
+    // For DEBUGGING
+    //echo "FAILED!!";
+    echo "../../site_pages/error.php";
   }
 ?>
