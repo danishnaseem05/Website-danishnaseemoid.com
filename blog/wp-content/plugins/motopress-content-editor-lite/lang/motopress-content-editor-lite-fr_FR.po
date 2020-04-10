@@ -1,0 +1,2923 @@
+# Translation of WordPress - Plugins - MotoPress Content Editor in French (France)
+# This file is distributed under the same license as the WordPress - Plugins - MotoPress Content Editor package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-06-29 11:59:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.3.1\n"
+"Language: fr\n"
+"Project-Id-Version: WordPress - Plugins - MotoPress Content Editor\n"
+
+#. Author URI of the plugin/theme
+msgid "https://motopress.com/"
+msgstr ""
+
+#: includes/jsTranslations.php:115
+msgid "Link class"
+msgstr ""
+
+#: includes/jsTranslations.php:114
+msgid "Insert/edit image"
+msgstr ""
+
+#: contentEditor.php:191
+msgctxt "Help"
+msgid "?"
+msgstr ""
+
+#: motopressOptions.php:122 motopressOptions.php:146 motopressOptions.php:293
+msgid "This feature is only available in <a href='%s' target='_blank'>Pro Version</a>"
+msgstr ""
+
+#: motopress-content-editor.php:555
+msgid "Visual Builder Lite"
+msgstr ""
+
+#: contentEditor.php:196
+msgid "Upgrade"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "MotoPress"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Drag and drop frontend page builder for any theme."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://motopress.com/plugins/content-editor/"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "MotoPress Content Editor"
+msgstr ""
+
+#: motopressOptions.php:639
+msgid "Renew License"
+msgstr "Renouveler la licence"
+
+#: motopressOptions.php:636
+msgid "Deactivate License"
+msgstr "Désactiver la licence"
+
+#: motopressOptions.php:632
+msgid "Activate License"
+msgstr "Activer la licence"
+
+#: motopressOptions.php:625
+msgid "Action"
+msgstr "Action"
+
+#: motopressOptions.php:616
+msgid "Product ID is not valid"
+msgstr "Product ID is not valid"
+
+#: motopressOptions.php:614
+msgid "Your License Key does not match the installed plugin. <a href='%s' target='_blank'>How to fix this.</a>"
+msgstr ""
+
+#: motopressOptions.php:611
+msgid "Invalid"
+msgstr "Invalide"
+
+#: motopressOptions.php:610
+msgid "Expired"
+msgstr "Expirée"
+
+#: motopressOptions.php:609
+msgid "Disabled"
+msgstr "Désactivé"
+
+#: motopressOptions.php:606
+msgid "Valid (Lifetime)"
+msgstr "Valide (à vie)"
+
+#: motopressOptions.php:604
+msgid "Valid until"
+msgstr "Valide jusqu'au"
+
+#: motopressOptions.php:598 motopressOptions.php:599
+msgid "Inactive"
+msgstr "Inactif"
+
+#: motopressOptions.php:592
+msgid "Status"
+msgstr "État"
+
+#: motopressOptions.php:583
+msgid "Errors"
+msgstr "Erreurs"
+
+#: motopressOptions.php:571
+msgid "License Key"
+msgstr "Clé de licence"
+
+#: motopressOptions.php:555
+msgid "The License Key is required in order to get automatic plugin updates and support. You can manage your License Key in your personal account. <a href='%s' target='blank'>Learn more</a>."
+msgstr ""
+
+#: motopressOptions.php:552
+msgid "Visual Builder License"
+msgstr "Licence de constructeur visuel"
+
+#: motopressOptions.php:313
+msgid "Hide %s Settings on subsites"
+msgstr ""
+
+#: motopressOptions.php:295
+msgid "This Custom Style Name already exists."
+msgstr "Ce nom de style personnalisé existe déjà."
+
+#: motopressOptions.php:295
+msgid "Custom Style Name can contain only latin letters, numbers, hyphens and underscores."
+msgstr "Le Nom de Style personnalisé peut contenir seulement des caractères latins, chiffres, tirets et traits de soulignement."
+
+#: motopressOptions.php:294
+msgid "Enter Custom Style Name ex. HomePageHeader to use in Style selector and press Add Google Font button. Choose Font Family and styles of the created font style."
+msgstr "Entrez ex. nom du Style personnalisé HomePageHeader à utiliser dans le sélecteur de Style et appuyez sur le bouton Ajouter des polices de Google. Choisissez la famille de polices et de styles du style de police créé."
+
+#: motopressOptions.php:287 motopressOptions.php:291
+msgid "Add Google Font"
+msgstr "Ajouter une police Google"
+
+#: motopressOptions.php:286
+msgid "Custom Style Name:"
+msgstr "Nom du style personnalisé :"
+
+#: motopressOptions.php:285
+msgid "Add New Font style:"
+msgstr "Ajouter un nouveau style de police :"
+
+#: motopressOptions.php:259 motopressOptions.php:283
+msgid "Character sets:"
+msgstr "Jeux de caractères :"
+
+#: motopressOptions.php:253 motopressOptions.php:282
+msgid "Styles:"
+msgstr "Styles :"
+
+#: motopressOptions.php:249 motopressOptions.php:277
+msgid "Font Family"
+msgstr "Famille de police :"
+
+#: motopressOptions.php:244 motopressOptions.php:246 motopressOptions.php:284
+msgid "Remove"
+msgstr "Supprimer"
+
+#: motopressOptions.php:235
+msgid "Tip: <i>Using many font styles and character sets can slow down your webpage, so only select the ones you actually need on your webpage.</i>"
+msgstr "Astuce : <i>Utiliser de nombreux styles de police et jeux de caractères peut ralentir votre page Web, sélectionnez uniquement ceux dont vous avez réellement besoin sur votre page.</i>"
+
+#: motopressOptions.php:234
+msgid "Use this form to add <a href='http://www.google.com/fonts'>Google Fonts</a> to %s. You can find these fonts at the Style panel of the text objects. Press <b>Save</b> button at the bottom of the page to apply your changes."
+msgstr ""
+
+#: motopressOptions.php:204
+msgid "Convert shortcodes in excerpt to html"
+msgstr "Convertir les codes courts de l'extrait en html"
+
+#: motopressOptions.php:189 motopressOptions.php:192
+msgid "Note: you are not able to edit custom css code because the directory %s not found or not writable."
+msgstr ""
+
+#: motopressOptions.php:187
+msgid "Submit your CSS code to this field to add new styles to the theme."
+msgstr "Insérez votre code CSS dans ce champ pour ajouter de nouveaux styles à votre thème."
+
+#: motopressOptions.php:159
+msgid "To spell check your entry, spell checking must be enabled in your browser."
+msgstr "Pour vérifier l'orthographe de votre saisie, la vérification orthographique doit être activée dans votre navigateur."
+
+#: motopressOptions.php:158
+msgid "Check my spelling as I type"
+msgstr "Vérifier mon orthographe lorsque je tape"
+
+#: motopressOptions.php:147
+msgid "Hide %s menu and buttons for selected groups."
+msgstr ""
+
+#: motopressOptions.php:100
+msgid "WordPress Multisite"
+msgstr "Multisite WordPress"
+
+#: motopressOptions.php:91
+msgid "Excerpt and More tag"
+msgstr "Extrait et balise Lire la suite"
+
+#: motopressOptions.php:87
+msgid "Custom CSS code:"
+msgstr "Code CSS personnalisé :"
+
+#: motopressOptions.php:83
+msgid "Fixed Row Width"
+msgstr "Largeur de la ligne fixe"
+
+#: motopressOptions.php:79
+msgid "Check spelling"
+msgstr "Vérifier l&rsquo;orthographe :"
+
+#: motopressOptions.php:74
+msgid "Disable Visual Builder for user groups"
+msgstr "Désactiver le constructeur visuel pour des groupes d’utilisateurs"
+
+#: motopressOptions.php:68
+msgid "Enable Visual Builder for"
+msgstr "Activez le constructeur visuel pour"
+
+#: motopressOptions.php:9 motopressOptions.php:512
+msgid "Settings saved."
+msgstr "Réglages enregistrés."
+
+#: motopress-content-editor.php:637
+msgid "<b>Visual Builder button can be found in the Pages and Posts section.</b>"
+msgstr "<b>Bouton Générateur visuel se trouvent dans la section Pages et messages.</b>"
+
+#: motopress-content-editor.php:635
+msgid "Your browser is not supported. We recommend one of these supported browsers: <a href='http://www.mozilla.org/en-US/firefox/new' target='_blank'>Firefox</a>, <a href='http://www.google.com/chrome' target='_blank'>Chrome</a>."
+msgstr "Votre navigateur n’est pas pris en charge. Nous vous recommandons un de ces navigateurs : <a href='http://www.mozilla.org/en-US/firefox/new' target='_blank'>Firefox</a>, <a href='http://www.google.com/chrome' target='_blank'>Chrome</a>."
+
+#: motopress-content-editor.php:628
+msgid "%s Visual Builder makes the process of post building easy and fast. Its Drag&Drop functionality helps to manage your pages, add built-in content elements, edit them visually and see the result right away. For more information visit <a href='%s' target='_blank'>%s</a>"
+msgstr ""
+
+#: motopress-content-editor.php:569 motopressOptions.php:520
+msgid "Licenses"
+msgstr "Licences"
+
+#: motopress-content-editor.php:513 motopress-content-editor.php:520
+#: motopress-content-editor.php:524
+msgid "Note: you are not able to edit Google Fonts because the directory %s not found or not writable."
+msgstr ""
+
+#: motopress-content-editor.php:492
+msgid "Error while installing the default set of Google Fonts."
+msgstr "Erreur lors de l'installation du jeux par défaut des Google Fonts."
+
+#: includes/jsTranslations.php:113
+msgid "Are you sure you want to delete preset \"%presetLabel%\"?"
+msgstr "Êtes-vous sûr de que vouloir supprimer le préréglage « %presetLabel% » ?"
+
+#: includes/jsTranslations.php:112
+msgid "Empty preset name is not allowed."
+msgstr "Nom de la présélection vide n’est pas autorisé."
+
+#: includes/jsTranslations.php:111
+msgid "Rename Preset \"%presetLabel%\". Empty name is not allowed."
+msgstr "Renommez le préréglage « %presetLabel% ». Nom vide n’est pas autorisé."
+
+#: includes/jsTranslations.php:110
+msgid "Delete"
+msgstr "Suppr"
+
+#: includes/jsTranslations.php:109
+msgid "Rename"
+msgstr "Renommer"
+
+#: includes/jsTranslations.php:108
+msgid "Clear"
+msgstr "Réinitialiser"
+
+#: includes/jsTranslations.php:107
+msgid "Save as ..."
+msgstr "Enregistrer sous… ..."
+
+#: includes/jsTranslations.php:106
+msgid "Cancel"
+msgstr "Annuler"
+
+#: includes/jsTranslations.php:105
+msgid "Apply"
+msgstr "Appliquer"
+
+#: includes/jsTranslations.php:104
+msgid "Hover Style"
+msgstr "Placez le curseur Style"
+
+#: includes/jsTranslations.php:103
+msgid "Mobile Style"
+msgstr "Mobile Style"
+
+#: includes/jsTranslations.php:102
+msgid "Tablet Style"
+msgstr "Style tablette"
+
+#: includes/jsTranslations.php:101
+msgid "Desktop Style"
+msgstr "Bureau Style"
+
+#: includes/jsTranslations.php:100
+msgid "There are no presets."
+msgstr "Il n’y a aucun paramètres prédéfinis."
+
+#: contentEditor.php:160 includes/jsTranslations.php:99
+msgid "This feature is only available in Pro version"
+msgstr "Cette fonctionnalité n'est disponible qu'en version Pro."
+
+#: includes/jsTranslations.php:98
+msgid "There are no Styles of this element. To apply style class from your stylesheet type it and press Enter."
+msgstr "Il n'y a pas de style pour cet élément. Pour appliquer une classe de votre feuille de style, écrivez-la dans la case et appuyez sur Entrée."
+
+#: includes/jsTranslations.php:97
+msgid "Click to set More tag here"
+msgstr "Cliquez pour définir la balise plus ici"
+
+#: includes/jsTranslations.php:96
+msgid "Click to remove More tag"
+msgstr "Cliquez pour supprimer la balise plus"
+
+#: includes/jsTranslations.php:95
+msgid "Set Images"
+msgstr "Réglages des images"
+
+#: includes/jsTranslations.php:94
+msgid "Set Video"
+msgstr "Réglage de la vidéo"
+
+#: includes/jsTranslations.php:93
+msgid "Set Image"
+msgstr "Réglage de l'Image"
+
+#: includes/jsTranslations.php:92
+msgid "Set Media"
+msgstr "Définir le média"
+
+#: includes/jsTranslations.php:91
+msgid "Drag to stage to insert"
+msgstr "Faites glisser sur scène pour insérer"
+
+#: includes/jsTranslations.php:90
+msgid "Addons"
+msgstr "Addons"
+
+#: includes/jsTranslations.php:89
+msgid "Insert Read More tag"
+msgstr "Insérez la balise lire la suite"
+
+#: includes/jsTranslations.php:88
+msgid "Saving..."
+msgstr "Enregistrement..."
+
+#: includes/jsTranslations.php:86
+msgid "%postType% saved. <a href='%link%' target='_blank'>%preview%</a>"
+msgstr "%postType% enregistré(e). <a href='%link%' target='_blank'>%preview%</a>"
+
+#: includes/jsTranslations.php:85
+msgid "Updating..."
+msgstr "Mise à jour..."
+
+#: includes/jsTranslations.php:84
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: includes/jsTranslations.php:81
+msgid "The changes you made will be lost if you leave this page."
+msgstr "Les modifications apportées seront perdues si vous quittez cette page."
+
+#: includes/jsTranslations.php:80
+msgid "You are about to edit the content created with the WordPress Editor. It is available as a single block and will be edited using the WordPress Editor"
+msgstr "Vous êtes sur le point de modifier le contenu créé avec l'éditeur de WordPress. Il est disponible en un seul bloc et sera modifié avec l'éditeur de WordPress."
+
+#: includes/jsTranslations.php:79
+msgid "There is no Content section on the template of this page. Make sure the page template is correct."
+msgstr "Il n'y a pas de Section de Contenu sur le modèle de cette page. Assurez-vous que le modèle de cette page soit correcte."
+
+#: includes/jsTranslations.php:78
+msgid "There is no Content Block on this page template or Content Block Query Mode is set Custom Query. Add Content Block using the Headway Grid first or change Query Mode to Default Behaviour."
+msgstr "Il n'y a pas de Bloc de Contenu sur le modèle de cette page. Ajoutez un Bloc de Contenu en utilisant d'abord le Headway Grid."
+
+#: includes/jsTranslations.php:77
+msgid "You have no permission"
+msgstr "Vous n’avez pas d’autorisation"
+
+#: includes/jsTranslations.php:76
+msgid "Access error"
+msgstr "Erreur d’accès"
+
+#: includes/jsTranslations.php:75
+msgid "Nonce is invalid. Try to reload page"
+msgstr "Nonce n’est pas valide. Essayez de recharger la page"
+
+#: includes/jsTranslations.php:74
+msgid "Nonce error"
+msgstr "Erreur de nonce"
+
+#: includes/jsTranslations.php:73
+msgid "Space around element (quick form). Click to set:"
+msgstr "Espace autour d’élément (formulaire rapide). Cliquez pour définir :"
+
+#: includes/jsTranslations.php:72
+msgid "Predefined styles will appear here if plugin or theme provides ones. Hover the Eye icon to preview style."
+msgstr "Les styles prédéfinis apparaît ici si le plugin ou thème fournit ceux. Placez l’icône \"oeil\" pour afficher un aperçu du style."
+
+#: includes/jsTranslations.php:71
+msgid "Predefined Styles:"
+msgstr "Styles prédéfinis :"
+
+#: includes/jsTranslations.php:70
+msgid "Bottom Right Border Radius"
+msgstr "Bottom Right Border Radius"
+
+#: includes/jsTranslations.php:69
+msgid "Bottom Left Border Radius"
+msgstr "Bottom Left Border Radius"
+
+#: includes/jsTranslations.php:68
+msgid "Top Right Border Radius"
+msgstr "Top Right Border Radius"
+
+#: includes/jsTranslations.php:67
+msgid "Top Left Border Radius"
+msgstr "Top Left Border Radius"
+
+#: includes/jsTranslations.php:66
+msgid "Border Color"
+msgstr "Border Color"
+
+#: includes/jsTranslations.php:65
+msgid "Right Border Width"
+msgstr "Right Border Width"
+
+#: includes/jsTranslations.php:64
+msgid "Left Border Width"
+msgstr "Left Border Width"
+
+#: includes/jsTranslations.php:63
+msgid "Bottom Border Width"
+msgstr "Bottom Border Width"
+
+#: includes/jsTranslations.php:62
+msgid "Top Border Width"
+msgstr "Top Border Width"
+
+#: includes/jsTranslations.php:61
+msgid "Outset"
+msgstr "Outset"
+
+#: includes/jsTranslations.php:60
+msgid "Inset"
+msgstr "Inset"
+
+#: includes/jsTranslations.php:59
+msgid "Ridge"
+msgstr "Ridge"
+
+#: includes/jsTranslations.php:58
+msgid "Groove"
+msgstr "Groove"
+
+#: includes/jsTranslations.php:57
+msgid "Double"
+msgstr "Double"
+
+#: includes/jsTranslations.php:56
+msgid "Dashed"
+msgstr "Dashed"
+
+#: includes/jsTranslations.php:55
+msgid "Dotted"
+msgstr "Dotted"
+
+#: includes/jsTranslations.php:54
+msgid "Solid"
+msgstr "Solid"
+
+#: includes/jsTranslations.php:52
+msgid "Border Style"
+msgstr "Border Style"
+
+#: includes/jsTranslations.php:51
+msgid "Margin Right"
+msgstr "Margin Right"
+
+#: includes/jsTranslations.php:50
+msgid "Margin Left"
+msgstr "Margin Left"
+
+#: includes/jsTranslations.php:49
+msgid "Margin Bottom"
+msgstr "Margin Bottom"
+
+#: includes/jsTranslations.php:48
+msgid "Margin Top"
+msgstr "Margin Top"
+
+#: includes/jsTranslations.php:47
+msgid "Padding Right"
+msgstr "Marge intérieure droite"
+
+#: includes/jsTranslations.php:46
+msgid "Padding Left"
+msgstr "Padding gauche"
+
+#: includes/jsTranslations.php:45
+msgid "Padding Bottom"
+msgstr "Padding Bottom"
+
+#: includes/jsTranslations.php:44
+msgid "Padding Top"
+msgstr "Padding Top"
+
+#: includes/jsTranslations.php:43
+msgid "Scroll"
+msgstr "Défilement"
+
+#: includes/jsTranslations.php:41
+msgid "Background Image Attachment"
+msgstr "Background Image Attachment"
+
+#: includes/jsTranslations.php:40
+msgid "Background Position Y (in %)"
+msgstr "Backgroud Position X (en %)"
+
+#: includes/jsTranslations.php:39
+msgid "Background Position X (in %)"
+msgstr "Backgroud Position X (en %)"
+
+#: includes/jsTranslations.php:31
+msgid "Background Image Position"
+msgstr "Position de l’Image de fond"
+
+#: includes/jsTranslations.php:27
+msgid "Background Image Size"
+msgstr "Taille d’Image de fond"
+
+#: includes/jsTranslations.php:26
+msgid "No Repeat"
+msgstr "Pas de répétition"
+
+#: includes/jsTranslations.php:25
+msgid "Repeat Vertically"
+msgstr "Répéter verticalement"
+
+#: includes/jsTranslations.php:24
+msgid "Repeat Horizontally"
+msgstr "Répéter horizontalement"
+
+#: includes/jsTranslations.php:22
+msgid "Default"
+msgstr "Défaut"
+
+#: includes/jsTranslations.php:21
+msgid "Background Image Repeat"
+msgstr "Background Image Repeat"
+
+#: includes/jsTranslations.php:20
+msgid "Background Image"
+msgstr "Image pour l'arrière-plan"
+
+#: includes/jsTranslations.php:18
+msgid "Click Edit Element Style to apply style to this element only. Save style as Preset to apply to another elements. Predefined Styles may overwrite these values."
+msgstr "Cliquez sur modifier le Style Element pour appliquer le style à cet élément seulement. Sous style prédéfini à appliquer aux éléments une autre. Les Styles prédéfinis peuvent remplacer ces valeurs."
+
+#: includes/jsTranslations.php:17
+msgid "Element Style and Presets:"
+msgstr "Style de l’élément et Presets :"
+
+#: includes/jsTranslations.php:13 motopress-content-editor.php:560
+#: motopressOptions.php:17
+msgid "Settings"
+msgstr "Réglages"
+
+#: includes/jsTranslations.php:12
+msgid "You have reached the maximum number of blocks available for this row"
+msgstr "Vous avez atteint le nombre maximal de blocs disponibles pour cette ligne"
+
+#: includes/jsTranslations.php:10
+msgid "Insert"
+msgstr "Insérer"
+
+#: includes/jsTranslations.php:8
+msgid "or choose one of the predefined layouts"
+msgstr "ou choisissez l'une des mises en page prédéfinie"
+
+#: includes/jsTranslations.php:7
+msgid "Click here to begin typing..."
+msgstr "Cliquez ici pour commencer votre saisie..."
+
+#: includes/jsTranslations.php:6
+msgid "or"
+msgstr "ou"
+
+#: includes/jsTranslations.php:5
+msgid "Drag objects from the left panel to this area to start working with them"
+msgstr "Glissez les objets à partir du panneau gauche vers cette zone pour commencer à les utiliser."
+
+#: includes/jsTranslations.php:4
+msgid "Drag objects here"
+msgstr "Glissez les objets ici"
+
+#: includes/ce/updatePalettes.php:13
+msgid "Error while getting the palettes"
+msgstr "Erreur lors du chargement des palettes"
+
+#: includes/ce/shortcodes/post_grid/templates/template1.php:22
+#: includes/ce/shortcodes/post_grid/templates/template2.php:22
+#: includes/ce/shortcodes/post_grid/templates/template3.php:22
+msgid "% Comments"
+msgstr ""
+
+#: includes/ce/shortcodes/post_grid/templates/template1.php:22
+#: includes/ce/shortcodes/post_grid/templates/template2.php:22
+#: includes/ce/shortcodes/post_grid/templates/template3.php:22
+msgid "1 Comment"
+msgstr ""
+
+#: includes/ce/shortcodes/post_grid/templates/template1.php:22
+#: includes/ce/shortcodes/post_grid/templates/template2.php:22
+#: includes/ce/shortcodes/post_grid/templates/template3.php:22
+msgid "Leave a comment"
+msgstr ""
+
+#: includes/ce/shortcodes/post_grid/MPCEShortcodePostsGrid.php:776
+msgid "All Tags"
+msgstr ""
+
+#: includes/ce/shortcodes/post_grid/MPCEShortcodePostsGrid.php:776
+msgid "All Categories"
+msgstr ""
+
+#: includes/ce/shortcodes/post_grid/MPCEShortcodePostsGrid.php:686
+#: includes/ce/shortcodes/post_grid/MPCEShortcodePostsGrid.php:688
+msgid "Older posts"
+msgstr "Articles plus anciens"
+
+#: includes/ce/shortcodes/post_grid/MPCEShortcodePostsGrid.php:685
+#: includes/ce/shortcodes/post_grid/MPCEShortcodePostsGrid.php:689
+msgid "Newer posts"
+msgstr "Articles plus récents"
+
+#: includes/ce/shortcode/ShortcodeCommon.php:3325
+msgid "Featured Image left, Title, Content"
+msgstr "Image à la Une à gauche, Titre, Contenu"
+
+#: includes/ce/shortcode/ShortcodeCommon.php:3322
+msgid "Title, Featured Image, Content"
+msgstr "Titre, Image à la Une, Contenu"
+
+#: includes/ce/shortcode/ShortcodeCommon.php:3319
+msgid "Featured Image, Title, Content"
+msgstr "Image à la Une, Titre, Contenu"
+
+#: includes/ce/shortcode/ShortcodeCommon.php:2587
+msgid "Table data is empty."
+msgstr "Les données du tableau sont vides."
+
+#: includes/ce/shortcode/ShortcodeCommon.php:2323
+msgid "Audio source is empty."
+msgstr "La source audio est vide."
+
+#: includes/ce/shortcode/ShortcodeCommon.php:1973
+#: includes/ce/shortcode/ShortcodeCommon.php:2015
+msgid "Nothing found. Please enter correct address."
+msgstr "Aucun résultat. S'il vous plaît entrez l'adresse correcte."
+
+#: includes/ce/shortcode/ShortcodeCommon.php:1113
+msgid "Error while parsing the video URL"
+msgstr "Erreur lors de l'analyse de l'URL de la vidéo"
+
+#: includes/ce/shortcode/ShortcodeCommon.php:1107
+#: includes/ce/shortcode/ShortcodeCommon.php:1110
+#: includes/ce/shortcode/ShortcodeCommon.php:1116
+msgid "Incorrect video URL"
+msgstr "L'URL de la vidéo n'est pas correcte"
+
+#: includes/ce/shortcode/ShortcodeCommon.php:1104
+msgid "Error while getting the video id"
+msgstr "Erreur en récupérant l'ID de la vidéo"
+
+#: includes/ce/shortcode/ShortcodeCommon.php:935
+#: includes/ce/shortcodes/post_grid/MPCEShortcodePostsGrid.php:638
+msgid "No posts found."
+msgstr ""
+
+#: includes/ce/shortcode/ShortcodeCommon.php:625
+#: includes/ce/shortcode/ShortcodeCommon.php:628
+#: includes/ce/shortcode/ShortcodeCommon.php:1027
+#: includes/ce/shortcode/ShortcodeCommon.php:1030
+msgid "List of images is empty. Select images."
+msgstr "La liste des images est vide. Sélectionnez les images."
+
+#: includes/ce/renderTemplate.php:8
+msgid "template"
+msgstr "modèle"
+
+#: includes/ce/renderShortcode.php:9 includes/ce/renderShortcodesString.php:8
+msgid "shortcode"
+msgstr "shortcode"
+
+#: includes/ce/renderShortcode.php:9 includes/ce/renderShortcodesString.php:8
+#: includes/ce/renderTemplate.php:8
+msgid "An error occurred while rendering %s"
+msgstr ""
+
+#: includes/ce/removeTemporaryPost.php:27
+#: includes/ce/removeTemporaryPost.php:35
+msgid "An error occurred while removing temporary post"
+msgstr "Une erreur est survenue lors de la suppression de l'article temporaire"
+
+#: includes/ce/getAttachmentThumbnail.php:33
+msgid "Error while getting the attachment thumbnail"
+msgstr "Erreur lors du chargement de la vignette attachée."
+
+#: includes/ce/getAttachmentThumbnail.php:30
+#: includes/ce/shortcode/ShortcodeCommon.php:488
+#: includes/ce/shortcode/ShortcodeCommon.php:621
+#: includes/ce/shortcode/ShortcodeCommon.php:1023
+msgid "Empty attachment or post type not equal 'attachment'"
+msgstr "Pièce jointe vide ou le type d'article n'est pas une 'pièce jointe'"
+
+#: includes/ce/getAttachmentThumbnail.php:27
+#: includes/ce/shortcode/ShortcodeCommon.php:485
+#: includes/ce/shortcode/ShortcodeCommon.php:618
+#: includes/ce/shortcode/ShortcodeCommon.php:1020
+msgid "Attachment is not an image"
+msgstr "La pièce jointe n'est pas une image"
+
+#: includes/ce/getAttachmentThumbnail.php:24
+msgid "Error getting the attachment image src"
+msgstr "Erreur lors du chargement de l'image source."
+
+#: includes/ce/Object.php:112 includes/ce/Object.php:143
+msgid "Value should be one of these values: %s"
+msgstr ""
+
+#: includes/ce/MPCECustomStyleManager.php:377
+msgid "%s Styles"
+msgstr ""
+
+#: includes/ce/MPCEContentManager.php:492
+msgid "Note: content created in Visual Builder will be displayed on your site when Visual Builder tab is active. You may switch to default Text Editor anytime but your edits will not be replicated in the visual version. Content in Text Editor tab is automatically updated with edits you make in Visual Builder."
+msgstr "Remarque: le contenu créé dans Visual Builder sera affiché sur votre site lorsque l'onglet Visual Builder est actif. Vous pouvez passer à l'éditeur de texte par défaut à tout moment, mais vos modifications ne seront pas répliquées dans la version visuelle. L'onglet Contenu dans l'éditeur de texte est automatiquement mis à jour avec les modifications que vous avez effectuées dans Visual Builder."
+
+#: includes/ce/MPCEContentManager.php:471
+msgid "Open Visual Builder"
+msgstr "Constructeur visuel ouvert"
+
+#: includes/ce/MPCEContentManager.php:467
+#: includes/ce/MPCEContentManager.php:521 motopress-content-editor.php:366
+#: motopress-content-editor.php:368 motopress-content-editor.php:554
+#: motopress-content-editor.php:592 motopress-content-editor.php:729
+#: motopressOptions.php:22
+msgid "Visual Builder"
+msgstr "Constructeur visuel"
+
+#: includes/ce/MPCEContentManager.php:466
+msgid "Text Editor"
+msgstr "Éditeur de texte"
+
+#: includes/ce/Library.php:4622 motopressOptions.php:95
+msgid "Google Fonts"
+msgstr "Polices Google"
+
+#: includes/ce/Library.php:4295
+msgid "Product"
+msgstr "Produit"
+
+#: includes/ce/Library.php:4293
+msgid "Service"
+msgstr "Service"
+
+#: includes/ce/Library.php:4291
+msgid "Description"
+msgstr "Description"
+
+#: includes/ce/Library.php:4289
+msgid "Feature"
+msgstr "Fonctionnalité"
+
+#: includes/ce/Library.php:4285
+msgid "Landing"
+msgstr "Arrivée"
+
+#: includes/ce/Library.php:4266
+msgid "WordPress"
+msgstr "WordPress"
+
+#: includes/ce/Library.php:4242
+msgid "Other"
+msgstr "Autres"
+
+#: includes/ce/Library.php:4235
+msgid "Media"
+msgstr "Médias"
+
+#: includes/ce/Library.php:4208
+msgid "Grid"
+msgstr "Grille"
+
+#: includes/ce/Library.php:4194
+msgid "Taxonomy"
+msgstr "Taxinomie"
+
+#: includes/ce/Library.php:4190
+msgid "Your most used tags in cloud format"
+msgstr "Vos mots-clés les plus utilisés, au format &laquo; nuage &raquo;"
+
+#: includes/ce/Library.php:4185
+msgid "Tag Cloud"
+msgstr "Nuage de mots-clés"
+
+#: includes/ce/Library.php:4180
+msgid "A search form for your site"
+msgstr "Un formulaire de recherche pour votre site"
+
+#: includes/ce/Library.php:4175 includes/ce/Library.php:4179
+msgid "Search"
+msgstr "Rechercher"
+
+#: includes/ce/Library.php:4168
+msgid "Display item date?"
+msgstr "Afficher la date de l&rsquo;élément&nbsp;?"
+
+#: includes/ce/Library.php:4162
+msgid "Display item author if available?"
+msgstr "Afficher l&rsquo;auteur de l&rsquo;élément si disponible&nbsp;?"
+
+#: includes/ce/Library.php:4156
+msgid "Display item content?"
+msgstr "Afficher le contenu de l&rsquo;élément&nbsp;?"
+
+#: includes/ce/Library.php:4151
+msgid "How many items would you like to display?"
+msgstr "Combien d&rsquo;entrées souhaitez-vous afficher&nbsp;?"
+
+#: includes/ce/Library.php:4149
+msgid "Items quantity"
+msgstr "Quantité d'éléments"
+
+#: includes/ce/Library.php:4145
+msgid "Give the feed a title (optional)"
+msgstr "Donner un titre à votre flux (facultatif)"
+
+#: includes/ce/Library.php:4143
+msgid "Feed title"
+msgstr "Titre du flux"
+
+#: includes/ce/Library.php:4139
+msgid "Enter the RSS feed URL here"
+msgstr "Entrer l'URL du flux RSS ici"
+
+#: includes/ce/Library.php:4137
+msgid "RSS feed URL"
+msgstr "URL du flux RSS"
+
+#: includes/ce/Library.php:4134
+msgid "RSS"
+msgstr "Flux RSS"
+
+#: includes/ce/Library.php:4127
+msgid "Number of Comments to show"
+msgstr "Nombre de commentaires à afficher"
+
+#: includes/ce/Library.php:4123
+msgid "The most recent comments"
+msgstr "Commentaires les plus récents"
+
+#: includes/ce/Library.php:4118 includes/ce/Library.php:4122
+msgid "Recent Comments"
+msgstr "Commentaires récents"
+
+#: includes/ce/Library.php:4111
+msgid "Display post date?"
+msgstr "Afficher la date du contenu&nbsp;?"
+
+#: includes/ce/Library.php:4105
+msgid "Number of Posts to show"
+msgstr "Nombre d'articles à afficher"
+
+#: includes/ce/Library.php:4101
+msgid "The most recent posts on your site"
+msgstr "Les articles les plus récents de votre site"
+
+#: includes/ce/Library.php:4096 includes/ce/Library.php:4100
+msgid "Recent Posts"
+msgstr "Publications récentes"
+
+#: includes/ce/Library.php:4091
+msgid "Page IDs, separated by commas."
+msgstr "IDs de pages, séparés par une virgule."
+
+#: includes/ce/Library.php:4089
+msgid "Exclude"
+msgstr "Exclure"
+
+#: includes/ce/Library.php:4084
+msgid "Page ID"
+msgstr "ID de la page"
+
+#: includes/ce/Library.php:4083
+msgid "Page order"
+msgstr "Ordre de la page"
+
+#: includes/ce/Library.php:4082
+msgid "Page title"
+msgstr "Titre de la page"
+
+#: includes/ce/Library.php:4078
+msgid "Sort by"
+msgstr "Trier par"
+
+#: includes/ce/Library.php:4074
+msgid "Your site WordPress Pages"
+msgstr "Les pages de votre site WordPress"
+
+#: includes/ce/Library.php:4069 includes/ce/Library.php:4073
+msgid "Pages"
+msgstr "Pages"
+
+#: includes/ce/Library.php:4064
+msgid "Log in/out, admin, feed and WordPress links"
+msgstr "(Dé)connexion, administration, flux et autres liens internes à WordPress"
+
+#: includes/ce/Library.php:4059 includes/ce/Library.php:4063
+msgid "Meta"
+msgstr "Méta"
+
+#: includes/ce/Library.php:4051
+msgid "Select Menu"
+msgstr "Choisir le menu"
+
+#: includes/ce/Library.php:4047
+msgid "Use this widget to add one of your custom menus as a widget."
+msgstr "Utilisez ce widget pour ajouter l&rsquo;un de vos menus en tant que widget."
+
+#: includes/ce/Library.php:4042 includes/ce/Library.php:4046
+msgid "Custom Menu"
+msgstr "Menu personnalisé"
+
+#: includes/ce/Library.php:4040
+msgid "There are no menus"
+msgstr "Il n'y a pas de menu"
+
+#: includes/ce/Library.php:4023
+msgid "Show hierarchy"
+msgstr "Afficher la hiérarchie"
+
+#: includes/ce/Library.php:4007
+msgid "A list or dropdown of categories"
+msgstr "Une liste ou un menu déroulant des catégories"
+
+#: includes/ce/Library.php:3997
+msgid "A calendar of your site posts"
+msgstr "Un calendrier des articles de votre site"
+
+#: includes/ce/Library.php:3992 includes/ce/Library.php:3996
+msgid "Calendar"
+msgstr "Calendrier"
+
+#: includes/ce/Library.php:3985 includes/ce/Library.php:4017
+msgid "Show post counts"
+msgstr "Afficher le nombre d&rsquo;articles"
+
+#: includes/ce/Library.php:3979 includes/ce/Library.php:4011
+msgid "Display as dropdown"
+msgstr "Afficher comme liste déroulante"
+
+#: includes/ce/Library.php:3975
+msgid "A monthly archive of your site posts"
+msgstr "Une archive mensuelle des articles du site"
+
+#: includes/ce/Library.php:3970 includes/ce/Library.php:3974
+msgid "Archives"
+msgstr "Archives"
+
+#: includes/ce/Library.php:3962
+msgid "Select Area"
+msgstr "Sélectionner la zone"
+
+#: includes/ce/Library.php:3958
+msgid "Use this widget to add one of your Widget Areas."
+msgstr "Utiliser ce widget pour ajouter une de vos zones de widget."
+
+#: includes/ce/Library.php:3953
+msgid "Widgets Area"
+msgstr "Zone de Widgets"
+
+#: includes/ce/Library.php:3951
+msgid "There are no sidebars"
+msgstr "Il n'y a pas de barre latérale"
+
+#: includes/ce/Library.php:3931
+msgid "- select -"
+msgstr "- sélectionner le diaporama -"
+
+#: includes/ce/Library.php:3929
+msgid "Select slider from the list of sliders you created for this website."
+msgstr "Sélectionnez le Diaporama dans la liste des diaporamas que vous avez créé pour ce site internet."
+
+#: includes/ce/Library.php:3928
+msgid "Select slider"
+msgstr "Nom du diaporama:"
+
+#: includes/ce/Library.php:3925
+msgid "MotoPress Slider"
+msgstr "Diaporama Motopress"
+
+#: includes/ce/Library.php:3897
+msgid "Effect of appearance"
+msgstr "Effet d'apparition"
+
+#: includes/ce/Library.php:3880
+msgid "Icon animation"
+msgstr "Animation de l'icône"
+
+#: includes/ce/Library.php:3871
+msgid "Place icon on border"
+msgstr "Placer l'icône sur la bordure"
+
+#: includes/ce/Library.php:3786
+msgid "Icon position"
+msgstr "Position de l'icône"
+
+#: includes/ce/Library.php:3769
+msgid "Button animation"
+msgstr "Animation du bouton"
+
+#: includes/ce/Library.php:3756
+msgid "Button icon alignment"
+msgstr "Alignement de l'icône du bouton"
+
+#: includes/ce/Library.php:3746
+msgid "Button icon"
+msgstr "Icône du bouton"
+
+#: includes/ce/Library.php:3694
+msgid "Button shape"
+msgstr "Forme du bouton"
+
+#: includes/ce/Library.php:3680
+msgid "Button alignment"
+msgstr "Alignement du bouton"
+
+#: includes/ce/Library.php:3645 includes/ce/Library.php:3791
+#: includes/jsTranslations.php:35
+msgid "Bottom"
+msgstr "En bas"
+
+#: includes/ce/Library.php:3644 includes/ce/Library.php:3790
+#: includes/jsTranslations.php:34
+msgid "Top"
+msgstr "En haut"
+
+#: includes/ce/Library.php:3640
+msgid "Button position"
+msgstr "Position du bouton"
+
+#: includes/ce/Library.php:3632
+msgid "Width (%)"
+msgstr "Largeur (%)"
+
+#: includes/ce/Library.php:3608
+msgid "3D"
+msgstr "3D"
+
+#: includes/ce/Library.php:3607
+msgid "Outline"
+msgstr "Contour"
+
+#: includes/ce/Library.php:3606
+msgid "Flat"
+msgstr "Flat"
+
+#: includes/ce/Library.php:3605
+msgid "Classic"
+msgstr "Classique"
+
+#: includes/ce/Library.php:3597 includes/ce/Library.php:3699
+msgid "Round"
+msgstr "Rond"
+
+#: includes/ce/Library.php:3592
+msgid "Shape"
+msgstr "Forme"
+
+#: includes/ce/Library.php:3587
+msgid "Justify"
+msgstr "Justifié"
+
+#: includes/ce/Library.php:3581
+msgid "Text alignment"
+msgstr "Alignement du texte"
+
+#: includes/ce/Library.php:3576 includes/ce/Library.php:4214
+msgid "Text"
+msgstr "Texte"
+
+#: includes/ce/Library.php:3571
+msgid "Subtitle"
+msgstr "Sous-titre"
+
+#: includes/ce/Library.php:3563 includes/ce/Library.php:4287
+msgid "Call To Action"
+msgstr "Appel à l'action"
+
+#: includes/ce/Library.php:3531 includes/ce/Library.php:3731
+msgid "Buttons size"
+msgstr "Taille des boutons"
+
+#: includes/ce/Library.php:3518
+msgid "Indent"
+msgstr "Retrait"
+
+#: includes/ce/Library.php:3513
+msgid "Vertical"
+msgstr "Vertical"
+
+#: includes/ce/Library.php:3512
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: includes/ce/Library.php:3509
+msgid "Layout"
+msgstr "Mise en page"
+
+#: includes/ce/Library.php:3472
+msgid "Button Group"
+msgstr "Groupe de boutons"
+
+#: includes/ce/Library.php:3447
+msgid "Custom button color"
+msgstr "Couleur personnalisée du bouton"
+
+#: includes/ce/Library.php:3382
+msgid "Custom icon color"
+msgstr "Couleur personnalisée de l'icône"
+
+#: includes/ce/Library.php:3363
+msgid "Text color"
+msgstr "Couleur du texte"
+
+#: includes/ce/Library.php:3358
+msgid "Custom text color"
+msgstr "Couleur personnalisée du texte"
+
+#: includes/ce/Library.php:3352
+msgid "List elements"
+msgstr "Liste d'éléments"
+
+#: includes/ce/Library.php:3340
+msgid "Georgian"
+msgstr "Géorgien"
+
+#: includes/ce/Library.php:3339
+msgid "Armenian"
+msgstr "Arménien"
+
+#: includes/ce/Library.php:3337
+msgid "Disc"
+msgstr "Disque"
+
+#: includes/ce/Library.php:3328 includes/ce/Library.php:3403
+#: includes/ce/Library.php:4289 includes/ce/Library.php:4293
+msgid "List"
+msgstr "Liste"
+
+#: includes/ce/Library.php:3295
+msgid "Button text color"
+msgstr "Couleur du texte du bouton"
+
+#: includes/ce/Library.php:3286
+msgid "Button background color"
+msgstr "Couleur d'arrière-plan du bouton"
+
+#: includes/ce/Library.php:3253 includes/ce/Library.php:3661
+msgid "Button link"
+msgstr "Lien du bouton"
+
+#: includes/ce/Library.php:3244
+msgid "Button text"
+msgstr "Texte du bouton"
+
+#: includes/ce/Library.php:3239
+msgid "Show button"
+msgstr "Afficher le bouton"
+
+#: includes/ce/Library.php:3207
+msgid "Rotate"
+msgstr "Rotation"
+
+#: includes/ce/Library.php:3205
+msgid "Grayscale"
+msgstr "Niveaux de gris"
+
+#: includes/ce/Library.php:3201
+msgid "Icon effect"
+msgstr "Effet de l'icône"
+
+#: includes/ce/Library.php:3133
+msgid "Icon background"
+msgstr "Fond de l'icône"
+
+#: includes/ce/Library.php:3121
+msgid "Image height"
+msgstr "Hauteur de l'image"
+
+#: includes/ce/Library.php:3112
+msgid "Image size in pixels, ex. 50x50 or theme-registered image size. Note: the closest-sized image will be used if original one does not exist."
+msgstr "Entrez la taille de l'image en pixels, ex. 50 x 50 (largeur x hauteur)."
+
+#: includes/ce/Library.php:3097 includes/ce/Library.php:3111
+msgid "Icon image size"
+msgstr "Taille de l'image de l'icône"
+
+#: includes/ce/Library.php:3088
+msgid "Icon image"
+msgstr "Image de l'icône"
+
+#: includes/ce/Library.php:3010
+msgid "Wide Image"
+msgstr "Image large"
+
+#: includes/ce/Library.php:3009
+msgid "Image Icon"
+msgstr "Image de l'icone"
+
+#: includes/ce/Library.php:3008
+msgid "Font Icon"
+msgstr "Police d'icône"
+
+#: includes/ce/Library.php:3005
+msgid "Media type"
+msgstr "Type de média"
+
+#: includes/ce/Library.php:2996
+msgid "Title & text align right"
+msgstr "Titre & texte alignés à droite"
+
+#: includes/ce/Library.php:2995
+msgid "Title align right"
+msgstr "Titre aligné à droite"
+
+#: includes/ce/Library.php:2994
+msgid "Centered"
+msgstr "Centré"
+
+#: includes/ce/Library.php:2988 includes/ce/Library.php:3322
+msgid "Service Box"
+msgstr "Zone de service"
+
+#: includes/ce/Library.php:2842
+msgid "Once"
+msgstr "Unique"
+
+#: includes/ce/Library.php:2841
+msgid "Always"
+msgstr "Toujours"
+
+#: includes/ce/Library.php:2839
+msgid "Display"
+msgstr "Afficher les informations"
+
+#: includes/ce/Library.php:2834
+msgid "Delay in milliseconds"
+msgstr "Délai en millisecondes"
+
+#: includes/ce/Library.php:2824 includes/ce/Library.php:2828
+#: includes/ce/Library.php:2978
+msgid "Splash Screen"
+msgstr "Écran de démarrage"
+
+#: includes/ce/Library.php:2769 includes/ce/Library.php:2925
+msgid "Hide animation"
+msgstr "Masquer l'animation"
+
+#: includes/ce/Library.php:2720 includes/ce/Library.php:2876
+msgid "Show animation"
+msgstr "Afficher l'animation"
+
+#: includes/ce/Library.php:2668 includes/ce/Library.php:2867
+msgid "Box color"
+msgstr "Couleur de la boîte"
+
+#: includes/ce/Library.php:2659 includes/ce/Library.php:2858
+msgid "Background color"
+msgstr "Couleur d'arrière-plan"
+
+#: includes/ce/Library.php:2644 includes/ce/Library.php:2829
+msgid "<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1><p>Integer ac leo ut arcu dictum viverra at eu magna. Integer ut eros varius, ornare magna non, malesuada nunc. Nulla elementum fringilla libero vitae luctus. Phasellus tincidunt nulla erat, in consectetur ante ornare tempor. Curabitur egestas purus ac gravida malesuada. Vestibulum sit amet rhoncus nisi. Quisque porta enim eget nisi luctus accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>"
+msgstr "<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1><p>Integer ac leo ut arcu dictum viverra at eu magna. Integer ut eros varius, ornare magna non, malesuada nunc. Nulla elementum fringilla libero vitae luctus. Phasellus tincidunt nulla erat, in consectetur ante ornare tempor. Curabitur egestas purus ac gravida malesuada. Vestibulum sit amet rhoncus nisi. Quisque porta enim eget nisi luctus accumsan. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>"
+
+#: includes/ce/Library.php:2642 includes/ce/Library.php:2827
+#: includes/ce/Library.php:3232
+msgid "Content"
+msgstr "Contenu"
+
+#: includes/ce/Library.php:2639 includes/ce/Library.php:2643
+msgid "Modal"
+msgstr "Modal"
+
+#: includes/ce/Library.php:2618
+msgid "All"
+msgstr "Tout"
+
+#: includes/ce/Library.php:2617
+msgid "\"View All\" text"
+msgstr "Texte pour « Tout afficher »"
+
+#: includes/ce/Library.php:2609 includes/ce/Library.php:4189
+#: includes/ce/Library.php:4198 includes/ce/shortcode/ShortcodeAtts.php:343
+#: includes/ce/shortcodes/post_grid/MPCEShortcodePostsGrid.php:769
+msgid "Tags"
+msgstr "Mots-clefs"
+
+#: includes/ce/Library.php:2608
+msgid "Second Filter Title"
+msgstr "Titre du deuxième filtre"
+
+#: includes/ce/Library.php:2600 includes/ce/Library.php:4002
+#: includes/ce/Library.php:4006 includes/ce/Library.php:4199
+#: includes/ce/shortcodes/post_grid/MPCEShortcodePostsGrid.php:769
+msgid "Categories"
+msgstr "Catégories"
+
+#: includes/ce/Library.php:2599
+msgid "First Filter Title"
+msgstr "Titre du premier filtre"
+
+#: includes/ce/Library.php:2590
+msgid "Divider"
+msgstr "Séparateur"
+
+#: includes/ce/Library.php:2555
+msgid "Select Second Taxonomy"
+msgstr "Sélectionnez le deuxième taxinomie"
+
+#: includes/ce/Library.php:2544
+msgid "Select First Taxonomy"
+msgstr "Sélectionnez la première taxinomie"
+
+#: includes/ce/Library.php:2535
+msgid "Both"
+msgstr "Les deux"
+
+#: includes/ce/Library.php:2534
+msgid "Second Taxonomy"
+msgstr "Deuxième taxinomie"
+
+#: includes/ce/Library.php:2533
+msgid "First Taxonomy"
+msgstr "Première taxinomie"
+
+#: includes/ce/Library.php:2529
+msgid "Add taxonomy filter."
+msgstr "Ajouter le filtre de la taxinomie."
+
+#: includes/ce/Library.php:2528
+msgid "Filter"
+msgstr "Filtre"
+
+#: includes/ce/Library.php:2520 includes/ce/shortcode/ShortcodeAtts.php:493
+msgid "Load More"
+msgstr "Charger la suite"
+
+#: includes/ce/Library.php:2519
+msgid "Load More button text"
+msgstr "Texte du bouton Charger la suite"
+
+#: includes/ce/Library.php:2514
+msgid "Pagination"
+msgstr "Pagination"
+
+#: includes/ce/Library.php:2513
+msgid "Load More Button"
+msgstr "Bouton Charger la suite"
+
+#: includes/ce/Library.php:2512
+msgid "Show All"
+msgstr "Tout afficher"
+
+#: includes/ce/Library.php:2509
+msgid "Display Style"
+msgstr "Style d'affichage"
+
+#: includes/ce/Library.php:2505
+msgid "Read more"
+msgstr "Lire la suite"
+
+#: includes/ce/Library.php:2504
+msgid "Post Read More link text"
+msgstr "Texte du lien Lire la suite"
+
+#: includes/ce/Library.php:2476
+msgid "Show Date and Comments"
+msgstr "Afficher la date et les commentaires"
+
+#: includes/ce/Library.php:2463 includes/ce/Library.php:3219
+msgid "Title style"
+msgstr "Style du titre"
+
+#: includes/ce/Library.php:2434
+msgid "Show Featured Image"
+msgstr "Afficher l'image à la Une"
+
+#: includes/ce/Library.php:2426
+msgid "Vertical gap between posts"
+msgstr "Espace vertical entre les articles"
+
+#: includes/ce/Library.php:2421
+msgid "Post Style"
+msgstr "Style de l'article"
+
+#: includes/ce/Library.php:2401
+msgid "Separate with ','"
+msgstr "Séparés par une « , »"
+
+#: includes/ce/Library.php:2400
+msgid "IDs of posts"
+msgstr "Identifiants des articles"
+
+#: includes/ce/Library.php:2392
+msgid "Build custom query according to <a href=\"http://codex.wordpress.org/Function_Reference/query_posts\">WordPress Codex</a>. Example: post_type=portfolio&posts_per_page=5&orderby=title"
+msgstr "Créer une requête personnalisée selon le <a href=\"http://codex.wordpress.org/Function_Reference/query_posts\"> Codex de WordPress</a>. Exemple : post_type=portfolio&posts_per_page=5&orderby=title"
+
+#: includes/ce/Library.php:2299
+msgid "Select post type to populate posts from"
+msgstr "Sélectionner le type d'article pour remplir les articles de"
+
+#: includes/ce/Library.php:2298
+msgid "Post Type to show"
+msgstr "Type d'article a afficher"
+
+#: includes/ce/Library.php:2293
+msgid "IDs"
+msgstr "Identifiants"
+
+#: includes/ce/Library.php:2292 includes/ce/Library.php:2391
+msgid "Custom query"
+msgstr "Requête personnalisée"
+
+#: includes/ce/Library.php:2291
+msgid "Simple"
+msgstr "Simple"
+
+#: includes/ce/Library.php:2288
+msgid "Choose query type"
+msgstr "Choisissez le type de requête"
+
+#: includes/ce/Library.php:2287
+msgid "Query Type"
+msgstr "Type de requête"
+
+#: includes/ce/Library.php:2284 includes/ce/Library.php:2633
+msgid "Posts Grid"
+msgstr "Grille d'articles"
+
+#: includes/ce/Library.php:2269
+msgid "First column left"
+msgstr "Première colonne de gauche"
+
+#: includes/ce/Library.php:2248
+msgid "Data in each row separated by comma. Find out more about <a href='http://en.wikipedia.org/wiki/Comma-separated_values' target='_blank'>CSV format</a>."
+msgstr "Données dans chaque rangées séparées par une virgule. En savoir plus sur le <a href='http://en.wikipedia.org/wiki/Comma-separated_values' target='_blank'>format CSV</a>."
+
+#: includes/ce/Library.php:2243 includes/ce/Library.php:2256
+msgid "Table"
+msgstr "Tableau"
+
+#: includes/ce/Library.php:2236
+msgid "Data in each row separated by comma"
+msgstr "Données dans chaque rangée séparées par des virgules"
+
+#: includes/ce/Library.php:2235 includes/ce/Library.php:2246
+msgid "Data"
+msgstr "Données"
+
+#: includes/ce/Library.php:2230
+msgid "Transparent background"
+msgstr "Arrière-plan transparent"
+
+#: includes/ce/Library.php:2226
+msgid "Comma separated HEX color values. Ex: #e0440e, #e6693e"
+msgstr "Valeurs HEX séparées par une virgule. P. ex : #e0440e, #e6693e"
+
+#: includes/ce/Library.php:2225
+msgid "Chart colors"
+msgstr "Couleurs du graphique"
+
+#: includes/ce/Library.php:2216
+msgid "Donut Hole"
+msgstr "Trou de beignet"
+
+#: includes/ce/Library.php:2211
+msgid "Histogram"
+msgstr "Histogramme"
+
+#: includes/ce/Library.php:2210
+msgid "Line Chart"
+msgstr "Graphique linéaires"
+
+#: includes/ce/Library.php:2209
+msgid "3D Pie Chart"
+msgstr "Graphique à secteur 3D"
+
+#: includes/ce/Library.php:2208
+msgid "Pie Chart"
+msgstr "Graphique en camembert"
+
+#: includes/ce/Library.php:2207
+msgid "Stepped Area Chart"
+msgstr "Graphique en escalier"
+
+#: includes/ce/Library.php:2206
+msgid "Area Chart"
+msgstr "Graphique à zones"
+
+#: includes/ce/Library.php:2205
+msgid "Bar Chart"
+msgstr "Graphique à barres"
+
+#: includes/ce/Library.php:2204
+msgid "Column Chart"
+msgstr "Graphique en colonnes"
+
+#: includes/ce/Library.php:2201
+msgid "Find out more about chart types at <a href='https://developers.google.com/chart/' target='_blank'>Google Charts</a>"
+msgstr "En savoir plus sur les types de graphiques sur <a href='https://developers.google.com/chart/' target='_blank'>Google Charts</a>"
+
+#: includes/ce/Library.php:2200
+msgid "Chart type"
+msgstr "Type de graphique"
+
+#: includes/ce/Library.php:2192
+msgid "Chart"
+msgstr "Graphique"
+
+#: includes/ce/Library.php:2185
+msgid "Only registered users will see this content."
+msgstr "Seuls les utilisateurs enregistrés verront ce contenu."
+
+#: includes/ce/Library.php:2184
+msgid "Content for logged in users"
+msgstr "Contenu pour les utilisateurs connectés"
+
+#: includes/ce/Library.php:2180
+msgid "Text for the login link"
+msgstr "Le texte du lien utilisé pour la connexion"
+
+#: includes/ce/Library.php:2179
+msgid "login"
+msgstr "Connexion"
+
+#: includes/ce/Library.php:2178
+msgid "Login link text"
+msgstr "Texte du lien de connexion"
+
+#: includes/ce/Library.php:2174
+msgid "This message will see not logged in users"
+msgstr "Ce message affichera les utilisateurs non enregistrés"
+
+#: includes/ce/Library.php:2173
+msgid "This content is for registered users only. Please %login%."
+msgstr "Ce message est pour les utilisateurs enregistrés. Veuillez-vous %login%"
+
+#: includes/ce/Library.php:2172
+msgid "Message for not logged in users"
+msgstr "Message pour les utilisateurs non connectés"
+
+#: includes/ce/Library.php:2169
+msgid "Members Content"
+msgstr "Contenu membres"
+
+#: includes/ce/Library.php:2163
+msgid "Quote content"
+msgstr "Contenu de la citation"
+
+#: includes/ce/Library.php:2159
+msgid "Url of the quoted author"
+msgstr "Url de l'auteur de la citation"
+
+#: includes/ce/Library.php:2157
+msgid "Cite url"
+msgstr "Url de la citation"
+
+#: includes/ce/Library.php:2153
+msgid "Quote author name"
+msgstr "Nom de l'auteur de la citation"
+
+#: includes/ce/Library.php:2151
+msgid "Cite"
+msgstr "Citation"
+
+#: includes/ce/Library.php:2148
+msgid "Quote"
+msgstr "Citation"
+
+#: includes/ce/Library.php:2143
+msgid "Expand object to fill available width and height"
+msgstr "Étendre l'objet pour occuper toute la largeur et la hauteur disponibles."
+
+#: includes/ce/Library.php:2141
+msgid "Fill available space"
+msgstr "Remplir l'espace disponible"
+
+#: includes/ce/Library.php:2137
+msgid "Note: Most &lt;script&gt; embeds will only appear on the published site. We recommend using &lt;iframe&gt; based embed code"
+msgstr "Remarque : la plupart des &lt;script&gt; intégrés apparaîtront sur le site publié. Nous recommandons d'utiliser des codes à base d'&lt;iframe&gt;"
+
+#: includes/ce/Library.php:2135
+msgid "Paste HTML code"
+msgstr "Coller le code HTML"
+
+#: includes/ce/Library.php:2132
+msgid "Embed"
+msgstr "Intégration"
+
+#: includes/ce/Library.php:2121
+msgid "Space"
+msgstr "Espace"
+
+#: includes/ce/Library.php:2105 includes/ce/Library.php:3206
+msgid "Zoom"
+msgstr "Zoom"
+
+#: includes/ce/Library.php:2101
+msgid "To find a specific address or location, just enter what you're looking for and press Enter"
+msgstr "Pour trouver une adresse ou un lieu spécifique, inscrire ce que vous recherchez et valider avec la touche entrée."
+
+#: includes/ce/Library.php:2099
+msgid "Address"
+msgstr "Adresse"
+
+#: includes/ce/Library.php:2096
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: includes/ce/Library.php:2090
+msgid "Repeat when playback is ended"
+msgstr "Lire en boucle"
+
+#: includes/ce/Library.php:2084
+msgid "Play file automatically when page is loaded"
+msgstr "Lire le fichier automatiquement quand la page est chargée"
+
+#: includes/ce/Library.php:2083
+msgid "Autoplay"
+msgstr "Lecture automatique"
+
+#: includes/ce/Library.php:2074
+msgid "Supported formats: .mp3, .m4a, .ogg, .wav"
+msgstr "Formats acceptés : .mp3, .m4a, .ogg, .wav"
+
+#: includes/ce/Library.php:2064
+msgid "Select audio file from Media Library"
+msgstr "Sélectionner le fichier Audio dans la bibliothèque"
+
+#: includes/ce/Library.php:2063
+msgid "Audio File"
+msgstr "Fichier audio"
+
+#: includes/ce/Library.php:2057 includes/ce/Library.php:2073
+msgid "Audio file URL"
+msgstr "URL du fichier audio"
+
+#: includes/ce/Library.php:2056
+msgid "Media Library"
+msgstr "Bibliothèque de médias"
+
+#: includes/ce/Library.php:2054
+msgid "If your current browser does not support HTML5 audio or Flash Player is not installed, a direct download link will be displayed instead of the player"
+msgstr "Si votre navigateur ne supporte pas l'audio HTML5 ou que le lecteur Flash n'est pas installé, un lien direct de téléchargement sera affiché à la place du lecteur"
+
+#: includes/ce/Library.php:2053
+msgid "Audio source"
+msgstr "Source du son"
+
+#: includes/ce/Library.php:2050
+msgid "Audio"
+msgstr "Son"
+
+#: includes/ce/Library.php:2034
+msgid "Paste the URL of a video (Vimeo or YouTube) you'd like to embed"
+msgstr "Coller l'url de la vidéo (Vimeo ou Youtube) que vous souhaitez intégrer"
+
+#: includes/ce/Library.php:2032
+msgid "Video URL"
+msgstr "URL de la vidéo"
+
+#: includes/ce/Library.php:1925 includes/ce/Library.php:1930
+#: includes/ce/Library.php:1935 includes/ce/Library.php:1940
+#: includes/ce/Library.php:1945 includes/ce/Library.php:1949
+#: includes/ce/Library.php:1953 includes/ce/Library.php:1957
+#: includes/ce/Library.php:1961 includes/ce/Library.php:1966
+#: includes/ce/Library.php:1971
+msgid "%s URL"
+msgstr ""
+
+#: includes/ce/Library.php:1922
+msgid "Social Buttons"
+msgstr "Boutons réseaux sociaux"
+
+#: includes/ce/Library.php:1912 includes/ce/Library.php:2018
+msgid "Volume"
+msgstr "Volume"
+
+#: includes/ce/Library.php:1908 includes/ce/Library.php:2014
+msgid "Circular"
+msgstr "Circulaire"
+
+#: includes/ce/Library.php:1900 includes/ce/Library.php:2006
+msgid "Plain"
+msgstr "Plein"
+
+#: includes/ce/Library.php:1867
+msgid "Social Share Buttons"
+msgstr "Boutons de partage réseaux sociaux"
+
+#: includes/ce/Library.php:1848 includes/ce/Library.php:3193
+msgid "Icon margin Bottom"
+msgstr "Marge en-dessous de l&rsquo;icône"
+
+#: includes/ce/Library.php:1836 includes/ce/Library.php:3185
+msgid "Icon margin Top"
+msgstr "Marge au-dessus de l&rsquo;icône"
+
+#: includes/ce/Library.php:1824 includes/ce/Library.php:3177
+msgid "Icon margin Right"
+msgstr "Marge à droite de l&rsquo;icône"
+
+#: includes/ce/Library.php:1812 includes/ce/Library.php:3169
+msgid "Icon margin Left"
+msgstr "Marge à gauche de l&rsquo;icône"
+
+#: includes/ce/Library.php:1803 includes/ce/Library.php:3079
+#: includes/ce/Library.php:3832
+msgid "Icon custom color"
+msgstr "Couleur personnalisée de l'icône"
+
+#: includes/ce/Library.php:1781
+msgid "Inherit"
+msgstr "Hérite"
+
+#: includes/ce/Library.php:1752 includes/ce/Library.php:3025
+#: includes/ce/Library.php:3841
+msgid "Icon size"
+msgstr "Taille de l'icône"
+
+#: includes/ce/Library.php:1739
+msgid "Tab content"
+msgstr "Contenu de l'onglet"
+
+#: includes/ce/Library.php:1719
+msgid "Full width navigation"
+msgstr "Navigation en pleine largeur"
+
+#: includes/ce/Library.php:1715
+msgid "Navigation"
+msgstr "Navigation"
+
+#: includes/ce/Library.php:1691
+msgid "Vertical Tabs"
+msgstr "Onglets verticaux"
+
+#: includes/ce/Library.php:1683
+msgid "Space between borders and tab content"
+msgstr "Espace entre les bords et le contenu des onglets"
+
+#: includes/ce/Library.php:1667 includes/ce/Library.php:1728
+#: includes/ce/Library.php:1862
+msgid "Tab"
+msgstr "Onglet"
+
+#: includes/ce/Library.php:1662 includes/ce/Library.php:1734
+#: includes/ce/Library.php:1735
+msgid "Tab title"
+msgstr "Titre de l'onglet"
+
+#: includes/ce/Library.php:1656 includes/ce/Library.php:1711
+msgid "Tabs"
+msgstr "Onglets"
+
+#: includes/ce/Library.php:1651 includes/ce/Library.php:1862
+msgid "Only one %s can be active at a time"
+msgstr ""
+
+#: includes/ce/Library.php:1649 includes/ce/Library.php:1860
+msgid "Active"
+msgstr "Actif"
+
+#: includes/ce/Library.php:1644 includes/ce/Library.php:1741
+#: includes/ce/Library.php:2186 includes/ce/Library.php:3214
+#: includes/ce/Library.php:3234
+msgid "Open in WordPress Editor"
+msgstr "Ouvrir dans l'éditeur de WordPress"
+
+#: includes/ce/Library.php:1643 includes/ce/Library.php:1740
+#: includes/ce/templates/callToAction.php:2
+#: includes/ce/templates/description.php:2 includes/ce/templates/feature.php:2
+#: includes/ce/templates/landing.php:2 includes/ce/templates/product.php:2
+#: includes/ce/templates/service.php:2
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu hendrerit nunc. Proin tempus pulvinar augue, quis ultrices urna consectetur non."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu hendrerit nunc. Proin tempus pulvinar augue, quis ultrices urna consectetur non."
+
+#: includes/ce/Library.php:1642
+msgid "Section content"
+msgstr "Contenu de la section"
+
+#: includes/ce/Library.php:1634 includes/ce/Library.php:1651
+msgid "Accordion Section"
+msgstr "Section accordéon"
+
+#: includes/ce/Library.php:1625 includes/ce/Library.php:2652
+#: includes/ce/Library.php:2851
+msgid "Dark"
+msgstr "Sombre"
+
+#: includes/ce/Library.php:1621 includes/ce/Library.php:2265
+#: includes/ce/Library.php:2653 includes/ce/Library.php:2852
+msgid "Light"
+msgstr "Clair"
+
+#: includes/ce/Library.php:1617 includes/ce/Library.php:1896
+#: includes/ce/Library.php:2002 includes/ce/Library.php:2260
+#: includes/ce/Library.php:2649 includes/ce/Library.php:2848
+#: includes/ce/Library.php:3331 includes/ce/Library.php:3602
+#: includes/jsTranslations.php:14
+msgid "Style"
+msgstr "Style"
+
+#: includes/ce/Library.php:1590 includes/ce/Library.php:1667
+#: includes/ce/Library.php:3483
+msgid "Add new %s item"
+msgstr ""
+
+#: includes/ce/Library.php:1585 includes/ce/Library.php:1637
+#: includes/ce/Library.php:1638
+msgid "Section title"
+msgstr "Titre de la section"
+
+#: includes/ce/Library.php:1579 includes/ce/Library.php:1590
+#: includes/ce/Library.php:1613
+msgid "Accordion"
+msgstr "Accordéon"
+
+#: includes/ce/Library.php:1569
+msgid "Spacing"
+msgstr "Espacement"
+
+#: includes/ce/Library.php:1561
+msgid "Text size"
+msgstr "Taille du texte"
+
+#: includes/ce/Library.php:1553
+msgid "Digits size"
+msgstr "Taille des chiffres"
+
+#: includes/ce/Library.php:1545
+msgid "Block size"
+msgstr "Taille du bloc"
+
+#: includes/ce/Library.php:1540 includes/ce/Library.php:3623
+msgid "Text Color"
+msgstr "Couleur du texte"
+
+#: includes/ce/Library.php:1535 includes/ce/Library.php:3614
+#: includes/jsTranslations.php:19
+msgid "Background Color"
+msgstr "Couleur d'arrière-plan"
+
+#: includes/ce/Library.php:1531
+msgid "Use 'Y' for years, 'O' for months, 'W' for weeks, 'D' for days, 'H' for hours, 'M' for minutes, 'S' for seconds. Upper-case characters for required fields and lower-case characters for display only if non-zero."
+msgstr "Utiliser « Y » pour les années, « O » pour les mois, « W » pour les semaines, « D » pour les jours, « H » pour les heures, « M » pour les minutes, « S » pour les secondes. Les caractères en majuscules pour les champs obligatoires et les minuscules pour l'affichage uniquement si différent de zéro."
+
+#: includes/ce/Library.php:1529
+msgid "Format"
+msgstr "Format"
+
+#: includes/ce/Library.php:1524
+msgid "User's local time"
+msgstr "Heure locale de l'utilisateur"
+
+#: includes/ce/Library.php:1523
+msgid "Server time"
+msgstr "Heure du serveur"
+
+#: includes/ce/Library.php:1520
+msgid "Time zone"
+msgstr "Fuseau horaire"
+
+#: includes/ce/Library.php:1515
+msgid "Expiration Date"
+msgstr "Date d'expiration"
+
+#: includes/ce/Library.php:1509
+msgid "Countdown Timer"
+msgstr "Compte à rebours"
+
+#: includes/ce/Library.php:1493 includes/ce/Library.php:3777
+#: includes/ce/Library.php:3888 includes/ce/Library.php:3905
+msgid "Appear"
+msgstr "Apparence"
+
+#: includes/ce/Library.php:1492 includes/ce/Library.php:3776
+#: includes/ce/Library.php:3887 includes/ce/Library.php:3904
+msgid "Right to left"
+msgstr "De droite à gauche"
+
+#: includes/ce/Library.php:1491 includes/ce/Library.php:3775
+#: includes/ce/Library.php:3886 includes/ce/Library.php:3903
+msgid "Left to right"
+msgstr "De gauche à droite"
+
+#: includes/ce/Library.php:1490 includes/ce/Library.php:3774
+#: includes/ce/Library.php:3885 includes/ce/Library.php:3902
+msgid "Bottom to top"
+msgstr "De bas en haut"
+
+#: includes/ce/Library.php:1489 includes/ce/Library.php:3773
+#: includes/ce/Library.php:3884 includes/ce/Library.php:3901
+msgid "Top to bottom"
+msgstr "De haut en bas"
+
+#: includes/ce/Library.php:1485
+msgid "Appearance effect"
+msgstr "Effet de l'apparence"
+
+#: includes/ce/Library.php:1476 includes/ce/Library.php:3160
+msgid "Icon background color"
+msgstr "Couleur d'arrière-plan de l'icône"
+
+#: includes/ce/Library.php:1464 includes/ce/Library.php:3148
+msgid "Icon background size"
+msgstr "Taille des icônes d'arrière-plan"
+
+#: includes/ce/Library.php:1459
+msgid "Outline Rounded"
+msgstr "Contour rond"
+
+#: includes/ce/Library.php:1458
+msgid "Outline Square"
+msgstr "Contour carré"
+
+#: includes/ce/Library.php:1457
+msgid "Outline Circle"
+msgstr "Cercle de contour"
+
+#: includes/ce/Library.php:1455 includes/ce/Library.php:3137
+#: includes/ce/Library.php:3338 includes/ce/Library.php:3595
+#: includes/ce/Library.php:3697
+msgid "Square"
+msgstr "Carré"
+
+#: includes/ce/Library.php:1454 includes/ce/Library.php:3139
+#: includes/ce/Library.php:3336
+msgid "Circle"
+msgstr "Cercle"
+
+#: includes/ce/Library.php:1450
+msgid "Background shape"
+msgstr "Forme de l'arrière-plan"
+
+#: includes/ce/Library.php:1428 includes/ce/Library.php:1766
+#: includes/ce/Library.php:3043 includes/ce/Library.php:3859
+msgid "Font size in px"
+msgstr "Taille de la police en px"
+
+#: includes/ce/Library.php:1427 includes/ce/Library.php:1765
+#: includes/ce/Library.php:3042 includes/ce/Library.php:3858
+msgid "Icon custom size"
+msgstr "Taille personnalisée de l'icône"
+
+#: includes/ce/Library.php:1421 includes/ce/Library.php:3032
+#: includes/ce/Library.php:3848
+msgid "Extra Large"
+msgstr "Extra Large"
+
+#: includes/ce/Library.php:1409 includes/ce/Library.php:1778
+#: includes/ce/Library.php:3055 includes/ce/Library.php:3391
+#: includes/ce/Library.php:3808
+msgid "Icon color"
+msgstr "Couleur de l'icône"
+
+#: includes/ce/Library.php:1348
+msgid "Select file from Media Library"
+msgstr "Sélectionnez le fichier de la médiathèque"
+
+#: includes/ce/Library.php:1343
+msgid "Download Button"
+msgstr "Bouton de téléchargement"
+
+#: includes/ce/Library.php:1326 includes/ce/Library.php:1456
+#: includes/ce/Library.php:1904 includes/ce/Library.php:2010
+#: includes/ce/Library.php:3138 includes/ce/Library.php:3596
+#: includes/ce/Library.php:3698
+msgid "Rounded"
+msgstr "Arrondi"
+
+#: includes/ce/Library.php:1304 includes/ce/Library.php:1308
+#: includes/ce/Library.php:1312 includes/ce/Library.php:1316
+#: includes/ce/Library.php:1320 includes/ce/Library.php:3551
+#: includes/ce/Library.php:3554 includes/ce/Library.php:3555
+#: includes/ce/Library.php:3556 includes/ce/Library.php:3557
+msgid "Icon indent"
+msgstr "Retrait de l'icône"
+
+#: includes/ce/Library.php:1295 includes/ce/Library.php:1316
+#: includes/ce/Library.php:1419 includes/ce/Library.php:1887
+#: includes/ce/Library.php:1993 includes/ce/Library.php:3536
+#: includes/ce/Library.php:3556 includes/ce/Library.php:3736
+#: includes/jsTranslations.php:33
+msgid "Middle"
+msgstr "Moyen"
+
+#: includes/ce/Library.php:1291 includes/ce/Library.php:1312
+#: includes/ce/Library.php:1418 includes/ce/Library.php:3029
+#: includes/ce/Library.php:3535 includes/ce/Library.php:3555
+#: includes/ce/Library.php:3735 includes/ce/Library.php:3845
+msgid "Small"
+msgstr "Petite"
+
+#: includes/ce/Library.php:1287 includes/ce/Library.php:1308
+#: includes/ce/Library.php:1417 includes/ce/Library.php:3028
+#: includes/ce/Library.php:3534 includes/ce/Library.php:3554
+#: includes/ce/Library.php:3734 includes/ce/Library.php:3844
+msgid "Mini"
+msgstr "Mini"
+
+#: includes/ce/Library.php:1283 includes/ce/Library.php:1414
+#: includes/ce/Library.php:1883 includes/ce/Library.php:1989
+msgid "Size"
+msgstr "Taille"
+
+#: includes/ce/Library.php:1278 includes/ce/Library.php:1782
+#: includes/ce/Library.php:2581 includes/ce/Library.php:3069
+#: includes/ce/Library.php:3276 includes/ce/Library.php:3442
+#: includes/ce/Library.php:3722 includes/ce/Library.php:3822
+msgid "Black"
+msgstr "Noir"
+
+#: includes/ce/Library.php:1274 includes/ce/Library.php:1792
+#: includes/ce/Library.php:2580 includes/ce/Library.php:3068
+#: includes/ce/Library.php:3275 includes/ce/Library.php:3441
+#: includes/ce/Library.php:3721 includes/ce/Library.php:3821
+msgid "Dark Grey"
+msgstr "Gris foncé"
+
+#: includes/ce/Library.php:1270 includes/ce/Library.php:1791
+#: includes/ce/Library.php:2579 includes/ce/Library.php:3067
+#: includes/ce/Library.php:3274 includes/ce/Library.php:3440
+#: includes/ce/Library.php:3720 includes/ce/Library.php:3820
+msgid "Violet"
+msgstr "Violet"
+
+#: includes/ce/Library.php:1266 includes/ce/Library.php:1790
+#: includes/ce/Library.php:2578 includes/ce/Library.php:3066
+#: includes/ce/Library.php:3273 includes/ce/Library.php:3439
+#: includes/ce/Library.php:3719 includes/ce/Library.php:3819
+msgid "Aqua Blue"
+msgstr "Bleu eau"
+
+#: includes/ce/Library.php:1262 includes/ce/Library.php:1789
+#: includes/ce/Library.php:2577 includes/ce/Library.php:3065
+#: includes/ce/Library.php:3272 includes/ce/Library.php:3438
+#: includes/ce/Library.php:3718 includes/ce/Library.php:3818
+msgid "Skyline"
+msgstr "Horizon"
+
+#: includes/ce/Library.php:1258 includes/ce/Library.php:1788
+#: includes/ce/Library.php:2576 includes/ce/Library.php:3064
+#: includes/ce/Library.php:3271 includes/ce/Library.php:3437
+#: includes/ce/Library.php:3717 includes/ce/Library.php:3817
+msgid "Green Grass"
+msgstr "Herbe verte"
+
+#: includes/ce/Library.php:1254 includes/ce/Library.php:1787
+#: includes/ce/Library.php:2575 includes/ce/Library.php:3063
+#: includes/ce/Library.php:3270 includes/ce/Library.php:3436
+#: includes/ce/Library.php:3716 includes/ce/Library.php:3816
+msgid "Olive Garden"
+msgstr "Jardin d'olive"
+
+#: includes/ce/Library.php:1250 includes/ce/Library.php:1786
+#: includes/ce/Library.php:2574 includes/ce/Library.php:3062
+#: includes/ce/Library.php:3269 includes/ce/Library.php:3435
+#: includes/ce/Library.php:3715 includes/ce/Library.php:3815
+msgid "Hot Summer"
+msgstr "Été chaud"
+
+#: includes/ce/Library.php:1246 includes/ce/Library.php:1785
+#: includes/ce/Library.php:2573 includes/ce/Library.php:3061
+#: includes/ce/Library.php:3268 includes/ce/Library.php:3434
+#: includes/ce/Library.php:3714 includes/ce/Library.php:3814
+msgid "Warm"
+msgstr "Chaud"
+
+#: includes/ce/Library.php:1242 includes/ce/Library.php:1784
+#: includes/ce/Library.php:2572 includes/ce/Library.php:3060
+#: includes/ce/Library.php:3267 includes/ce/Library.php:3433
+#: includes/ce/Library.php:3713 includes/ce/Library.php:3813
+msgid "Pink Dreams"
+msgstr "Rêve rose"
+
+#: includes/ce/Library.php:1238 includes/ce/Library.php:1783
+#: includes/ce/Library.php:2571 includes/ce/Library.php:3059
+#: includes/ce/Library.php:3266 includes/ce/Library.php:3432
+#: includes/ce/Library.php:3712 includes/ce/Library.php:3812
+msgid "Red"
+msgstr "Rouge"
+
+#: includes/ce/Library.php:1234 includes/ce/Library.php:1793
+#: includes/ce/Library.php:2570 includes/ce/Library.php:3058
+#: includes/ce/Library.php:3265 includes/ce/Library.php:3431
+#: includes/ce/Library.php:3711 includes/ce/Library.php:3811
+msgid "Silver"
+msgstr "Argent"
+
+#: includes/ce/Library.php:1230 includes/ce/Library.php:2566
+#: includes/ce/Library.php:3262 includes/ce/Library.php:3427
+#: includes/ce/Library.php:3708
+msgid "Button color"
+msgstr "Couleur"
+
+#: includes/ce/Library.php:1203 includes/ce/Library.php:1377
+#: includes/ce/Library.php:2682
+msgid "Stretch"
+msgstr "Stretch"
+
+#: includes/ce/Library.php:1190 includes/ce/Library.php:1364
+#: includes/ce/Library.php:1440 includes/ce/Library.php:2707
+#: includes/ce/Library.php:3542
+msgid "Icon alignment"
+msgstr "Alignement de l'icône"
+
+#: includes/ce/Library.php:1184 includes/ce/Library.php:1358
+#: includes/ce/Library.php:1400 includes/ce/Library.php:1403
+#: includes/ce/Library.php:1746 includes/ce/Library.php:2701
+#: includes/ce/Library.php:2707 includes/ce/Library.php:3015
+#: includes/ce/Library.php:3335 includes/ce/Library.php:3372
+#: includes/ce/Library.php:3456 includes/ce/Library.php:3798
+msgid "Icon"
+msgstr "Icône"
+
+#: includes/ce/Library.php:1175 includes/ce/Library.php:3418
+#: includes/ce/Library.php:3663
+msgid "ex. http://yoursite.com/ or /blog"
+msgstr "ex. http://votresite.com/ ou /blog"
+
+#: includes/ce/Library.php:1173 includes/ce/Library.php:1498
+#: includes/ce/Library.php:3416
+msgid "Link"
+msgstr "Lien"
+
+#: includes/ce/Library.php:1169 includes/ce/Library.php:1226
+#: includes/ce/Library.php:1337 includes/ce/Library.php:2682
+#: includes/ce/Library.php:2687 includes/ce/Library.php:2701
+#: includes/ce/Library.php:3408 includes/ce/Library.php:3412
+#: includes/ce/Library.php:3466 includes/ce/Library.php:3483
+#: includes/ce/Library.php:3653 includes/ce/Library.php:4228
+msgid "Button"
+msgstr "Bouton"
+
+#: includes/ce/Library.php:1168 includes/ce/Library.php:1353
+#: includes/ce/Library.php:2677 includes/ce/Library.php:3411
+#: includes/ce/Library.php:3478 includes/ce/Library.php:3652
+msgid "Text on the button"
+msgstr "Texte du button"
+
+#: includes/ce/Library.php:1143
+msgid "Animation speed in milliseconds"
+msgstr "Vitesse d'animation en millisecondes."
+
+#: includes/ce/Library.php:1132
+msgid "Slideshow speed in seconds"
+msgstr "Vitesse du diaporama en secondes"
+
+#: includes/ce/Library.php:1128
+msgid "The slideshow will start automatically when the page is loaded"
+msgstr "Le diaporama démarrera automatiquement lorsque la page sera chargée."
+
+#: includes/ce/Library.php:1126
+msgid "Enable slideshow"
+msgstr "Activer le diaporama"
+
+#: includes/ce/Library.php:1108
+msgid "Preview the page to view the animation"
+msgstr "Pré-visualisez la page pour voir l'animation"
+
+#: includes/ce/Library.php:1078
+msgid "Edit Slides"
+msgstr "Modifier les diapositives"
+
+#: includes/ce/Library.php:1075
+msgid "Slider"
+msgstr "Diaporama"
+
+#: includes/ce/Library.php:1069
+msgid "Pause on hover"
+msgstr "Pause au survol"
+
+#: includes/ce/Library.php:1064 includes/ce/Library.php:1151
+msgid "Show bullets"
+msgstr "Afficher la pagination"
+
+#: includes/ce/Library.php:1056 includes/ce/Library.php:1118
+msgid "Animate the height of the slider smoothly for slides of varying height"
+msgstr "Animer la hauteur du diaporama pour les diapositives de tailles différentes"
+
+#: includes/ce/Library.php:1054 includes/ce/Library.php:1116
+msgid "Smooth height"
+msgstr "Hauteur adaptée"
+
+#: includes/ce/Library.php:1049 includes/ce/Library.php:1110
+msgid "Fade"
+msgstr "Fondu"
+
+#: includes/ce/Library.php:1048 includes/ce/Library.php:1111
+msgid "Slide"
+msgstr "Glissement"
+
+#: includes/ce/Library.php:1045 includes/ce/Library.php:1106
+msgid "Animation type"
+msgstr "Type d'animation"
+
+#: includes/ce/Library.php:1040 includes/ce/Library.php:1699
+msgid "Disable"
+msgstr "Désactivé"
+
+#: includes/ce/Library.php:1032 includes/ce/Library.php:1696
+msgid "Auto rotate (s)"
+msgstr "Rotation automatique"
+
+#: includes/ce/Library.php:1024
+msgid "Enter links for each slide here. Divide links with linebreaks (Enter)."
+msgstr "Saisissez les liens de chaque diapositive ici. Séparez les liens par des sauts de ligne (Entrée)."
+
+#: includes/ce/Library.php:1016 includes/ce/Library.php:1022
+msgid "Custom links"
+msgstr "Liens personnalisés"
+
+#: includes/ce/Library.php:1015
+msgid "Original post"
+msgstr "Article original"
+
+#: includes/ce/Library.php:999
+msgid "Image position"
+msgstr "Position de l'image"
+
+#: includes/ce/Library.php:994
+msgid "Title, Text"
+msgstr "Titre, texte"
+
+#: includes/ce/Library.php:993
+msgid "Title, Image and Text"
+msgstr "Titre, image et texte"
+
+#: includes/ce/Library.php:991
+msgid "Image, Title, Text"
+msgstr "Image, titre, texte"
+
+#: includes/ce/Library.php:987 includes/ce/Library.php:2991
+msgid "Content style"
+msgstr "Style du contenu"
+
+#: includes/ce/Library.php:951 includes/ce/Library.php:2492
+msgid "Length of the Text"
+msgstr "Longueur du texte"
+
+#: includes/ce/Library.php:945 includes/ce/Library.php:2486
+msgid "Excerpt"
+msgstr "L'extrait"
+
+#: includes/ce/Library.php:943 includes/ce/Library.php:2484
+msgid "Short"
+msgstr "Court"
+
+#: includes/ce/Library.php:940 includes/ce/Library.php:2481
+msgid "Post description"
+msgstr "Texte de l'article"
+
+#: includes/ce/Library.php:935 includes/ce/Library.php:2471
+msgid "Hide"
+msgstr "Cacher"
+
+#: includes/ce/Library.php:927
+msgid "Post title"
+msgstr "Titre de l'article"
+
+#: includes/ce/Library.php:922 includes/ce/Library.php:2382
+msgid "Descending"
+msgstr "Décroissant"
+
+#: includes/ce/Library.php:921 includes/ce/Library.php:2381
+msgid "Ascending"
+msgstr "Croissant"
+
+#: includes/ce/Library.php:918 includes/ce/Library.php:2378
+msgid "Sort order"
+msgstr "Ordre du tri"
+
+#: includes/ce/Library.php:913
+msgid "Menu order"
+msgstr "Ordre du menu"
+
+#: includes/ce/Library.php:912
+msgid "Comment count"
+msgstr "Nombre de commentaire"
+
+#: includes/ce/Library.php:911
+msgid "Random"
+msgstr "Aléatoire"
+
+#: includes/ce/Library.php:910
+msgid "Modified"
+msgstr "Modifié"
+
+#: includes/ce/Library.php:909
+msgid "Author"
+msgstr "Auteur"
+
+#: includes/ce/Library.php:908
+msgid "Date"
+msgstr "Date"
+
+#: includes/ce/Library.php:907
+msgid "ID"
+msgstr "ID"
+
+#: includes/ce/Library.php:904
+msgid "Order by"
+msgstr "Trier par"
+
+#: includes/ce/Library.php:896 includes/ce/Library.php:2357
+msgid "Posts count"
+msgstr "Nombre d'articles"
+
+#: includes/ce/Library.php:892 includes/ce/Library.php:2349
+msgid "Separate with ',' to display posts that have either of these terms or with '+' to display posts that have all of these tags."
+msgstr "Séparez par « , » pour afficher les articles qui contiennent certains de ces termes ou avec « + » pour afficher les articles qui contiennent tous ces termes."
+
+#: includes/ce/Library.php:890 includes/ce/Library.php:2348
+msgid "Taxonomy term(s)"
+msgstr "Terme(s) de la taxinomie"
+
+#: includes/ce/Library.php:885 includes/ce/Library.php:2339
+msgid "Name"
+msgstr "Nom"
+
+#: includes/ce/Library.php:884 includes/ce/Library.php:2338
+msgid "Slug"
+msgstr "Identifiant"
+
+#: includes/ce/Library.php:883 includes/ce/Library.php:2337
+msgid "Term ID"
+msgstr "Identifiant du terme"
+
+#: includes/ce/Library.php:880 includes/ce/Library.php:2334
+msgid "Taxonomy field"
+msgstr "Champ de la taxinomie"
+
+#: includes/ce/Library.php:875 includes/ce/Library.php:2326
+msgid "Custom Taxonomy"
+msgstr "Taxinomie personnalisée"
+
+#: includes/ce/Library.php:867 includes/ce/Library.php:2318
+msgid "Separate with ',' to display posts that have either of these tags or with '+' to display posts that have all of these tags."
+msgstr "Séparez par ',' pour afficher les messages qui contiennent certains mots-clé ou avec \"+\" pour afficher les messages contiennent tous ces mots-clé."
+
+#: includes/ce/Library.php:866 includes/ce/Library.php:2317
+msgid "Display posts by tag slug"
+msgstr "Afficher les articles par mot-clé simplifié"
+
+#: includes/ce/Library.php:858 includes/ce/Library.php:2309
+msgid "Separate with ',' to display posts that have either of these categories or with '+' to display posts that have all of these categories."
+msgstr "Séparez par ',' pour afficher les messages qui appartiennent à certaines catégories ou avec \"+\" pour afficher les messages qui appartiennent à toutes ces catégories."
+
+#: includes/ce/Library.php:857 includes/ce/Library.php:2308
+msgid "Display posts by category slug"
+msgstr "Afficher les articles par catégorie simplifiée"
+
+#: includes/ce/Library.php:851
+msgid "Post types"
+msgstr "Types d'article"
+
+#: includes/ce/Library.php:848
+msgid "Posts Slider"
+msgstr "Diaporama d'articles"
+
+#: includes/ce/Library.php:813
+msgid "Attachment Page"
+msgstr "Annexe Page"
+
+#: includes/ce/Library.php:776 includes/ce/Library.php:2409
+msgid "Columns count"
+msgstr "Nombre de colonnes"
+
+#: includes/ce/Library.php:771 includes/ce/Library.php:1081
+msgid "Organize Images"
+msgstr "Organiser les images"
+
+#: includes/ce/Library.php:770 includes/ce/Library.php:1080
+msgid "Select images from Media Library"
+msgstr "Sélectionnez des images de la Médiathèque"
+
+#: includes/ce/Library.php:766
+msgid "Grid Gallery"
+msgstr "Galerie sous forme de grille"
+
+#: includes/ce/Library.php:745 includes/ce/Library.php:1003
+#: includes/ce/Library.php:1194 includes/ce/Library.php:1213
+#: includes/ce/Library.php:1368 includes/ce/Library.php:1387
+#: includes/ce/Library.php:1445 includes/ce/Library.php:1875
+#: includes/ce/Library.php:1981 includes/ce/Library.php:2692
+#: includes/ce/Library.php:2711 includes/ce/Library.php:3309
+#: includes/ce/Library.php:3504 includes/ce/Library.php:3546
+#: includes/ce/Library.php:3586 includes/ce/Library.php:3647
+#: includes/ce/Library.php:3685 includes/ce/Library.php:3760
+#: includes/ce/Library.php:3793 includes/jsTranslations.php:37
+msgid "Right"
+msgstr "À droite"
+
+#: includes/ce/Library.php:744 includes/ce/Library.php:1212
+#: includes/ce/Library.php:1386 includes/ce/Library.php:1444
+#: includes/ce/Library.php:1874 includes/ce/Library.php:1980
+#: includes/ce/Library.php:2691 includes/ce/Library.php:3308
+#: includes/ce/Library.php:3503 includes/ce/Library.php:3585
+#: includes/ce/Library.php:3684 includes/jsTranslations.php:32
+msgid "Center"
+msgstr "Centré"
+
+#: includes/ce/Library.php:743 includes/ce/Library.php:1002
+#: includes/ce/Library.php:1193 includes/ce/Library.php:1211
+#: includes/ce/Library.php:1367 includes/ce/Library.php:1385
+#: includes/ce/Library.php:1443 includes/ce/Library.php:1873
+#: includes/ce/Library.php:1979 includes/ce/Library.php:2690
+#: includes/ce/Library.php:2710 includes/ce/Library.php:3307
+#: includes/ce/Library.php:3502 includes/ce/Library.php:3545
+#: includes/ce/Library.php:3584 includes/ce/Library.php:3646
+#: includes/ce/Library.php:3683 includes/ce/Library.php:3759
+#: includes/ce/Library.php:3792 includes/jsTranslations.php:36
+msgid "Left"
+msgstr "À gauche"
+
+#: includes/ce/Library.php:740 includes/ce/Library.php:1208
+#: includes/ce/Library.php:1382 includes/ce/Library.php:1870
+#: includes/ce/Library.php:1976 includes/ce/Library.php:2687
+#: includes/ce/Library.php:3304 includes/ce/Library.php:3499
+msgid "Alignment"
+msgstr "Alignement"
+
+#: includes/ce/Library.php:735 includes/ce/Library.php:834
+msgid "You can set caption in media library"
+msgstr "Vous pouvez définir la légende dans la bibliothèque de médias"
+
+#: includes/ce/Library.php:734 includes/ce/Library.php:833
+msgid "Show image caption"
+msgstr "Afficher la légende de l'image"
+
+#: includes/ce/Library.php:729 includes/ce/Library.php:828
+#: includes/ce/Library.php:1179 includes/ce/Library.php:3422
+#: includes/ce/Library.php:3671
+msgid "Open link in new window (tab)"
+msgstr "Ouvrir le lien dans une nouvelle fenêtre (onglet)"
+
+#: includes/ce/Library.php:720 includes/ce/Library.php:819
+msgid "Link 'rel' value for your custom lightbox"
+msgstr "Lier la valeur 'rel' à votre Lightbox personnalisée"
+
+#: includes/ce/Library.php:712
+msgid "Click on image to open the link. (ex. http://yoursite.com/)"
+msgstr "Cliquer sur l'image pour ouvrir le lien. (p. ex. http://votresite.com/)"
+
+#: includes/ce/Library.php:705 includes/ce/Library.php:814
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: includes/ce/Library.php:704 includes/ce/Library.php:812
+#: includes/ce/Library.php:1347
+msgid "Media File"
+msgstr "Fichier média"
+
+#: includes/ce/Library.php:703
+msgid "Custom URL"
+msgstr "URL personnalisée"
+
+#: includes/ce/Library.php:700 includes/ce/Library.php:710
+#: includes/ce/Library.php:808 includes/ce/Library.php:1012
+msgid "Link to"
+msgstr "Lien vers"
+
+#: includes/ce/Library.php:692 includes/ce/Library.php:800
+#: includes/ce/Library.php:979 includes/ce/Library.php:1098
+#: includes/ce/Library.php:2455
+msgid "Image size in pixels, ex. 200x100 or theme-registered image size. Note: the closest-sized image will be used if original one does not exist."
+msgstr "Entrez la taille de l'image en pixels, ex. 200 x 100 (largeur x hauteur)"
+
+#: includes/ce/Library.php:687 includes/ce/Library.php:795
+#: includes/ce/Library.php:970 includes/ce/Library.php:1093
+#: includes/ce/Library.php:1422 includes/ce/Library.php:1756
+#: includes/ce/Library.php:1794 includes/ce/Library.php:2446
+#: includes/ce/Library.php:2654 includes/ce/Library.php:2853
+#: includes/ce/Library.php:3033 includes/ce/Library.php:3070
+#: includes/ce/Library.php:3101 includes/ce/Library.php:3277
+#: includes/ce/Library.php:3430 includes/ce/Library.php:3609
+#: includes/ce/Library.php:3823 includes/ce/Library.php:3849
+#: includes/jsTranslations.php:38
+msgid "Custom"
+msgstr "Personnalisé"
+
+#: includes/ce/Library.php:686 includes/ce/Library.php:794
+#: includes/ce/Library.php:969 includes/ce/Library.php:1092
+#: includes/ce/Library.php:2445 includes/ce/Library.php:3100
+msgid "Thumbnail"
+msgstr "Miniature"
+
+#: includes/ce/Library.php:685 includes/ce/Library.php:793
+#: includes/ce/Library.php:968 includes/ce/Library.php:1091
+#: includes/ce/Library.php:2444
+msgid "Medium"
+msgstr "Moyen"
+
+#: includes/ce/Library.php:684 includes/ce/Library.php:792
+#: includes/ce/Library.php:967 includes/ce/Library.php:1090
+#: includes/ce/Library.php:1299 includes/ce/Library.php:1320
+#: includes/ce/Library.php:1420 includes/ce/Library.php:1891
+#: includes/ce/Library.php:1997 includes/ce/Library.php:2443
+#: includes/ce/Library.php:3031 includes/ce/Library.php:3537
+#: includes/ce/Library.php:3557 includes/ce/Library.php:3737
+#: includes/ce/Library.php:3847
+msgid "Large"
+msgstr "Grand"
+
+#: includes/ce/Library.php:680 includes/ce/Library.php:788
+#: includes/ce/Library.php:963 includes/ce/Library.php:1086
+#: includes/ce/Library.php:2439
+msgid "Image size"
+msgstr "Taille de l'image"
+
+#: includes/ce/Library.php:675
+msgid "Choose an image from Media Library"
+msgstr "Choisir une image de la bibliothèque"
+
+#: includes/ce/Library.php:673
+msgid "Select Image"
+msgstr "Sélectionnez une image"
+
+#: includes/ce/Library.php:670 includes/ce/Library.php:4221
+msgid "Image"
+msgstr "Image"
+
+#: includes/ce/Library.php:632 includes/ce/Library.php:637
+#: includes/ce/Library.php:638 includes/ce/Library.php:2195
+#: includes/ce/Library.php:3212 includes/ce/Library.php:3566
+#: includes/ce/Library.php:3956 includes/ce/Library.php:3973
+#: includes/ce/Library.php:3995 includes/ce/Library.php:4005
+#: includes/ce/Library.php:4045 includes/ce/Library.php:4062
+#: includes/ce/Library.php:4072 includes/ce/Library.php:4099
+#: includes/ce/Library.php:4121 includes/ce/Library.php:4178
+#: includes/ce/Library.php:4188
+msgid "Title"
+msgstr "Titre"
+
+#: includes/ce/Library.php:627 includes/ce/Library.php:646
+#: includes/ce/Library.php:665
+msgid "Note: go to Dashboard - %s Settings to add Google Fonts."
+msgstr ""
+
+#: includes/ce/Library.php:618 includes/ce/Library.php:637
+#: includes/ce/Library.php:656
+msgid "Click the text box to add and edit your content or click Edit"
+msgstr "Cliquez le champs texte pour ajouter ou modifier votre contenu ou cliquez sur Modifier"
+
+#: includes/ce/Library.php:613 includes/ce/Library.php:618
+#: includes/ce/Library.php:619
+msgid "Paragraph"
+msgstr "Paragraphe"
+
+#: includes/ce/Library.php:591
+msgid "Inner Column"
+msgstr "Colonne intérieure"
+
+#: includes/ce/Library.php:580 includes/jsTranslations.php:9
+msgid "Column"
+msgstr "Colonne"
+
+#: includes/ce/Library.php:577
+msgid "Inner Row"
+msgstr "Rangée intérieure"
+
+#: includes/ce/Library.php:569
+msgid "Note: some styles may work at a live site only."
+msgstr "Remarque : certains styles peuvent travailler à un site en ligne uniquement."
+
+#: includes/ce/Library.php:565 includes/jsTranslations.php:11
+msgid "Row"
+msgstr "Ligne"
+
+#: includes/ce/Library.php:561
+msgid "Must start with a letter and contain dashes, underscores, letters or numbers"
+msgstr "Doit commencer par une lettre et contenir uniquement des tirets, des underscores, des lettres ou des chiffres."
+
+#: includes/ce/Library.php:560
+msgid "Element unique ID"
+msgstr "Identifiant unique de l'élément"
+
+#: includes/ce/Library.php:538 includes/jsTranslations.php:29
+msgid "Contain"
+msgstr "Contient"
+
+#: includes/ce/Library.php:537 includes/jsTranslations.php:28
+msgid "Cover"
+msgstr "Couverture"
+
+#: includes/ce/Library.php:536 includes/ce/Library.php:1755
+#: includes/ce/Library.php:3030 includes/ce/Library.php:3846
+msgid "Normal"
+msgstr "Normal"
+
+#: includes/ce/Library.php:533
+msgid "Background size"
+msgstr "Taille de l’arrière-plan"
+
+#: includes/ce/Library.php:525
+msgid "Background image moves slower than the foreground content"
+msgstr "Les images de fonds se déplacent plus lentement que le contenu du premier plan."
+
+#: includes/ce/Library.php:524
+msgid "Select image for parallax effect"
+msgstr "Sélectionnez l'image pour l'effet parallax."
+
+#: includes/ce/Library.php:473 includes/ce/Library.php:481
+#: includes/ce/Library.php:489
+msgid "Video source in %s format:"
+msgstr ""
+
+#: includes/ce/Library.php:472
+msgid "Select video from Media Library in webm, mp4 and ogg formats for cross-browser compatibility. Use <a href='http://www.mirovideoconverter.com/' target='_blank'>video converter</a> to convert your video"
+msgstr "Sélectionnez la vidéo de la bibliothèque des médias aux formats webm, mp4 et ogg pour une compatibilité multi plate-forme. Utilisez <a href='http://www.mirovideoconverter.com/' target='_blank'>ce convertisseur vidéo</a> pour convertir vos vidéos."
+
+#: includes/ce/Library.php:463 includes/ce/Library.php:515
+msgid "Mute"
+msgstr "Muet"
+
+#: includes/ce/Library.php:454 includes/ce/Library.php:506
+#: includes/ce/Library.php:2089 includes/jsTranslations.php:23
+msgid "Repeat"
+msgstr "Répétition"
+
+#: includes/ce/Library.php:446 includes/ce/Library.php:498
+msgid "Cover image will be extended automatically"
+msgstr "L'image de couverture sera étendue automatiquement."
+
+#: includes/ce/Library.php:445 includes/ce/Library.php:497
+msgid "Select image to cover video"
+msgstr "Sélectionnez l'image de couverture de la vidéo."
+
+#: includes/ce/Library.php:437
+msgid "Paste the URL of YouTube video you'd like to embed"
+msgstr "Collez l'URL de la vidéo YouTube que vous souhaitez intégrer."
+
+#: includes/ce/Library.php:435
+msgid "YouTube video URL:"
+msgstr "URL de la vidéo YouTube :"
+
+#: includes/ce/Library.php:430
+msgid "Parallax"
+msgstr "Parallax"
+
+#: includes/ce/Library.php:429
+msgid "YouTube"
+msgstr "YouTube"
+
+#: includes/ce/Library.php:428 includes/ce/Library.php:2029
+msgid "Video"
+msgstr "Vidéo"
+
+#: includes/ce/Library.php:427 includes/ce/Library.php:811
+#: includes/ce/Library.php:946 includes/ce/Library.php:1017
+#: includes/ce/Library.php:1453 includes/ce/Library.php:1488
+#: includes/ce/Library.php:2487 includes/ce/Library.php:2532
+#: includes/ce/Library.php:2569 includes/ce/Library.php:3136
+#: includes/ce/Library.php:3204 includes/ce/Library.php:3334
+#: includes/ce/Library.php:3643 includes/ce/Library.php:3772
+#: includes/ce/Library.php:3789 includes/ce/Library.php:3883
+#: includes/ce/Library.php:3900 includes/jsTranslations.php:53
+msgid "None"
+msgstr "Aucun"
+
+#: includes/ce/Library.php:424
+msgid "Full preview is available at the website only. Select 'Full-Width' style to stretch media to the website width."
+msgstr "La prévisualisation complète est disponible sur le site uniquement. Sélectionnez 'Pleine largeur' pour étirer le media sur toute la largeur du site."
+
+#: includes/ce/Library.php:423
+msgid "Background:"
+msgstr "Sélectionner le type de fond :"
+
+#: includes/ce/Library.php:418
+msgid "Fill the height of the window"
+msgstr "Remplir la hauteur de la fenêtre"
+
+#: includes/ce/Library.php:399 includes/ce/Library.php:409
+#: includes/jsTranslations.php:42
+msgid "Fixed"
+msgstr "Fixe"
+
+#: includes/ce/Library.php:398 includes/ce/Library.php:408
+#: includes/ce/Library.php:683 includes/ce/Library.php:791
+#: includes/ce/Library.php:944 includes/ce/Library.php:966
+#: includes/ce/Library.php:1089 includes/ce/Library.php:2442
+#: includes/ce/Library.php:2485 includes/ce/Library.php:3102
+msgid "Full"
+msgstr "Complet"
+
+#: includes/ce/Library.php:397 includes/ce/Library.php:407
+#: includes/jsTranslations.php:30
+msgid "Auto"
+msgstr "Auto"
+
+#: includes/ce/Library.php:394
+msgid "Set fixed width in <a href='%s' target='_blank'>plugin settings</a>"
+msgstr ""
+
+#: includes/ce/Library.php:393
+msgid "Container Width:"
+msgstr "Container Width:"
+
+#: includes/ce/Element.php:35
+msgid "Value should be between %d and %d"
+msgstr ""
+
+#: includes/ce/BaseElement.php:174
+msgid "File %s does not exist"
+msgstr ""
+
+#: includes/ce/BaseElement.php:171
+msgid "Unknown MIME type"
+msgstr "Type MIME inconnu"
+
+#: includes/ce/BaseElement.php:168
+msgid "Invalid MIME type %s. Allowed MIME types: image/jpeg, image/png"
+msgstr ""
+
+#: includes/ce/BaseElement.php:73
+msgid "Value should not be longer than 100 characters and not contain characters: \\ \""
+msgstr "La valeur devrait être inférieure à 100 caractères et ne pas contenir les caractères : \\ \""
+
+#: includes/ce/BaseElement.php:51 includes/ce/BaseElement.php:79
+#: includes/ce/BaseElement.php:180 includes/ce/Element.php:38
+#: includes/ce/Element.php:56 includes/ce/Group.php:88
+#: includes/ce/Object.php:118 includes/ce/Object.php:149
+#: includes/ce/Template.php:59
+msgid "Invalid argument type - %s"
+msgstr ""
+
+#: includes/ce/BaseElement.php:48 includes/ce/BaseElement.php:76
+#: includes/ce/BaseElement.php:177 includes/ce/Group.php:85
+#: includes/ce/Object.php:115 includes/ce/Object.php:146
+#: includes/ce/Object.php:191 includes/ce/Object.php:287
+#: includes/ce/Template.php:56
+msgid "Value should not be empty"
+msgstr "La valeur ne doit pas être vide"
+
+#: includes/ce/BaseElement.php:45
+msgid "Value should not be longer than 50 characters and consist of letters from a-z (LowerCase, UpperCase), characters: _ - ."
+msgstr "La valeur devrait faire moins de 50 caractères et contenir des lettres de a-z (en minuscule, majuscule), caractères : _ - ."
+
+#: includes/access.php:10
+msgid "Maybe you are not logged in or you have no permission"
+msgstr "Peut-être n’êtes vous pas connecté ou n’avez vous pas les droits requis"
+
+#: includes/EDD_MPCE_Plugin_Updater.php:396
+msgid "Error"
+msgstr ""
+
+#: includes/EDD_MPCE_Plugin_Updater.php:396
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: includes/EDD_MPCE_Plugin_Updater.php:209
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s or %5$supdate now%6$s."
+msgstr ""
+
+#: includes/EDD_MPCE_Plugin_Updater.php:201
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: contentEditor.php:879
+msgid "%s error: contact your hosting provider to enable mbstring extension."
+msgstr ""
+
+#: contentEditor.php:874 motopress-content-editor.php:632
+msgid "Minimum jQuery version - %s. Minimum jQuery UI version - %s. Please update WordPress to 3.5 or higher."
+msgstr ""
+
+#: contentEditor.php:780
+msgid "\"Disable the visual editor when writing option\" should be disabled in Your Profile settings to start page builder"
+msgstr "« Désactiver l’éditeur visuel lors de l’écriture option » doit être désactivée dans les paramètres de votre profil pour démarrer le générateur de page"
+
+#: contentEditor.php:730
+msgid "WordPress visual editor is required"
+msgstr "Éditeur visuel de WordPress est requis"
+
+#: contentEditor.php:609 includes/jsTranslations.php:82
+msgid "no title"
+msgstr "pas de titre"
+
+#: contentEditor.php:341
+msgid "Terminate & Close"
+msgstr "Terminer & Fermer"
+
+#: contentEditor.php:333
+msgid "An internal error occurred during loading Visual Builder. Please submit this data to support team."
+msgstr "Une erreur interne s’est produite lors du chargement constructeur visuel. S’il vous plaît soumettre ces données à l’appui de l’équipe."
+
+#: contentEditor.php:321
+msgid "Update Preset"
+msgstr "Préréglage de la mise à jour"
+
+#: contentEditor.php:320
+msgid "Create Preset"
+msgstr "Créer le Preset"
+
+#: contentEditor.php:316
+msgid "Leave this field blank to generate name automatically."
+msgstr "Laissez ce champ vide pour générer le nom automatiquement."
+
+#: contentEditor.php:314
+msgid "Preset Name:"
+msgstr "Nom de la présélection :"
+
+#: contentEditor.php:306
+msgid "Save As Preset"
+msgstr "Enregistrer en tant que préréglage"
+
+#: contentEditor.php:305
+msgid "Create New Preset"
+msgstr "Créer nouvelle préconfiguration"
+
+#: contentEditor.php:303
+msgid "Choose Action:"
+msgstr "Choisissez l’Action :"
+
+#: contentEditor.php:300
+msgid "Inherit properties from preset"
+msgstr "Héritent des propriétés de préréglage"
+
+#: contentEditor.php:297
+msgid "Save Preset"
+msgstr "Enregistrer le préréglage"
+
+#: contentEditor.php:271 includes/ce/Library.php:651
+#: includes/ce/Library.php:656 includes/ce/Library.php:657
+msgid "WordPress Text"
+msgstr "Texte WordPress"
+
+#: contentEditor.php:271 includes/ce/Library.php:619
+#: includes/ce/Library.php:638 includes/ce/Library.php:657
+#: includes/ce/Library.php:2643 includes/ce/Library.php:2828
+msgid "Edit"
+msgstr "Modifier"
+
+#: contentEditor.php:263
+msgid "%s Help & Tutorials"
+msgstr ""
+
+#: contentEditor.php:194 contentEditor.php:289 contentEditor.php:322
+#: includes/jsTranslations.php:16
+msgid "Close"
+msgstr "Fermer"
+
+#: contentEditor.php:188
+msgid "Responsive Preview"
+msgstr "Aperçu sensible"
+
+#: contentEditor.php:187 includes/jsTranslations.php:87
+msgid "Preview"
+msgstr "Prévisualiser"
+
+#: contentEditor.php:186 contentEditor.php:288 includes/jsTranslations.php:15
+#: motopressOptions.php:57 motopressOptions.php:650
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: contentEditor.php:185 includes/jsTranslations.php:83
+msgid "Publish"
+msgstr "Publier"
+
+#: contentEditor.php:182
+msgid "Delete Object"
+msgstr "Supprimer l'objet"
+
+#: contentEditor.php:178
+msgid "+ Add"
+msgstr "+ Ajouter"
+
+#: contentEditor.php:173
+msgid "Post"
+msgstr "Publier"
+
+#: contentEditor.php:173 includes/ce/Library.php:4285
+#: includes/ce/Library.php:4287 includes/ce/Library.php:4291
+#: includes/ce/Library.php:4295
+msgid "Page"
+msgstr "Page"
+
+#: contentEditor.php:159
+msgid "Duplicate Object"
+msgstr "Dupliquer l'objet"
+
+#: contentEditor.php:151
+msgid "Use the mapped domain to access the admin area. Find out <a href='%s' target='_blank'>here</a> how to setup it"
+msgstr ""

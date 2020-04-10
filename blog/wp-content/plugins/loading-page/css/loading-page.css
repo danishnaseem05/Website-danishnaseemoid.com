@@ -1,0 +1,4 @@
+.lp-screen-text{font-family:Sans-Serif;white-space:nowrap !important;}
+#loading_page_codeBlock{position:fixed;left:0;right:0;top:5px;margin-left:auto;margin-right:auto;text-align:center;z-index:999999;display:none;}
+.lp-close-screen{position:fixed;z-index:999999;top:10px;right:10px;width:20px;height:20px;text-align:center;line-height:20px;color:white;background:black;display:inline-block;font-family:sans-serif;cursor:pointer;font-size:12px;opacity:0.3;}
+.lp-close-screen:hover{opacity:0.9;}

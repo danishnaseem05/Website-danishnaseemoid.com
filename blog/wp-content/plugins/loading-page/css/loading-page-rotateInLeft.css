@@ -1,0 +1,77 @@
+@-moz-keyframes rotateInLeft{
+    from {
+        -moz-transform-origin: 0% 0%;
+        -moz-transform: rotateY(180deg);
+    }
+
+    to {
+        -moz-transform-origin: 0% 0%;
+        -moz-transform: rotateY(0deg);
+    }
+}
+
+@-ms-keyframes rotateInLeft  {
+    from {
+        -ms-transform-origin: 0% 0%;
+        -ms-transform: rotateY(180deg);
+    }
+
+    to {
+        -ms-transform-origin: 0% 0%;
+        -ms-transform: rotateY(0deg);
+    }
+}
+
+@-o-keyframes rotateInLeft  {
+    from {
+        -o-transform-origin: 0% 0%;
+        -o-transform: rotateY(180deg);
+    }
+
+    to {
+        -o-transform-origin: 0% 0%;
+        -o-transform: rotateY(0deg);
+    }
+}
+
+@-webkit-keyframes rotateInLeft  {
+    from {
+        -webkit-transform-origin: 0% 0%;
+        -webkit-transform: rotateY(180deg);
+    }
+
+    to {
+        -webkit-transform-origin: 0% 0%;
+        -webkit-transform: rotateY(0deg);
+    }
+}
+
+@keyframes rotateInLeft  {
+    from {
+        transform-origin: 0% 0%;
+        transform: rotateY(180deg);
+    }
+
+    to {
+        transform-origin: 0% 0%;
+        transform: rotateY(0deg);
+    }
+}
+
+.lp-rotateInLeft{
+    -ms-animation-duration: 3s;
+    -ms-animation-name: rotateInLeft;
+
+    -moz-animation-duration: 3s;
+    -moz-animation-name: rotateInLeft;
+
+    -webkit-animation-duration: 3s;
+    -webkit-animation-name: rotateInLeft;
+
+    -o-animation-duration: 3s;
+    -o-animation-name: rotateInLeft;
+
+    animation-duration: 3s;
+    animation-name: rotateInLeft;
+
+}

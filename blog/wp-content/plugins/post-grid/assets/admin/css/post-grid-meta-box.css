@@ -1,0 +1,26 @@
+/*
+Admin css
+*/
+.post-grid-meta-box{
+  background: #fff;
+}
+
+
+.post-grid-meta-box .grid-type-wrap{
+  padding: 20px 15px;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 31px;
+  background: #fff;
+  z-index: 99;
+}
+
+
+
+
+.post-grid-meta-box .tab-navs {
+  position: sticky;
+  top: 92px;
+}
+
+

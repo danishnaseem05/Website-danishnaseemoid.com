@@ -1,0 +1,448 @@
+@import "./common.scss";
+
+/*!
+ * Bootstrap Grid v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// @import "../node_modules/bootstrap/scss/functions";
+// @import "../node_modules/bootstrap/scss/variables";
+// @import "../node_modules/bootstrap/scss/mixins";
+// @import "../node_modules/bootstrap/scss/root";
+// @import "../node_modules/bootstrap/scss/reboot";
+// @import "../node_modules/bootstrap/scss/type";
+// @import "../node_modules/bootstrap/scss/mixins/breakpoints";
+// contents of "../node_modules/bootstrap/scss/mixins/grid-framework";
+
+@mixin make-advanced-grid-columns($columns: $grid-columns, $gutter: $grid-gutter-width, $breakpoints: $grid-breakpoints) {
+  // Common properties for all breakpoints
+  %grid-column {
+    position: relative;
+    width: 100%;
+    padding-right: $gutter / 2;
+    padding-left: $gutter / 2;
+  }
+
+  @each $breakpoint in map-keys($breakpoints) {
+    $infix: breakpoint-infix($breakpoint, $breakpoints);
+
+    // Allow columns to stretch full width below their breakpoints
+    // @for $i from 1 through $columns {
+    //   .col#{$infix}-#{$i} {
+    //     @extend %grid-column;
+    //   }
+    // }
+    // .col#{$infix},
+    // .col#{$infix}-auto {
+    //   @extend %grid-column;
+    // }
+
+    @include media-breakpoint-up($breakpoint, $breakpoints) {
+      // Provide basic `.col-{bp}` classes for equal-width flexbox columns
+      // .col#{$infix} {
+      //   flex-basis: 0;
+      //   flex-grow: 1;
+      //   max-width: 100%;
+      // }
+      // .col#{$infix}-auto {
+      //   flex: 0 0 auto;
+      //   width: auto;
+      //   max-width: 100%; // Reset earlier grid tiers
+      // }
+
+      // @for $i from 1 through $columns {
+      //   .col#{$infix}-#{$i} {
+      //     @include make-col($i, $columns);
+      //   }
+      // }
+
+      .order#{$infix}-first .block-editor-block-list__layout [data-type="advanced-bootstrap-blocks/column"] { order: -1; }
+
+      .order#{$infix}-last .block-editor-block-list__layout [data-type="advanced-bootstrap-blocks/column"] { order: $columns + 1; }
+
+      @for $i from 0 through $columns {
+        .order#{$infix}-#{$i} .block-editor-block-list__layout [data-type="advanced-bootstrap-blocks/column"] { order: $i; }
+      }
+
+      // `$columns - 1` because offsetting by the width of an entire row isn't possible
+      // counting up to zero for using !important flag with mobile-first breakpoints... ;)
+      @for $i from -($columns - 1) through 0 {
+        @if not ($infix == "" and $i == 0) { // Avoid emitting useless .offset-0
+          @if ($i == 0) {
+            .offset#{$infix}-#{$i} {
+              @include make-advanced-col-offset($i, $columns);
+            }
+          } @else {
+            .offset#{$infix}#{$i} {
+              @include make-advanced-col-offset($i, $columns);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@mixin make-advanced-col-offset($size, $columns: $grid-columns) {
+  $num: abs($size) / $columns;
+  margin-left: if($num == 0, 0, percentage($num)) !important;
+}
+
+@if $enable-grid-classes {
+  @include make-advanced-grid-columns();
+}
+
+// @import "../node_modules/bootstrap/scss/mixins/grid";
+// @import "../node_modules/bootstrap/scss/mixins/buttons";
+// @import "../node_modules/bootstrap/scss/grid";
+// @import "../node_modules/bootstrap/scss/buttons";
+// @import "../node_modules/bootstrap/scss/utilities/display";
+
+// contents of: @import "../node_modules/bootstrap/scss/utilities/flex";
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+    .flex#{$infix}-row > .block-editor-inner-blocks > .block-editor-block-list__layout            { display: flex; flex-direction: row !important; }
+    .flex#{$infix}-column > .block-editor-inner-blocks > .block-editor-block-list__layout         { display: flex; flex-direction: column !important; }
+    .flex#{$infix}-row-reverse > .block-editor-inner-blocks > .block-editor-block-list__layout    { display: flex; flex-direction: row-reverse !important; }
+    .flex#{$infix}-column-reverse > .block-editor-inner-blocks > .block-editor-block-list__layout { display: flex; flex-direction: column-reverse !important; }
+
+    .flex#{$infix}-wrap > .block-editor-inner-blocks > .block-editor-block-list__layout         { display: flex; flex-wrap: wrap !important; }
+    .flex#{$infix}-nowrap > .block-editor-inner-blocks > .block-editor-block-list__layout       { display: flex; flex-wrap: nowrap !important; }
+    .flex#{$infix}-wrap-reverse > .block-editor-inner-blocks > .block-editor-block-list__layout { display: flex; flex-wrap: wrap-reverse !important; }
+    .flex#{$infix}-fill > .block-editor-inner-blocks > .block-editor-block-list__layout         { display: flex; flex: 1 1 auto !important; }
+    .flex#{$infix}-grow-0 > .block-editor-inner-blocks > .block-editor-block-list__layout       { display: flex; flex-grow: 0 !important; }
+    .flex#{$infix}-grow-1 > .block-editor-inner-blocks > .block-editor-block-list__layout       { display: flex; flex-grow: 1 !important; }
+    .flex#{$infix}-shrink-0 > .block-editor-inner-blocks > .block-editor-block-list__layout     { display: flex; flex-shrink: 0 !important; }
+    .flex#{$infix}-shrink-1 > .block-editor-inner-blocks > .block-editor-block-list__layout     { display: flex; flex-shrink: 1 !important; }
+
+    .justify-content#{$infix}-start > .block-editor-inner-blocks > .block-editor-block-list__layout   { display: flex; justify-content: flex-start !important; }
+    .justify-content#{$infix}-end > .block-editor-inner-blocks > .block-editor-block-list__layout     { display: flex; justify-content: flex-end !important; }
+    .justify-content#{$infix}-center > .block-editor-inner-blocks > .block-editor-block-list__layout  { display: flex; justify-content: center !important; }
+    .justify-content#{$infix}-between > .block-editor-inner-blocks > .block-editor-block-list__layout { display: flex; justify-content: space-between !important; }
+    .justify-content#{$infix}-around > .block-editor-inner-blocks > .block-editor-block-list__layout  { display: flex; justify-content: space-around !important; }
+
+    .align-items#{$infix}-start > .block-editor-inner-blocks > .block-editor-block-list__layout [data-type="advanced-bootstrap-blocks/column"]    { display: flex; align-items: flex-start !important; }
+    .align-items#{$infix}-end > .block-editor-inner-blocks > .block-editor-block-list__layout [data-type="advanced-bootstrap-blocks/column"]      { display: flex; align-items: flex-end !important; }
+    .align-items#{$infix}-center > .block-editor-inner-blocks > .block-editor-block-list__layout [data-type="advanced-bootstrap-blocks/column"]   { display: flex; align-items: center !important; }
+    .align-items#{$infix}-baseline > .block-editor-inner-blocks > .block-editor-block-list__layout [data-type="advanced-bootstrap-blocks/column"] { display: flex; align-items: baseline !important; }
+    .align-items#{$infix}-stretch > .block-editor-inner-blocks > .block-editor-block-list__layout [data-type="advanced-bootstrap-blocks/column"]  { display: flex; align-items: stretch !important; }
+
+    .align-content#{$infix}-start > .block-editor-inner-blocks > .block-editor-block-list__layout [data-type="advanced-bootstrap-blocks/column"]   { display: flex; align-content: flex-start !important; }
+    .align-content#{$infix}-end > .block-editor-inner-blocks > .block-editor-block-list__layout [data-type="advanced-bootstrap-blocks/column"]     { display: flex; align-content: flex-end !important; }
+    .align-content#{$infix}-center > .block-editor-inner-blocks > .block-editor-block-list__layout [data-type="advanced-bootstrap-blocks/column"]  { display: flex; align-content: center !important; }
+    .align-content#{$infix}-between > .block-editor-inner-blocks > .block-editor-block-list__layout [data-type="advanced-bootstrap-blocks/column"] { display: flex; align-content: space-between !important; }
+    .align-content#{$infix}-around > .block-editor-inner-blocks > .block-editor-block-list__layout [data-type="advanced-bootstrap-blocks/column"]  { display: flex; align-content: space-around !important; }
+    .align-content#{$infix}-stretch > .block-editor-inner-blocks > .block-editor-block-list__layout [data-type="advanced-bootstrap-blocks/column"] { display: flex; align-content: stretch !important; }
+
+    .align-self#{$infix}-auto .block-editor-block-list__layout [data-type="advanced-bootstrap-blocks/column"]     { display: flex; align-self: auto !important; }
+    .align-self#{$infix}-start .block-editor-block-list__layout [data-type="advanced-bootstrap-blocks/column"]    { display: flex; align-self: flex-start !important; }
+    .align-self#{$infix}-end .block-editor-block-list__layout [data-type="advanced-bootstrap-blocks/column"]      { display: flex; align-self: flex-end !important; }
+    .align-self#{$infix}-center .block-editor-block-list__layout [data-type="advanced-bootstrap-blocks/column"]   { display: flex; align-self: center !important; }
+    .align-self#{$infix}-baseline .block-editor-block-list__layout [data-type="advanced-bootstrap-blocks/column"] { display: flex; align-self: baseline !important; }
+    .align-self#{$infix}-stretch .block-editor-block-list__layout [data-type="advanced-bootstrap-blocks/column"]  { display: flex; align-self: stretch !important; }
+  }
+}
+@import "../node_modules/bootstrap/scss/utilities/spacing";
+/*
+ * Gutenberg Overrides
+ */
+
+.components-base-control {
+  &.components-range-control {
+    margin-bottom: 0 !important;
+    .components-base-control__field {
+      .components-base-control__label {
+        // max-width: 100%; 
+        width: auto;
+      }
+      .components-text-control__input {
+      }
+    }
+  }
+}
+
+[data-type="advanced-bootstrap-blocks/container"],
+[data-type="advanced-bootstrap-blocks/row"],
+[data-type="advanced-bootstrap-blocks/column"],
+[data-type="advanced-bootstrap-blocks/card"],
+[data-type="advanced-bootstrap-blocks/card-body"],
+[data-type="advanced-bootstrap-blocks/card-header"],
+[data-type="advanced-bootstrap-blocks/card-footer"] {
+  &.wp-block {
+    max-width: 100%; 
+    margin-left: initial;
+    margin-right: initial;
+    margin-top: 0;
+    margin-bottom: 0; 
+    .container, 
+    .container-fluid {
+      padding: 0; 
+      width: auto; 
+    }
+  }
+  .block-editor-default-block-appender {
+    display: none;
+  }
+  &.is-selected {
+    .block-editor-default-block-appender {
+      display: block;
+    }
+  }
+}
+[data-type="advanced-bootstrap-blocks/container"],
+[data-type="advanced-bootstrap-blocks/row"] {
+  .block-editor-inner-blocks > .block-editor-block-list__layout {
+    @include make-container();
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .block-editor {
+    box-sizing: border-box !important;
+  }
+  &.block-editor-block-list__block {
+    padding: 0;
+    &.wp-block.container-fluid {
+      max-width: 100%; 
+    }
+  }
+  .block-editor-block-list__block {
+    // margin: 0;
+    // padding: 0 !important; 
+    max-width: 100%;
+    width: 100%; 
+  }
+}
+[data-type="advanced-bootstrap-blocks/container"] {
+  > .container, > .container-fluid,
+  > .block-editor-block-list__block-edit {
+    border: 1px dashed red; 
+    > [data-block] {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}
+[data-type="advanced-bootstrap-blocks/row"] {
+  max-width: 100%; 
+  width: 100%;
+  padding: 0; 
+  
+  // > .block-editor-block-list__block-edit,
+  &.row {
+    border: 1px dashed orange; 
+  }
+  
+  .block-editor-block-list__block-edit {
+    padding: 0 !important; 
+    margin: 0 !important; 
+    width: 100%; 
+    max-width: 100%; 
+    > [data-block] {
+      margin: 0;
+    }
+  }
+  .wp-block-advanced-bootstrap-blocks-row {
+    width: 100%; 
+  }
+  .wp-block-advanced-bootstrap-blocks-row > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    @include make-row();
+    margin-left: 0 !important;
+    margin-right: 0 !important; 
+    > .block-list-appender {
+      &:not(:first-child) { 
+        position: absolute;
+        top: 8px;
+        right: 8px;
+      }
+      outline: none;
+      .block-list-appender__toggle {
+        padding: 8px;
+        // border: 0;
+        outline: 0;
+        &:focus {
+          outline: 1px solid;
+        }
+      }
+    }
+  }
+}
+
+[data-type="advanced-bootstrap-blocks/column"] {
+  // @include make-col-ready();
+
+  [data-type="core/heading"],
+  [data-type="core/paragraph"] {
+    margin-top: 0;
+    margin-bottom: 0; 
+    &.is-selected {
+      // margin-top: 50px;
+    }
+  }
+  word-break: break-word;
+  
+  // > .block-editor-block-list__block-edit,
+  &.col {
+    border: 1px dashed green; 
+  }
+
+  [data-type="core/heading"] + [data-type="core/paragraph"] {
+    // margin-top: 10px;
+  }
+  [data-type="core/paragraph"] + [data-type="core/paragraph"] {
+    // margin-top: 10px;
+  }
+  .block-list-appender:empty {
+    margin: 0 !important; 
+  }
+}
+
+[data-type="advanced-bootstrap-blocks/card"] {
+  > .block-editor-block-list__block-edit > [data-block] > .block-editor-inner-blocks > .block-editor-block-list__layout {
+    padding: 0;
+  }
+}
+[data-type="advanced-bootstrap-blocks/button-group"] {
+  .block-editor-inner-blocks > .block-editor-block-list__layout {
+    display: flex;
+    > .block-list-appender {
+      &:not(:first-child) { 
+        position: absolute;
+        top: -15px;
+        right: -20px;
+      }
+      // outline: none;
+      // .block-list-appender__toggle {
+      //   padding: 8px;
+      //   // border: 0;
+      //   outline: 0;
+      //   &:focus {
+      //     outline: 1px solid;
+      //   }
+      // }
+    }
+    .block-editor-block-list__block {
+      display: inline-block;
+      width: auto;
+      margin: 0;
+    }
+  }
+}
+[data-type="advanced-bootstrap-blocks/button"] {
+  > .editor-block-list__block-edit {
+    // position: relative; 
+    width: auto; 
+    .wp-block-advanced-bootstrap-blocks-button {
+      
+    }
+    .editor-url-input__button {
+      // position: absolute;
+      // top: 0; 
+      // right: 0; 
+    }
+    .editor-url-input__button-modal {
+      position: absolute; 
+      right: 0;
+      z-index: 1; 
+    }
+  }
+  .components-toolbar {
+    margin-top: $spacer / 2; 
+    padding: 0 $spacer / 2; 
+    @media (min-width: 600px) {
+      display: flex;
+      align-items: center;
+    }
+    .components-base-control {
+      margin: 0;
+      padding: $spacer / 2; 
+      // width: 50%;
+      .components-base-control__field {
+        text-align: left; 
+        // width: 100%;
+        padding: 0;
+        .components-base-control__label {
+          font-weight: bold;
+          color: $gray-900; 
+        }
+        .components-text-control__input {
+          // width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.block-editor-block-list__layout {
+  @media (min-width: 600px) {
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+  .block-editor-block-list__block {
+    padding: 5px;
+    .block-editor-block-list__block-edit:before {
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0; 
+    }
+  }
+  .block-editor-block-list__block[data-align=full] {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0; 
+    padding-right: 0; 
+    .components-disabled {
+      .block-editor-inserter { display: none; }
+    }
+    .block-editor-block-list__block-edit {
+      margin-left: -32px;
+      margin-right: -32px;
+    }
+    .block-editor-block-list__layout .block-editor-block-list__block {
+      padding-left: 28px;
+      padding-right: 28px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      &[data-type="advanced-bootstrap-blocks/column"] {
+        padding-right: 0; 
+        padding-left: 0;
+        &:first-child {
+          padding-left: 15px; 
+        }
+        & + [data-type="advanced-bootstrap-blocks/column"] {
+
+        }
+        &:last-child {
+          padding-right: 15px; 
+        }
+      }
+    }
+  }
+  .block-editor-default-block-appender>.block-editor-default-block-appender__content {
+    margin-top: 0;
+    margin-bottom: 0; 
+  }
+}
+// floating insertion point 
+.editor-block-list__insertion-point {
+  &, 
+  .editor-block-list__insertion-point-inserter {
+    pointer-events: none; 
+  }
+  [type="button"]:not(:disabled) {
+    pointer-events: all;
+  }
+}
+
+.wp-block-advanced-bootstrap-blocks-column {
+  p:empty {
+    display: none; 
+  }
+  .wp-block-cover, .wp-block-cover-image {
+    margin: 0; 
+  }
+}
