@@ -34,7 +34,12 @@ $(document).ready(function(){
     event.preventDefault();
     $.post("../php/contact.php", {
       "secret": "6Lf0COgUAAAAAECTfB7n3DZ3yCGtYPX6f9MsHvy5",
-      "response":recaptcha
+      "response":recaptcha,
+      "first_name":$("#form-contact-first-name").val(),
+      "last_name":$("#form-contact-last-name").val(),
+      "phone":$("#form-contact-phone").val(),
+      "email":$("#form-contact-email").val(),
+      "message":$("#form-contact-message").val()
     }, function(response){
       console.log(response);
       alert(response);

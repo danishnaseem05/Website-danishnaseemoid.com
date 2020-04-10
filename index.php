@@ -58,6 +58,7 @@
 
         <!-- Navigation -->
         <header>
+        <input type="hidden">THIS IS HOSTED ON NAMECHEAP.COM</input>
             <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
                 <div class="container">
                     <a class="navbar-brand" href="./index.php"><span class="hover-color">D<span class="theme-orange">/</span>N</span></a>

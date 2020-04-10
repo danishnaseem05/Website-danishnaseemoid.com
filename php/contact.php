@@ -14,6 +14,11 @@
   $email = $_POST["email"];
   $message = $_POST["message"];
 
+  echo $first_name;
+  echo $last_name;
+  echo $phone;
+  echo $email;
+  echo $message;
 
   $email_from = "mail.danishnaseemoid.com";
   $email_subject = 'New Contact Form Submission';
