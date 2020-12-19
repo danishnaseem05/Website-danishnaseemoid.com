@@ -47,7 +47,7 @@
         } else{$sql .= "), ";}
     }
 
-    // Run the sql queries is there is atleast one row to be added
+    // Run the sql queries if there is atleast one row to be added
     if ($run_query == true){
         if ($conn->query($sql) == true) { 
             echo "Records inserted successfully."; 
