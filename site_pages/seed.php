@@ -3,8 +3,6 @@
 
     $conn = OpenCon(); // function is from DBconnection.php
 
-    $query = $conn->query("SELECT * FROM project_cards;");
-    $arr =  $query->fetch_all();
     $sql="";
     $run_query = false; // if atleast one record is to be inserted in the database, turns true
     // The format below should be: 
