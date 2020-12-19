@@ -1,5 +1,22 @@
 <!DOCTYPE html>
+<?php
+    function OpenCon()
+    {
+        $dbhost = "127.0.0.1";
+        $dbuser = "root";
+        $dbpass = "root";
+        $db = "projects";
+        $conn = new mysqli($dbhost, $dbuser, $dbpass, $db) or die("Connect failed: %s\n". $conn -> error);
+        return $conn;
+    }
 
+    function CloseCon($conn)
+    {
+        $conn -> close();
+    }
+
+    $conn = OpenCon();
+?>
 
 <html lang="en">
 
@@ -46,10 +63,8 @@
 
 
 
-
-
   <body>
-
+    
     <div id="page-container">
 
         <!-- Navigation -->
@@ -95,9 +110,34 @@
             <div id="projects-page-paralax">
                 <div id="projects-page-paralax-overlay">
                     <br><br><br><br><br>
+
+
+
                     <div class="container-fluid mt-5">          
                         <!--Grid row-->
                         <div class="row mx-0">
+
+                            <?php
+                                if ($result = $conn->query("SELECT * FROM project_cards;")) {
+                                    while($obj = $result->fetch_object()){
+                                        echo <<<EOL
+                                        <div class="col-md-6 mb-4">
+                                            <div id="project-card-{$obj->id}" class="h-100 card card-image custom-half-border-cards">
+                                                <div class="h-100 text-white justify-content-center text-center d-flex align-items-center general-overlay py-5 px-4 custom-half-border-cards">
+                                                    <div>
+                                                        <h6 style="font-size: 1.85vh;"><i class="{$obj->language_class}"></i><strong> {$obj->language}</strong></h6>
+                                                        <h3 class="card-title py-3 font-weight-bold" style="font-size: 2.5vh;">{$obj->card_title}</h3>
+                                                        <p class="pb-3" style="font-size: 90%;">{$obj->card_description}}</p>
+                                                        <button id="project{$obj->id}-btn" class="btn btn-success btn-rounded custom-button-color fa-1x" onclick="on({$obj->id})"><i class="far fa-clone left"></i> View Project</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        EOL;
+                                    }
+                                }
+                            ?>
+
                             <!--Grid column-->
                             <!-- Project card 6 -->
                             <div class="col-md-6 mb-4">
@@ -194,7 +234,7 @@
                     <br><br><br><br><br>
 
 
-
+                   
 
 
                    <!-- Project 1 Modal Carousel -->
@@ -770,3 +810,7 @@
   </body>
 
 </html>
+
+<?php
+CloseCon($conn);
+?>
