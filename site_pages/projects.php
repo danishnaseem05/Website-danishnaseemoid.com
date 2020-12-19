@@ -1,20 +1,6 @@
 <!DOCTYPE html>
 <?php
-    function OpenCon()
-    {
-        $dbhost = "127.0.0.1";
-        $dbuser = "root";
-        $dbpass = "root";
-        $db = "projects";
-        $conn = new mysqli($dbhost, $dbuser, $dbpass, $db) or die("Connect failed: %s\n". $conn -> error);
-        return $conn;
-    }
-
-    function CloseCon($conn)
-    {
-        $conn -> close();
-    }
-
+    require 'DBconnection.php';
     $conn = OpenCon();
 ?>
 
@@ -127,7 +113,7 @@
                                                     <div>
                                                         <h6 style="font-size: 1.85vh;"><i class="{$obj->language_class}"></i><strong> {$obj->language}</strong></h6>
                                                         <h3 class="card-title py-3 font-weight-bold" style="font-size: 2.5vh;">{$obj->card_title}</h3>
-                                                        <p class="pb-3" style="font-size: 90%;">{$obj->card_description}}</p>
+                                                        <p class="pb-3" style="font-size: 90%;">{$obj->card_description}</p>
                                                         <button id="project{$obj->id}-btn" class="btn btn-success btn-rounded custom-button-color fa-1x" onclick="on({$obj->id})"><i class="far fa-clone left"></i> View Project</button>
                                                     </div>
                                                 </div>
