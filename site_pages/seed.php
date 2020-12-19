@@ -27,7 +27,7 @@
     for($row=0; $row<count($project_cards); $row++){
         if ($conn->query("SELECT * FROM project_cards WHERE card_title=\"".$project_cards[$row][2]."\"")->num_rows == 0){
             $run_query = true; // atleast one row doesn't exist and needs to be added in the database 
-            echo $project_cards[$row][2];
+            //echo $project_cards[$row][2];
             array_push($rows_to_add,$row); // index of the $rows to insert (which don't exist in the database)
         }
     }
