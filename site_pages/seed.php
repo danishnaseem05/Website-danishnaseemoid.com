@@ -6,7 +6,7 @@
     $query = $conn->query("SELECT * FROM project_cards;");
     $arr =  $query->fetch_all();
     $sql="";
-
+    $run_query = false; // if atleast one record is to be inserted in the database, turns true
     // The format below should be: 
     // project_cards[0..n][0] = language
     // project_cards[0..n][1] = language_class
@@ -19,31 +19,41 @@
                         array('Python', 'fab fa-python', 'Video and Sound Encoder', 'This gui program makes bash calls to ffmpeg in order to encode either mov (includes audio encoding from surround to stereo) or dnxhd format video(s), hence condensing their size all the while preserving quality, as well as the directory structure. And this software was made during my time interning for FCB Chicago.'),
                         array('Ruby', 'fas fa-gem', 'CLI Tic Tac Toe', 'This is a CLI version of Tic Tac Toe, providing the user with single player, double player, and even zero player (meaning the player gets to watch computer vs computer) experience.')     
                     );
-
-    if(count($arr) == 0){
-        // table is empty, add in all the project cards
-        $sql = "INSERT INTO project_cards(language, language_class, card_title, card_description) VALUES";
-        for($row=0; $row<count($project_cards); $row++){
-            $sql .= "(";
-            for($col=0; $col<count($project_cards[$row]); $col++){
-                $sql .= '"'.$project_cards[$row][$col].'"';
-                if ($col+1 < count($project_cards[$row])){
-                    $sql .= ", ";
-                }
-            }
-            if ($row+1 == count($project_cards)){
-                $sql .= ")";
-            } else{$sql .= "), ";}
+    
+    $rows_to_add = array();
+    
+    $sql = "INSERT INTO project_cards(language, language_class, card_title, card_description) VALUES";
+    for($row=0; $row<count($project_cards); $row++){
+        if ($conn->query("SELECT * FROM project_cards WHERE card_title=\"".$project_cards[$row][2]."\"")->num_rows == 0){
+            $run_query = true;
+            echo $project_cards[$row][2];
+            array_push($rows_to_add,$row); // index of the $rows to insert (which don't exist in the database)
         }
-    } elseif(count($arr) >= 1){
-        // only add in those which don't already exist in the database
     }
 
-    if ($conn->query($sql) == true) { 
-        echo "Records inserted successfully."; 
-    } else
-    { 
-        echo "<p>ERROR: Could not able to execute $sql. ".$conn->error."</p>"; 
+    for($i=0; $i<count($rows_to_add); $i++){
+        $row = $rows_to_add[$i];
+        $sql .= "(";
+        for($col=0; $col<count($project_cards[$row]); $col++){
+            $sql .= '"'.$project_cards[$row][$col].'"';
+            if ($col+1 < count($project_cards[$row])){
+                $sql .= ", ";
+            }
+        }
+        if ($i+1 == count($rows_to_add)){
+            $sql .= ")";
+        } else{$sql .= "), ";}
+    }
+
+    if ($run_query == true){
+        if ($conn->query($sql) == true) { 
+            echo "Records inserted successfully."; 
+        } else
+        { 
+            echo "<p>ERROR: Could not able to execute $sql. ".$conn->error."</p>"; 
+        }
+    } else {
+        echo "No records to be inserted";
     }
 
     CloseCon($conn);
