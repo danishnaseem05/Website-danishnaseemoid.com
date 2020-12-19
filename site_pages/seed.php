@@ -1,7 +1,7 @@
 <?php
     require 'DBconnection.php';
 
-    $conn = OpenCon();
+    $conn = OpenCon(); // function is from DBconnection.php
 
     $query = $conn->query("SELECT * FROM project_cards;");
     $arr =  $query->fetch_all();
@@ -59,5 +59,5 @@
         echo "No records to be inserted";
     }
 
-    CloseCon($conn);
+    CloseCon($conn); // function is from DBconnection.php
 ?>
