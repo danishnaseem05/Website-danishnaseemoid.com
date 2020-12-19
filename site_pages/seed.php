@@ -23,14 +23,16 @@
     $rows_to_add = array();
     
     $sql = "INSERT INTO project_cards(language, language_class, card_title, card_description) VALUES";
+    // Selecting the rows that do not exist in the database
     for($row=0; $row<count($project_cards); $row++){
         if ($conn->query("SELECT * FROM project_cards WHERE card_title=\"".$project_cards[$row][2]."\"")->num_rows == 0){
-            $run_query = true;
+            $run_query = true; // atleast one row doesn't exist and needs to be added in the database 
             echo $project_cards[$row][2];
             array_push($rows_to_add,$row); // index of the $rows to insert (which don't exist in the database)
         }
     }
 
+    // Iterating the rows which do not exist in the database, and inserting them
     for($i=0; $i<count($rows_to_add); $i++){
         $row = $rows_to_add[$i];
         $sql .= "(";
@@ -45,6 +47,7 @@
         } else{$sql .= "), ";}
     }
 
+    // Run the sql queries is there is atleast one row to be added
     if ($run_query == true){
         if ($conn->query($sql) == true) { 
             echo "Records inserted successfully."; 
