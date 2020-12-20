@@ -31,14 +31,14 @@
     $sql="";
     $run_query = false; // if atleast one record is to be inserted in the database, turns true
     
+    // TODO: iterate through the Projects excel file and collect all the values
+
     // The format below should be: 
     // project_cards[0..n][0] = language
     // project_cards[0..n][1] = language_class
     // project_cards[0..n][2] = card_title
     // project_cards[0..n][3] = card_description
     // project_cards[0..n][4] = cover
-    
-    //TODO: iterate through the Projects excel file and collect all the values
     //TODO: the project_cards array below should get its values from the excel file after iteration, to be insterted in the project_cards table
     $project_cards = array(array('Python', 'fab fa-python', 'Web Server', 'Web Server created using sockets in python, runs on localhost:8000 by default, and accepts multiple clients. Saves the html file by keeping the directory structure inside a custom created folder called \'static\', only if the response was a HTTP 200 OK response; otherwise checks for 404 Not Found, and 400 Bad Request errors.', '../pics/project_cards/Web_Server/Capture5.PNG'),
                         array('Java', 'fab fa-java', 'Sorted Doubly Linked List', 'This is the GUI representation of my customly implemented Doubly Linked List. This List is Sorted and only allows unique integer values. Furthermore, the GUI is easily navigable and its purpose is to Add an unique integer while keeping the list sorted, Delete an integer if it exists in the list, and Display All integers currently stored within the list. Adding to and displaying an empty list, deleting an unstored integer, or entering a non-integer value; all would display errors.', '../pics/project_cards/Doubly_Linked_Sorted_List/Capture5.PNG'),
@@ -49,7 +49,7 @@
                     );
     
     $rows_to_add = array();
-    //TODO: make another array named project_modals, collecting information necessary for the modals after the excel file iteration, later to be inserted in the project_modals table
+    // TODO: make another array named project_modals, collecting information necessary for the modals after the excel file iteration, later to be inserted in the project_modals table
     
     $sql = "INSERT INTO project_cards(language, language_class, card_title, card_description, cover) VALUES";
     // Selecting the rows that do not exist in the database
