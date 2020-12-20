@@ -1,3 +1,10 @@
+<?php
+    require 'DBconnection.php';
+    $conn = OpenCon(); // function is from DBconnection.php
+
+    header('Content-type: text/css; charset:UTF-8');
+?>
+
 /********* LAYOUT *********/
 html{
     scroll-behavior: smooth;
@@ -216,37 +223,20 @@ h1{
     z-index: -5;
 }
 
-
-#project-card-1{
-    background-image: url("../pics/project_cards/Todays_songs/Capture2.PNG");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-#project-card-2{
-    background-image: url("../pics/project_cards/Wave_worm/Capture8.PNG");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-#project-card-3{
-    background-image: url("../pics/project_cards/Video_and_Sound_Encoder/Capture5.PNG");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-#project-card-4{
-    background-image: url("../pics/project_cards/Tic_Tac_Toe/Capture5.PNG");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-#project-card-5{
-    background-image: url("../pics/project_cards/Doubly_Linked_Sorted_List/Capture5.PNG");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-#project-card-6{
-    background-image: url("../pics/project_cards/Web_Server/Capture5.PNG");
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+<?php
+// For each project card, set its cover
+    if ($result = $conn->query("SELECT * FROM project_cards;")) {
+        while($obj = $result->fetch_object()){
+            echo <<<EOL
+            #project-card-{$obj->id}{
+                background-image: url({$obj->cover});
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            EOL;
+        }
+    }
+?>
 
 .general-overlay{
     z-index: 1;
@@ -667,3 +657,7 @@ footer .container ul a{
     font-family: inherit;
     font-size: 19px;
     bo 
+
+<?php
+CloseCon($conn); // function is from DBconnection.php
+?>
