@@ -104,13 +104,13 @@
                                     while($obj = $result->fetch_object()){
                                         echo <<<EOL
                                         <div class="col-md-6 mb-4">
-                                            <div id="project-card-{$obj->id}" class="h-100 card card-image custom-half-border-cards">
+                                            <div id="project-card-{$obj->card_id}" class="h-100 card card-image custom-half-border-cards">
                                                 <div class="h-100 text-white justify-content-center text-center d-flex align-items-center general-overlay py-5 px-4 custom-half-border-cards">
                                                     <div>
                                                         <h6 style="font-size: 1.85vh;"><i class="{$obj->language_class}"></i><strong> {$obj->language}</strong></h6>
                                                         <h3 class="card-title py-3 font-weight-bold" style="font-size: 2.5vh;">{$obj->card_title}</h3>
                                                         <p class="pb-3" style="font-size: 90%;">{$obj->card_description}</p>
-                                                        <button id="project{$obj->id}-btn" class="btn btn-success btn-rounded custom-button-color fa-1x" onclick="on({$obj->id})"><i class="far fa-clone left"></i> View Project</button>
+                                                        <button id="project{$obj->card_id}-btn" class="btn btn-success btn-rounded custom-button-color fa-1x" onclick="on({$obj->card_id})"><i class="far fa-clone left"></i> View Project</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -128,20 +128,20 @@
 
                    
                     <?php
-                        if($result = $conn->query("SELECT * FROM project_cards;")) {
+                        if($result = $conn->query("SELECT * FROM project_modals;")) {
                             while($obj = $result->fetch_object()){
                                 echo <<<EOL
                                 <div id="project-modals">
-                                    <div id="project{$obj->id}-modal" class="custom-modal">
+                                    <div id="project{$obj->card_id}-modal" class="custom-modal">
                                         <div class="custom-modal-content">
                                             <button class=" btn Close" onclick="off()">&times;</button>
                                             <div class="container-fluid justify-content-center">
                                                 <div class="row>
                                                     <div class="col-sm-12">
-                                                        <div id="project{$obj->id}-carousel" class="carousel slide" data-interval="5000" data-keyboard="true" data-pause="hover" data-ride="carousel">
+                                                        <div id="project{$obj->card_id}-carousel" class="carousel slide" data-interval="5000" data-keyboard="true" data-pause="hover" data-ride="carousel">
                                                             <ol class="carousel-indicator">
                                                                 {for($i=0; i<count($obj->modal_slides); $i++){
-                                                                    '<li data-target="#project{$obj->id}-carousel" data-slide-to="{$i}" class="active"></li>';
+                                                                    '<li data-target="#project{$obj->card_id}-carousel" data-slide-to="{$i}" class="active"></li>';
                                                                 }}
                                                             </ol>
                                                             <div class="carousel-inner">
@@ -154,11 +154,11 @@
                                                                     </div>';
                                                                 }}
                                                             </div>
-                                                            <a class="carousel-control-prev custom-carousel-prev" href="#project{$obj->id}-carousel" role="button" data-slide="prev">
+                                                            <a class="carousel-control-prev custom-carousel-prev" href="#project{$obj->card_id}-carousel" role="button" data-slide="prev">
                                                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                                                 <span class="sr-only">Previous</span>
                                                             </a>
-                                                            <a class="carousel-control-next custom-carousel-next" href="#project{$obj->id}-carousel" role="button" data-slide="next">
+                                                            <a class="carousel-control-next custom-carousel-next" href="#project{$obj->card_id}-carousel" role="button" data-slide="next">
                                                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                                                 <span class="sr-only">Next</span>
                                                             </a>
