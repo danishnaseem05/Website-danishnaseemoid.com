@@ -128,44 +128,46 @@
 
                    
                     <?php
-                        if($result = $conn->query("SELECT * FROM project_modals;")) {
+                        if($result = $conn->query("SELECT * FROM project_cards;")) {
                             while($obj = $result->fetch_object()){
                                 echo <<<EOL
-                                <div id="project{$obj->card_id}-modal" class="custom-modal">
-                                    <div class="custom-modal-content">
-                                        <button class=" btn Close" onclick="off()">&times;</button>
-                                        <div class="container-fluid justify-content-center">
-                                            <div class="row>
-                                                <div class="col-sm-12">
-                                                    <div id="project{$obj->card_id}-carousel" class="carousel slide" data-interval="5000" data-keyboard="true" data-pause="hover" data-ride="carousel">
-                                                        <ol class="carousel-indicator">
-                                                            {for($i=0; i<count($obj->modal_slides); $i++){
-                                                                '<li data-target="#project{$obj->card_id}-carousel" data-slide-to="{$i}" class="active"></li>';
-                                                            }}
-                                                        </ol>
-                                                        <div class="carousel-inner">
-                                                            {for($i=0; i<count($obj->modal_slides); $i++){
-                                                                '<div class="carousel-item active">
-                                                                    <img class="d-block w-100" src="{$obj->modal_slides[$i][0]}" alt="{$obj->modal_slides[$i][1]}" style="width:100%">
-                                                                    <div class="carousel-caption d-none d-sm-block">
-                                                                        <p class="custom-carousel-p">{$obj->modal_slides[$i][2]}</p>
-                                                                    </div>
-                                                                </div>';
-                                                            }}
+                                <div id="project-modals">
+                                    <div id="project{$obj->id}-modal" class="custom-modal">
+                                        <div class="custom-modal-content">
+                                            <button class=" btn Close" onclick="off()">&times;</button>
+                                            <div class="container-fluid justify-content-center">
+                                                <div class="row>
+                                                    <div class="col-sm-12">
+                                                        <div id="project{$obj->id}-carousel" class="carousel slide" data-interval="5000" data-keyboard="true" data-pause="hover" data-ride="carousel">
+                                                            <ol class="carousel-indicator">
+                                                                {for($i=0; i<count($obj->modal_slides); $i++){
+                                                                    '<li data-target="#project{$obj->id}-carousel" data-slide-to="{$i}" class="active"></li>';
+                                                                }}
+                                                            </ol>
+                                                            <div class="carousel-inner">
+                                                                {for($i=0; i<count($obj->modal_slides); $i++){
+                                                                    '<div class="carousel-item active">
+                                                                        <img class="d-block w-100" src="{$obj->modal_slides[$i][0]}" alt="{$obj->modal_slides[$i][1]}" style="width:100%">
+                                                                        <div class="carousel-caption d-none d-sm-block">
+                                                                            <p class="custom-carousel-p">{$obj->modal_slides[$i][2]}</p>
+                                                                        </div>
+                                                                    </div>';
+                                                                }}
+                                                            </div>
+                                                            <a class="carousel-control-prev custom-carousel-prev" href="#project{$obj->id}-carousel" role="button" data-slide="prev">
+                                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                                <span class="sr-only">Previous</span>
+                                                            </a>
+                                                            <a class="carousel-control-next custom-carousel-next" href="#project{$obj->id}-carousel" role="button" data-slide="next">
+                                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                                <span class="sr-only">Next</span>
+                                                            </a>
                                                         </div>
-                                                        <a class="carousel-control-prev custom-carousel-prev" href="#project{$obj->card_id}-carousel" role="button" data-slide="prev">
-                                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                            <span class="sr-only">Previous</span>
-                                                        </a>
-                                                        <a class="carousel-control-next custom-carousel-next" href="#project{$obj->card_id}-carousel" role="button" data-slide="next">
-                                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                            <span class="sr-only">Next</span>
-                                                        </a>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-md-12">
-                                                            <div class="custom-modal-button">
-                                                                <a href="{$obj->github_url}" target="_blank" type="button" class="btn custom-modal-button">Github repo</a>
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <div class="custom-modal-button">
+                                                                    <a href="{$obj->github_url}" target="_blank" type="button" class="btn custom-modal-button">Github repo</a>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -178,7 +180,7 @@
                             }
                         }
                     ?>
-
+                <div id="project-modals">
                    <!-- Project 1 Modal Carousel -->
                    <!-- NEW PROJECT ID BELOW -->
                     <div id="project1-modal" class="custom-modal">
@@ -700,7 +702,9 @@
                             </div><!-- .container-fluid -->
                         </div><!-- .custom-modal-content -->
                     </div><!-- #project6-modal .modal -->
-
+                
+                </div><!-- #project-modal -->  
+                
                     <!-- Footer -->
                     <footer class="page-footer center-on-sm-only font-small special-color-dark pt-4">
                     <!-- Footer Elements -->
