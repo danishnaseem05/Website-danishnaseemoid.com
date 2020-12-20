@@ -102,7 +102,6 @@
                     <div class="container-fluid mt-5">          
                         <!--Grid row-->
                         <div class="row mx-0">
-
                             <?php
                                 if ($result = $conn->query("SELECT * FROM project_cards;")) {
                                     while($obj = $result->fetch_object()){
@@ -119,101 +118,11 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <!--Grid column-->
                                         EOL;
                                     }
                                 }
                             ?>
-
-                            <!--Grid column-->
-                            <!-- Project card 6 -->
-                            <div class="col-md-6 mb-4">
-                                <div id="project-card-6" class="h-100 card card-image custom-half-border-cards">
-                                    <div class="h-100 text-white justify-content-center text-center d-flex align-items-center general-overlay py-5 px-4 custom-half-border-cards">
-                                        <div>
-                                            <h6 style="font-size: 1.85vh;"><i class="fab fa-python"></i><strong> Python</strong></h6>
-                                            <h3 class="card-title py-3 font-weight-bold" style="font-size: 2.5vh;">Web Server</h3>
-                                            <p class="pb-3" style="font-size: 90%;">Web Server created using sockets in python, runs on localhost:8000 by default, and accepts multiple clients. Saves the html file by keeping the directory structure inside a custom created folder called 'static', only if the response was a HTTP 200 OK response; otherwise checks for 404 Not Found, and 400 Bad Request errors.</p>
-                                            <button id="project6-btn" class="btn btn-success btn-rounded custom-button-color fa-1x" onclick="on(6)"><i class="far fa-clone left"></i> View Project</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Grid column-->
-                            <!--Grid column-->
-                            <!-- Project card 5 -->
-                            <div class="col-md-6 mb-4">
-                                <div id="project-card-5" class="h-100 card card-image custom-half-border-cards">
-                                    <div class="h-100 text-white justify-content-center text-center d-flex align-items-center general-overlay py-5 px-4 custom-half-border-cards">
-                                        <div>
-                                            <h6 style="font-size: 1.85vh;"><i class="fab fa-java"></i><strong> Java</strong></h6>
-                                            <h3 class="card-title py-3 font-weight-bold" style="font-size: 2.5vh;">Sorted Doubly Linked List</h3>
-                                            <p class="pb-3" style="font-size: 90%;">This is the GUI representation of my customly implemented Doubly Linked List. This List is Sorted and only allows unique integer values. Furthermore, the GUI is easily navigable and its purpose is to Add an unique integer while keeping the list sorted, Delete an integer if it exists in the list, and Display All integers currently stored within the list. Adding to and displaying an empty list, deleting an unstored integer, or entering a non-integer value; all would display errors.</p>
-                                            <button id="project5-btn" class="btn btn-success btn-rounded custom-button-color fa-1x" onclick="on(5)"><i class="far fa-clone left"></i> View Project</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Grid column-->
-                            <!--Grid column-->
-                            <!-- Project card 1 -->
-                            <div class="col-md-6 mb-4">
-                                <div id="project-card-1" class="h-100 card card-image custom-half-border-cards">
-                                    <div class="h-100 text-white justify-content-center text-center d-flex align-items-center general-overlay py-5 px-4 custom-half-border-cards">
-                                        <div>    
-                                            <h6 style="font-size: 1.85vh;"><i class="fas fa-gem"></i><strong> Ruby</strong></h6>
-                                            <h3 class="card-title py-3 font-weight-bold" style="font-size: 2.5vh;">Today's Songs</h3>
-                                            <p class="pb-3" style="font-size: 90%;">This CLI executable program provides the user with top songs of the day. It collects the song data from two different sites, lists them to the user, and enables them to listen to these songs by opening the user's preferred song in the chrome browser.</p>
-                                            <button id="project1-btn" class="btn btn-success btn-rounded custom-button-color fa-1x" onclick="on(1)"><i class="far fa-clone left"></i> View Project</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Grid column-->             
-                            <!--Grid column-->
-                            <!-- Project card 2 -->
-                            <div class="col-md-6 mb-4">
-                                <div id="project-card-2" class="h-100 card card-image custom-half-border-cards">
-                                    <div class="h-100 text-white justify-content-center text-center d-flex align-items-center general-overlay py-5 px-4 custom-half-border-cards">
-                                        <div>
-                                            <h6 style="font-size: 1.85vh;"><i class="fab fa-java"></i><strong> Java</strong></h6>
-                                            <h3 class="card-title py-3 font-weight-bold" style="font-size: 2.5vh;">Wave Worm</h3>
-                                            <p class="pb-3" style="font-size: 90%;">Wave Worm is a single player 2D Java game. The user tackles the various worms using keyboard keys, and makes his/her way across levels, while maintaining a top score.</p>
-                                            <button id="project2-btn" class="btn btn-success btn-rounded custom-button-color fa-1x" onclick="on(2)"><i class="far fa-clone left"></i> View Project</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Grid column-->
-                            <!--Grid column-->
-                            <!-- Project card 3 -->
-                            <div class="col-md-6 mb-4">
-                                <div id="project-card-3" class="card card-image custom-half-border-cards">
-                                    <div class="text-white justify-content-center text-center d-flex align-items-center general-overlay py-5 px-4 custom-half-border-cards">
-                                        <div>
-                                            <h6 style="font-size: 1.85vh;"><i class="fab fa-python"></i><strong> Python</strong></h6>
-                                            <h3 class="card-title py-3 font-weight-bold" style="font-size: 2.5vh;">Video and Sound Encoder</h3>
-                                            <p class="pb-3" style="font-size: 90%;">This gui program makes bash calls to ffmpeg in order to encode either mov (includes audio encoding from surround to stereo) or dnxhd format video(s), hence condensing their size all the while preserving quality, as well as the directory structure. And this software was made during my time interning for FCB Chicago.</p>
-                                            <button id="project3-btn" class="btn btn-success btn-rounded custom-button-color fa-1x" onclick="on(3)"><i class="far fa-clone left"></i> View Project</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Grid column-->
-                            <!--Grid column-->
-                            <!-- Project card 4 -->
-                            <div class="col-md-6 mb-4">
-                                <div id="project-card-4" class="h-100 card card-image custom-half-border-cards">
-                                    <div class="h-100 text-white justify-content-center text-center d-flex align-items-center general-overlay py-5 px-4 custom-half-border-cards">
-                                        <div>    
-                                            <h6 style="font-size: 1.85vh;"><i class="fas fa-gem"></i><strong> Ruby</strong></h6>
-                                            <h3 class="card-title py-3 font-weight-bold" style="font-size: 2.5vh;">CLI Tic Tac Toe</h3>
-                                            <p class="pb-3" style="font-size: 90%;">This is a CLI version of Tic Tac Toe, providing the user with single player, double player, and even zero player (meaning the player gets to watch computer vs computer) experience.</p>
-                                            <button id="project4-btn" class="btn btn-success btn-rounded custom-button-color fa-1x" onclick="on(4)"><i class="far fa-clone left"></i> View Project</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--Grid column-->
                         </div>
                         <!--Grid row-->
                     </div> <!-- .container-fluid -->
