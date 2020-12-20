@@ -13,6 +13,14 @@
             PRIMARY KEY (`id`)
         );";
     $conn->query($sql);
+    
+    //TODO: modal_slides is not yet ann array, make it one
+    $sql = "CREATE TABLE IF NOT EXISTS project_modals(
+        `id` INT NOT NULL AUTO_INCREMENT,
+        `card_id` INT NOT NULL,
+        `modal_slides` VARCHAR(1024) NOT NULL,#make it an array first
+        PRIMARY KEY (`id`)
+    );";
 
 
     $sql="";
