@@ -228,7 +228,7 @@ h1{
     if ($result = $conn->query("SELECT * FROM project_cards;")) {
         while($obj = $result->fetch_object()){
             echo <<<EOL
-            #project-card-{$obj->id}{
+            #project-card-{$obj->card_id}{
                 background-image: url({$obj->cover});
                 background-size: cover;
                 background-repeat: no-repeat;
