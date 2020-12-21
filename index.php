@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="fontawesome-free-5.9.0-web/fontawesome-free-5.9.0-web/css/fontawesome.min.css">
      
     <!-- My CSS -->
-    <link href = "site_pages/main.css" rel = "stylesheet" type = "text/css">
+    <link href = "site_pages/style.php" rel = "stylesheet" type = "text/css">
     <link href = "site_pages/media_queries.css" rel = "stylesheet" type = "text/css">
 
     <title>Home | Danish Naseem</title>
