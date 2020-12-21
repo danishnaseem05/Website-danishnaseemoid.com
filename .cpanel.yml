@@ -1,0 +1,15 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/danihsjd/public_html
+    - /bin/cp index.php $DEPLOYPATH
+    - /bin/cp blog-sitemap.xml $DEPLOYPATH
+    - /bin/cp website-sitemap.xml $DEPLOYPATH
+    - /bin/cp nortonsw_778d8df0-9bd7-0.html $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R documents $DEPLOYPATH
+    - /bin/cp -R fontawesome-free-5.9.0-web $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R php $DEPLOYPATH
+    - /bin/cp -R pics $DEPLOYPATH
+    - /bin/cp -R site_pages $DEPLOYPATH
