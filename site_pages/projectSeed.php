@@ -23,7 +23,7 @@ function projectCardsArr(){
                                 array('../pics/project_cards/Web_Server/Capture5.PNG','Fifth slide','Connected two clients (Microsoft Edge and Google Chrome) to the Web Server. Runing localhost:8000/tests/html/cars/ford.html in Chrome, and localhost:8000/tests/html/index.html in Edge.')
                             ),
                             'https://github.com/danishnaseem05/WebServer'    
-                            ),
+                    ),
                     
                     5=> array('Java', 'fab fa-java', 'Sorted Doubly Linked List', 
                             'This is the GUI representation of my customly implemented Doubly Linked List. This List is Sorted and only allows unique integer values. Furthermore, the GUI is easily navigable and its purpose is to Add an unique integer while keeping the list sorted, Delete an integer if it exists in the list, and Display All integers currently stored within the list. Adding to and displaying an empty list, deleting an unstored integer, or entering a non-integer value; all would display errors.', 
@@ -66,7 +66,7 @@ function projectCardsArr(){
                                 array('../pics/project_cards/Wave_worm/Capture7.PNG','Sixth slide','Like any other 2D game, if your health becomes zero, you loose, and hence comes the game over screen.')
                             ),
                             'https://github.com/danishnaseem05/Wave-Worm-Java-Game'
-                        ),
+                    ),
                     
                     2=> array('Python', 'fab fa-python', 'Video and Sound Encoder', 
                             'This gui program makes bash calls to ffmpeg in order to encode either mov (includes audio encoding from surround to stereo) or dnxhd format video(s), hence condensing their size all the while preserving quality, as well as the directory structure. And this software was made during my time interning for FCB Chicago.', 
@@ -78,7 +78,7 @@ function projectCardsArr(){
                                 array('../pics/project_cards/Video_and_Sound_Encoder/Capture5.PNG','Fifth slide','After the user stops goofing around, *pun intended* the program runs the main ffmpeg conversion using the bash command pipelined from within python')
                             ),
                             'https://github.com/danishnaseem05/Video-and-Sound-Encoder-made-at-FCB'
-                        ),
+                    ),
                     
                     1=> array('Ruby', 'fas fa-gem', 'CLI Tic Tac Toe', 
                             'This is a CLI version of Tic Tac Toe, providing the user with single player, double player, and even zero player (meaning the player gets to watch computer vs computer) experience.', 
@@ -89,7 +89,7 @@ function projectCardsArr(){
                                 array('../pics/project_cards/Tic_Tac_Toe/Capture6.PNG','Fourth slide','The game ends up in being a draw. It also congragulates the winner with their token name (X or O) if either of the players have won.')
                             ),
                             'https://github.com/danishnaseem05/CLI-Tic-Tac-Toe-Ruby'
-                        )     
+                    )     
     );
     return $project_cards;
 } 
