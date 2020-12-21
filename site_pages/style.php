@@ -655,7 +655,3 @@ footer .container ul a{
     font-family: inherit;
     font-size: 19px;
     bo 
-
-<?php
-CloseCon($conn); // function is from DBconnection.php
-?>
