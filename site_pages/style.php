@@ -1,6 +1,6 @@
 <?php
-    require 'DBconnection.php';
-    $conn = OpenCon(); // function is from DBconnection.php
+    require 'projectSeed.php';
+    $project_cards = projectCardsArr();
 
     header('Content-type: text/css; charset:UTF-8');
 ?>
@@ -225,16 +225,14 @@ h1{
 
 <?php
 // For each project card, set its cover
-    if ($result = $conn->query("SELECT * FROM project_cards;")) {
-        while($obj = $result->fetch_object()){
-            echo <<<EOL
-            #project-card-{$obj->card_id}{
-                background-image: url({$obj->cover});
-                background-size: cover;
-                background-repeat: no-repeat;
-            }
-            EOL;
+    foreach($project_cards as $id=>$value){
+        echo <<<EOL
+        #project-card-{$id}{
+            background-image: url({$value[4]});
+            background-size: cover;
+            background-repeat: no-repeat;
         }
+        EOL;
     }
 ?>
 
