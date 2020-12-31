@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php
     require 'projectSeed.php';
     $project_cards = projectCardsArr();
