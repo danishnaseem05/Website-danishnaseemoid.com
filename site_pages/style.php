@@ -67,7 +67,6 @@ hr{
 
 .name-title{
     padding-top: 13.5em;
-    padding-bottom: 14em;
 }
 
 h1{
@@ -385,6 +384,12 @@ footer{
 
 footer .container ul a{
     color: #fff;
+}
+
+.custom-container{
+    min-height: -webkit-calc(100% - 130px);
+    min-height: -moz-calc(100% - 130px);
+    min-height: calc(100% - 130px); 
 }
 
 /********* MODALS AND CAROUSEL *********/

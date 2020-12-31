@@ -91,7 +91,7 @@
             <div id= "games-page-paralax">
                 <div id= "games-page-paralax-overlay">
 
-                    <div class="container">
+                    <div class="container custom-container">
                         <div class="name-title">
                             <br><br>
                             <div class="row justify-content-center">
