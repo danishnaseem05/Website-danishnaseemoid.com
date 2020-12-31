@@ -106,7 +106,7 @@
                             </div>
                             <div class="row justify-content-center">
                                 <h2 class="custom-h2 sub-heading">
-                                    <strong>Current Computer Science College Student</strong>
+                                    <strong>Software Engineer</strong>
                                 </h2>
                             </div>
                         </div> <!-- .name-title -->

@@ -258,7 +258,7 @@ h1{
 .custom-h2{
     font-style:oblique;
     font-family:serif;
-    font-size: 1.5em;
+    font-size: 2em;
     color:#fff;
     padding-bottom: 1em; 
 }
