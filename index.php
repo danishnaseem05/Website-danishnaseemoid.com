@@ -123,7 +123,11 @@
                                             </div>
                                             <div class="row justify-content-center">
                                                 <p class="custom-p">
-                                                    Hello world! My name is Danish Naseem and I'm an Associates in Engieering Science currently pursuing Bachelor's in Computer Science with Music minor. This site serves as a Portfolio showcasing all the projects I've worked and am currently working on. I will keep on updating as I continue to work on prospective projects; some from college, and some my own. Educating myself along the way; as a great person once said:
+                                                Skilled Software Developer with over 3 years of experience in computer programming, 
+                                                including designing new programs and applications or editing and improving upon code 
+                                                in existing software programs and applications that will enhance business, in a variety of industries. 
+                                                This site serves as a Portfolio showcasing all my completed as well as in progress projects.
+                                                Educating myself along the way; as a great person once said:
                                                 </p>
                                             </div><!-- .container .row -->
                                             <div class="row justify-content-center">
