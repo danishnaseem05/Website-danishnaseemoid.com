@@ -67,7 +67,13 @@ hr{
 
 .name-title{
     padding-top: 13.5em;
+    padding-bottom: 14em;
 }
+
+.custom-name-title{
+    padding-top: 13.5em;
+}
+
 
 h1{
     font-weight: bolder;
