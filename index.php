@@ -358,7 +358,7 @@
                             <!--Grid column-->
                                 <!--Grid column-->
                                 <div class="col-md-6 mb-4">
-                                    <div id="project-card-1" class="h-100 card card-image custom-half-border-cards">
+                                    <div id="project-card-4" class="h-100 card card-image custom-half-border-cards">
                                         <div class="h-100 text-white justify-content-center text-center d-flex align-items-center general-overlay py-5 px-4 custom-half-border-cards">
                                             <div>    
                                                 <h6 style="font-size: 100%;"><i class="fas fa-gem"></i><strong> Ruby</strong></h6>
@@ -372,7 +372,7 @@
                                 <!--Grid column--> 
                                 <!--Grid column-->
                                 <div class="col-md-6 mb-4">
-                                    <div id="project-card-3" class="card card-image custom-half-border-cards">
+                                    <div id="project-card-2" class="card card-image custom-half-border-cards">
                                         <div class="text-white justify-content-center text-center d-flex align-items-center general-overlay py-5 px-4 custom-half-border-cards">
                                             <div>
                                                 <h6 style="font-size: 100%;"><i class="fab fa-python"></i><strong> Python</strong></h6>
