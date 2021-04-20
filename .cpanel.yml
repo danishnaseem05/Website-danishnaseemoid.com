@@ -3,7 +3,6 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/danihsjd/public_html
     - /bin/cp index.php $DEPLOYPATH
-    - /bin/cp blog-sitemap.xml $DEPLOYPATH
     - /bin/cp website-sitemap.xml $DEPLOYPATH
     - /bin/cp nortonsw_778d8df0-9bd7-0.html $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
