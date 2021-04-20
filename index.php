@@ -80,9 +80,6 @@
                             <li class="custom-nav-item nav-item">
                                 <a class="nav-link" href="./site_pages/games.php">Games</a>
                             </li>
-                            <li class="custom-nav-item nav-item">
-                                <a class="nav-link" href="https://blog.danishnaseemoid.com/">&nbsp;Blog&nbsp;</a>
-                            </li>
                         </ul>
                     </div><!-- .navbar-toggler .collapsed .show-->
                 </div><!-- .container -->   
